@@ -1,0 +1,60 @@
+{
+  "name": "Implementation Technologies",
+  "description": "A taxonomy of technologies that constitute implemetantions of technical AI / ML system tasks",
+  "children": [
+  {
+    "name": "Acoustic Triangulation",
+    "description": "A process that determines the distance and/or orientation of an audio signal using multiple sensors placed at different locations."
+  },
+  {
+    "name": "Neural Network",
+    "description": "A learning model composed of artificial neurons organized into nonlinear computational circuits",
+    "children": [
+      {
+        "name": "Transformer",
+        "description": "A neural network that relies on attention mechanisms to build representations."
+      },
+      {
+        "name": "Convolutional Neural Network",
+        "description": "A neural network that utilizes convolution operations via learnable filter banks, applied on limited receptive fields of their inputs."
+      },
+      {
+        "name": "Recurrent Neural Network",
+        "description": "A class of neural networks used for modeling sequential data, utilizing memory and recursion to capture temporal dynamics emergent in the input."
+      }
+    ]
+  },
+  {
+    "name": "Distributional Learning",
+    "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+  },
+  {
+    "name": "Intermmediate modeling",
+    "description": "The approach where a learning system cannot directly use data X to obtain the target solution Y due to existing limitations. Instead, the system works around it by solving distinct related tasks such that a path to Y is reached, e.g.  X-> A ->  [...] B -> Y ."
+  },
+  {
+    "name": "Multimodal Learning",
+    "description": "The paradigm where multiple data modalities (e.g. text, audio, images) are utilized for learning and problem-solving."
+  },
+  {
+    "name": "Ensemble Aggregation",
+    "description": "Approaches where outputs of multiple (distinct and individual) learners are collectively considered (e.g. via aggregation, fusion, voting, pooling ,etc.) to produce a final prediction."
+  },
+  {
+    "name": "Collaborative Filtering",
+    "description": "Methods where user representations are built from attributes, history, activity, etc. and utilized for producing recommendations based on preferences of similar users."
+  },
+  {
+    "name": "Content-based Filtering",
+    "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
+  },
+  {
+    "name": "Optical Character Recognition",
+    "description": "The use of image processing and computer vision techniques in order to extract text from images, document pdfs and other visual media."
+  },
+  {
+    "name": "Conceptual Data Handling",
+    "description": "The use of conceptual / categorical data as learning inputs, rather than numeric or primitive (e.g. image, audio, text, etc.)."
+  }
+]
+}

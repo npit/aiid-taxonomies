@@ -1,0 +1,129 @@
+{
+  "name": "Methods and Technologies",
+  "description": "A taxonomy of methods and technologies that may be used to implement AI / ML system tasks and use cases",
+  "children": [
+    {
+      "name": "Acoustic Triangulation",
+      "description": "A process that determines the distance and/or orientation of an audio signal using multiple sensors placed at different locations."
+    },
+    {
+      "name": "Neural Network",
+      "description": "A learning model composed of artificial neurons organized into nonlinear computational circuits",
+      "children": [
+        {
+          "name": "Transformer",
+          "description": "A neural network that relies on attention mechanisms to build representations."
+        },
+        {
+          "name": "Convolutional Neural Network",
+          "description": "A neural network that utilizes convolution operations via learnable filter banks, applied on limited receptive fields of their inputs."
+        },
+        {
+          "name": "Recurrent Neural Network",
+          "description": "A class of neural networks used for modeling sequential data, utilizing memory and recursion to capture temporal dynamics emergent in the input."
+        },
+        {
+          "name": "Generative Adversarial Network",
+          "description": "A class of neural networks used for data generation, employing generator and discriminator components to produce synthetic data with high fidelity."
+        },
+        {
+          "name": "Autoencoder",
+          "description": "A neural network trained to optimize low-dimensional representation bottlenecks with input recostruction objectives.",
+          "issues": "This also can be nested under unsupervised learning"
+        }
+        
+      ]
+    },
+    {
+      "name": "Geolocation",
+      "description": "Estimation of the geographic position of objects of interest."
+    },
+    {
+      "name": "Image Segmentation",
+      "description": "The approach of partitioning an image to semantically contiguous regions"
+    },
+    {
+      "name": "3D reconstruction",
+      "description": "The task of computating the 3-dimensional geometric attributes of real objects from partial data."
+    },
+    {
+          "name": "Face Detection",
+          "description": "The detection of human faces in visual content."
+    },
+    {
+      "name": "Automatic Speech Recognition",
+      "description": "The process of automatically transcribing human speech from audio."
+    },
+    {
+      "name": "Distributional Learning",
+      "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+    },
+    {
+      "name": "Language Modeling",
+      "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context.",
+      "issues": "Add hierarchy with distributional learning."
+    },
+    {
+      "name": "Intermmediate modeling",
+      "description": "The approach where a learning system cannot directly use data X to obtain the target solution Y due to existing limitations. Instead, the system works around it by solving distinct related tasks such that a path to Y is reached, e.g.  X-> A ->  [...] B -> Y ."
+    },
+    {
+      "name": "Multimodal Learning",
+      "description": "The paradigm where multiple data modalities (e.g. text, audio, images) are utilized for learning and problem-solving."
+    },
+    {
+      "name": "Ensemble Aggregation",
+      "description": "Approaches where outputs of multiple (distinct and individual) learners are collectively considered (e.g. via aggregation, fusion, voting, pooling ,etc.) to produce a final prediction."
+    },
+    {
+      "name": "Collaborative Filtering",
+      "description": "Methods where user representations are built from attributes, history, activity, etc. and utilized for producing recommendations based on preferences of similar users."
+    },
+    {
+      "name": "Content-based Filtering",
+      "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
+    },
+    {
+      "name": "Optical Character Recognition",
+      "description": "The use of image processing and computer vision techniques in order to extract text from images, document pdfs and other visual media."
+    },
+    {
+      "name": "Conceptual Data Handling",
+      "description": "The use of conceptual / categorical data as learning inputs, rather than numeric or primitive (e.g. image, audio, text, etc.)."
+    },
+    {
+      "name": "Unsupervised Learning",
+      "description": "The approach of modeling data patterns and structure without usage of ground truth.",
+      "children": [
+        {
+          "name": "Clustering",
+          "description": "The unsupervised task of grouping data instances into groups with high internal similarity and low similarity across different groups."
+        },
+        {
+          "name": "Generation",
+          "description": "The task of generating data from existing background knowledge, context and/or prompts.",
+          "issue": "Deprecate; tasks such as 'text generation' exist"
+        }
+      ]
+    },
+    {
+      "name": "Supervised Learning",
+      "description": "Learning methods facilitating training with ground truth.",
+      "children": [
+        {
+          "name": "Regression",
+          "description": "The task of annotating data with real-valued predictions."
+        },
+        {
+          "name": "Classification",
+          "description": "The task of annotating data to one or more semantic labels from a given labelset."
+        }
+      ]
+    },
+    {
+      "name": "Sequential Analysis",
+      "description": "The task of producing predictions based on a history of multiple data points",
+          "issue": "Most likely deprecate"
+    }
+  ]
+}

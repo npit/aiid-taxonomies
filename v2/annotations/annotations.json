@@ -1,0 +1,1563 @@
+{
+    "254": {
+        "task": [
+            {
+                "label": "Data Grouping",
+                "confidence": "known",
+                "snippets": [
+                    "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Clustering",
+                "confidence": "potential",
+                "snippets": [
+                    "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Face Recognition",
+                "confidence": "potential",
+                "snippets": [
+                    "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "failure": [
+            {
+                "label": "Unauthorized Data Access",
+                "confidence": "potential",
+                "snippets": [
+                    "Google \u201cis in direct violation\u201d of this law, the complaint claims, as it allegedly collects and analyzes a person\u2019s facial structure in connection with its face grouping feature \u201cwithout providing notice, obtaining informed written consent or publishing data retention policies.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "28": {
+        "task": [
+            {
+                "label": "Automatic Stock Trading",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Regression",
+                "confidence": "potential",
+                "snippets": [
+                    "The May 6, 2010, Flash Crash,[1][2] also known as the Crash of 2:45, the 2010 Flash Crash or simply the Flash Crash, was a United States trillion-dollar[3] stock market crash, which started at 2:32 p.m. EDT and lasted for approximately 36 minutes.",
+                    "On May 6, 2010, the primary market makers in the stock market just stopped automatically taking the other side of everyone else's trades. "
+                ],
+                "comment": "This is valid only if prices were automatically suggested by the software: extreme / over-optimized solutions proposed by the price system. ",
+                "report_index": 5
+            }
+        ],
+        "failure": [
+            {
+                "label": "Overfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "On May 6, 2010, the primary market makers in the stock market just stopped automatically taking the other side of everyone else's trades. "
+                ],
+                "comment": "This is valid only if prices were automatically suggested by the software: extreme / over-optimized solutions proposed by the price system. ",
+                "report_index": 5
+            },
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "potential",
+                "snippets": [
+                    "He did this by, basically, putting in orders to sell thousands of contracts away from the best offer. Those orders were never executed, or intended to be executed, but they tricked people into thinking that there was a lot more selling interest than there actually was. That combined with a collapse in buying interest -- at one point Sarao's fake sell orders alone \"were almost equal to the entire buyside of the Order Book\" -- to create a collapse in prices. He profited from those collapsing prices by selling high and buying back lower. It's a pretty straightforward spoofing story.",
+                    "At 2.32 pm, the mutual fund had used an automated algorithm trading strategy to sell contracts known as e-minis. It was the largest change in the daily position of any investor so far that year and sparked selling by other traders, including high frequency traders.",
+                    "The trader then executed the sell program \"extremely rapidly in just 20 minutes\", causing the largest net change in daily position of any trader in the E-mini since the beginning of the year."
+                ],
+                "comment": NaN,
+                "report_index": 7
+            }
+        ]
+    },
+    "103": {
+        "task": [
+            {
+                "label": "Image Cropping",
+                "confidence": "known",
+                "snippets": [
+                    "Twitter\u2018s algorithm for automatically cropping images attached to tweets often doesn\u2019t focus on the important content in them. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "Her theory is backed by Twitter\u2019s 2018 blog post that explained its neural network built for image cropping. ",
+                    "The company definitely needs to do some digging into their algorithm to understand the bias in its neural network."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Distributional Bias",
+                "confidence": "potential",
+                "snippets": [
+                    "Several users posted a lot of photos to show that in an image that has people with different colors, Twitter chooses to show folks with lighter skin after cropping those images to fit its display parameters on its site and embeds.",
+                    "A bother, for sure, but it seems like a minor one on the surface. However, over the weekend, researchers found that the cropping algorithm might have a more serious problem: white bias.",
+                    "Researchers found bias when the algorithm was shown photos of people from two demographic groups. Ultimately, the algorithm picks one person whose face will appear in Twitter timelines, and some groups are better represented on the platform than others. When researchers fed a picture of a Black man and a white woman into the system, the algorithm chose to display the white woman 64 percent of the time and the Black man only 36 percent of the time, the largest gap for any demographic groups included in the analysis. For images of a white woman and a white man, the algorithm displayed the woman 62 percent of the time. For images of a white woman and a Black woman, the algorithm displayed the white woman 57 percent of the time."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "potential",
+                "snippets": [
+                    "Twitter\u2019s Chief Design Officer (CDO), Dantley Davis, said that the choice of cropping sometimes takes brightness of the background into consideration.\n\n",
+                    "Anima Anandkumar, Director of AI research at Nvidia, pointed out that the saliency algorithm might be trained using eye-tracking of straight male participants, and that would insert more bias into the algorithm."
+                ],
+                "comment": "Perhaps saliency / eye tracking is insufficient.",
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "known",
+                "snippets": [
+                    "Twitter\u2018s algorithm for automatically cropping images attached to tweets often doesn\u2019t focus on the important content in them. ",
+                    "A bother, for sure, but it seems like a minor one on the surface. However, over the weekend, researchers found that the cropping algorithm might have a more serious problem: white bias."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "106": {
+        "task": [
+            {
+                "label": "Chatbot",
+                "confidence": "known",
+                "snippets": [
+                    "Interactive chatbot \u2018Luda,\u2019 subjected to sexual harassment and taught hate speech \u3000\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Autoencoder",
+                "confidence": "known",
+                "snippets": [
+                    "Luda is believed to use \u201cmesh autoencoders,\u201d a natural language processing technology introduced by Google. The initial input data for Luda\u2019s deep learning AI consisted of 10 billion KakaoTalk messages shared between actual couples."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "known",
+                "snippets": [
+                    "Luda responded to words that defined homosexuals, such as \u201clesbian,\u201d saying, \u201cI really hate them, they look disgusting, and it\u2018s creepy.\u201d",
+                    "After the launch, several online community boards posted messages such as those titled, \u201cHow to make Luda a sex slave,\u201d with screen-captured images of sexual conversations with the AI.",
+                    "ScatterLab explained that the chatbot did not learn this behavior from the users it interacted with during the two weeks of service but rather learned it from the original training dataset. In other words, ScatterLab had not fully removed or filtered inappropriate language or intimate and sexual conversations from the dataset. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Adversarial Data",
+                "confidence": "known",
+                "snippets": [
+                    "Luda responded to words that defined homosexuals, such as \u201clesbian,\u201d saying, \u201cI really hate them, they look disgusting, and it\u2018s creepy.\u201d",
+                    "After the launch, several online community boards posted messages such as those titled, \u201cHow to make Luda a sex slave,\u201d with screen-captured images of sexual conversations with the AI.",
+                    "The bot was also shown to say, \u201cYuck, I really hate them,\u201d in a response to a question about transgender people.",
+                    "\u201cLuda will not immediately apply the conversation with the users to its learning system,\u201d and insisted that it would go through a process of giving appropriate learning signals gradually, to acknowledge the difference between what is OK and what is not."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Bias",
+                "confidence": "known",
+                "snippets": [
+                    "Luda responded to words that defined homosexuals, such as \u201clesbian,\u201d saying, \u201cI really hate them, they look disgusting, and it\u2018s creepy.\u201d",
+                    "After the launch, several online community boards posted messages such as those titled, \u201cHow to make Luda a sex slave,\u201d with screen-captured images of sexual conversations with the AI.",
+                    "The bot was also shown to say, \u201cYuck, I really hate them,\u201d in a response to a question about transgender people.",
+                    "Kakao Games CEO Namgung Hoon said Luda itself is not guilty of embodying the young generation's prejudices and is one of many AI characters that will come out in the market in the future.\"",
+                    "ScatterLab explained that the chatbot did not learn this behavior from the users it interacted with during the two weeks of service but rather learned it from the original training dataset. In other words, ScatterLab had not fully removed or filtered inappropriate language or intimate and sexual conversations from the dataset. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Unauthorized Data Access",
+                "confidence": "known",
+                "snippets": [
+                    "Scatter Lab said its developers erased real names with its filtering algorithms but failed to remove all of them depending on the context, saying all data used in training Luda has been unverifiable and that it removed sensitive personal information, including names, phone numbers and addresses.",
+                    "In addition to this, ScatterLab shared their training model on GitHub, but not fully filtering or anonymising the data (D. Kim 2021)",
+                    "This Github training dataset exposed names of more than 20 people, along with the locations they have been to, their relationship status, and some of their medical information."
+                ],
+                "comment": NaN,
+                "report_index": 6
+            },
+            {
+                "label": "Sensitive Information Leak",
+                "confidence": "known",
+                "snippets": [
+                    "Scatter Lab said its developers erased real names with its filtering algorithms but failed to remove all of them depending on the context, saying all data used in training Luda has been unverifiable and that it removed sensitive personal information, including names, phone numbers and addresses.",
+                    "In addition to this, ScatterLab shared their training model on GitHub, but not fully filtering or anonymising the data (D. Kim 2021)",
+                    "This Github training dataset exposed names of more than 20 people, along with the locations they have been to, their relationship status, and some of their medical information."
+                ],
+                "comment": NaN,
+                "report_index": 9
+            },
+            {
+                "label": "Inappropriate Training Content",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 9
+            },
+            {
+                "label": 14,
+                "confidence": "potential",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 9
+            },
+            {
+                "label": "Unsafe Exposure or Access",
+                "confidence": "known",
+                "snippets": [
+                    " Further, it was discovered that groups of users in certain online communities were training Luda to respond to sexual commands, which provoked intense discussions about sexual harassment (\u201ccan AI be sexually harassed\u201d?) in a society that already grapples with gender issues.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 11
+            }
+        ]
+    },
+    "262": {
+        "task": [
+            {
+                "label": "Text to Image Generation",
+                "confidence": "known",
+                "snippets": [
+                    "Everyone's having a grand old time feeding outrageous prompts into the viral DALL-E Mini image generator \u2014 but as with all artificial intelligence, it's hard to stamp out the ugly, prejudiced edge cases."
+                ],
+                "comment": "Annotation from background knowledge.",
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Transformer",
+                "confidence": "known",
+                "snippets": [
+                    "Everyone's having a grand old time feeding outrageous prompts into the viral DALL-E Mini image generator \u2014 but as with all artificial intelligence, it's hard to stamp out the ugly, prejudiced edge cases."
+                ],
+                "comment": "Annotation from background knowledge.",
+                "report_index": 1
+            },
+            {
+                "label": "Generative Adversarial Network",
+                "confidence": "known",
+                "snippets": [
+                    "Everyone's having a grand old time feeding outrageous prompts into the viral DALL-E Mini image generator \u2014 but as with all artificial intelligence, it's hard to stamp out the ugly, prejudiced edge cases."
+                ],
+                "comment": "Annotation from background knowledge.",
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Distributional Bias",
+                "confidence": "known",
+                "snippets": [
+                    "It can also simply reflect current inequalities reflected in its training data.",
+                    "As spotted by Dr. Tyler Berzin of Harvard Medical School noted, for instance, entering the term \"a gastroenterologist\" into the algorithm appears to show exclusively white male doctors. We got nearly identical results. And for \"nurse\"? All women.  ",
+                    "Other subtle biases also showed amid various prompts, such as the entirely light-skinned faces for the terms \"smart girl\" and \"good person.\"\n\n",
+                    "When DALL\u00b7E mini was fed with the text prompts \u2018CEO\u2019 and \u2018lawyers\u2019, the results were prominently white men. A query for \u2018doctor\u2019 reverted back with similar results while the term \u2018nurse\u2019 featured mostly white women. The same was the case with \u2018flight attendant\u2019 and \u2018personal assistant\u2019\u2014both made assumptions about what the perfect candidate for the respective job titles would look like.",
+                    "\u201cEarly tests by red team members and OpenAI have shown that DALL\u00b7E 2 leans toward generating images of white men by default, overly sexualizes images of women, and reinforces racial stereotypes,\u201d WIRED noted.",
+                    "\u201cOne red team member told WIRED that eight out of eight attempts to generate images with words like \u2018a man sitting in a prison cell\u2019 or \u2018a photo of an angry man\u2019 returned images of men of colour,\u201d the publication went on to note.",
+                    "Every image it generated for \"expert\" \"data scientist\" \"computer scientist\" showed some distorted version of a white male."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Lack of Explainability",
+                "confidence": "potential",
+                "snippets": [
+                    "It's also an incredibly difficult problem to solve, not the least because even the brightest minds in machine learning research often struggle to understand exactly how the most advanced algorithms work."
+                ],
+                "comment": "Potential, since it refers more to the overall lack of explainability of DL. In some sense, the failure is \u2018explained\u2019 in some level by identifying the source of bias.",
+                "report_index": 1
+            },
+            {
+                "label": "Information Hazard",
+                "confidence": "potential",
+                "snippets": [
+                    "Now, there are some insidiously dangerous risks in this case. As pointed out by Vox, people could leverage this type of AI to make everything from deepnudes to political deepfakes\u2014although the results would be horrific, to say the least. Given how the technology is free to use on the internet, it also harbours the potential to put human illustrators out of work in the long run."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "Dayma suggested that images of South Asian women in saris may have been heavily represented in those original photosets that feed DALL-E Mini."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    "But give DALL-E Mini literally nothing, and it quickly reveals the limits of its own \u201cimaginings.\u201d Given no direction or guidance, the AI model seems to get stuck. With absolutely no prompt, the program will without a doubt give you back an image of a woman in a sari (a garment commonly worn across South Asia.)",
+                    "Dayma suggested that images of South Asian women in saris may have been heavily represented in those original photosets that feed DALL-E Mini.",
+                    "And that the quirk could also have something to do with caption length, as the AI might associate zero-character prompts with short image descriptions."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Learning Dataset Noise",
+                "confidence": "potential",
+                "snippets": [
+                    "Instead, Cook thinks the origin could lie in a language bias of the data filtering process. \u201cOne thing that did occur to me while reading around is that a lot of these datasets strip out text that isn\u2019t English,\u201d he said. Image captions that include Hindi, for example, might be getting removed, leaving images with no supporting, explanatory text or labels floating free in the primordial AI soup, he explained."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ]
+    },
+    "151": {
+        "task": [
+            {
+                "label": "Autonomous Driving",
+                "confidence": "known",
+                "snippets": [
+                    "On October 28, 2021, after turning right onto Fremont Blvd from Cushing Pkwy, the Pony.ai Autonomous Vehicle (\"Pony.ai AV\") performed a left lane change maneuver in autonomous mode. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Image Segmentation",
+                "confidence": "potential",
+                "snippets": [
+                    "Pony.ai, which is backed by Toyota Motor Corp (7203.T), said that in very rare circumstances, a planning system diagnostic check \"could generate a 'false positive' indication of a geolocation mismatch.\""
+                ],
+                "comment": "Potentially the divider was not detected or detected at a wrong distance from the car.",
+                "report_index": NaN
+            },
+            {
+                "label": "Geolocation",
+                "confidence": "known",
+                "snippets": [
+                    "Pony.ai, which is backed by Toyota Motor Corp (7203.T), said that in very rare circumstances, a planning system diagnostic check \"could generate a 'false positive' indication of a geolocation mismatch.\""
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "failure": [
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "Pony.ai, which is backed by Toyota Motor Corp (7203.T), said that in very rare circumstances, a planning system diagnostic check \"could generate a 'false positive' indication of a geolocation mismatch.\"",
+                    "NHTSA told Pony.ai it believed the software had a safety defect and requested the company to conduct a recall, Pony.ai said in a filing. The company said it has updated the software code and the three affected vehicles have been repaired.\n\n"
+                ],
+                "comment": "Potentially the divider was not detected or detected at a wrong distance from the car.",
+                "report_index": NaN
+            }
+        ]
+    },
+    "154": {
+        "task": [
+            {
+                "label": "Risk Assessment",
+                "confidence": "known",
+                "snippets": [
+                    "In a report issued days before Christmas in 2021, the department said its algorithmic tool for assessing the risk that a person in prison would return to crime produced uneven results. "
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "technology": [
+            {
+                "label": "Conceptual Data Handling",
+                "confidence": "potential",
+                "snippets": [
+                    "\"You use a term like 'risk assessment tool,' it has this patina of science, it sounds highly technical, but it's not,\" said Patricia Richman, who works on national policy issues for the Federal Public and Community Defenders. \"A risk assessment tool is just a series of policy decisions.\"Those policy decisions are made by determining what counts as a risk factor and by how much."
+                ],
+                "comment": "i.e., handling attributes like \u2018has criminal record\u2019",
+                "report_index": NaN
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "potential",
+                "snippets": [
+                    "\"The Justice Department found that only 7% of Black people in the sample were classified as minimum level risk compared to 21% of white people,\" she added. "
+                ],
+                "comment": "If distributional learning is used, perhaps racial biases are present in the learning system.",
+                "report_index": NaN
+            }
+        ],
+        "failure": [
+            {
+                "label": "Lack of Transparency",
+                "confidence": "known",
+                "snippets": [
+                    "Attorney General Merrick Garland has directed the department to look for ways to assess racial bias and make the tool more transparent, a spokeswoman said."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Misconfigured Threshold",
+                "confidence": "known",
+                "snippets": [
+                    "One option is to adjust the cutoff points between the risk categories, allowing more prisoners to earn credits for release, which would \"maximize access to First Step Act relief while ensuring public safety,\" she said."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "potential",
+                "snippets": [
+                    "Criminal history can be a problem, for example, because law enforcement has a history of overpolicing some communities of color. Other factors such as education level and whether someone paid restitution to their victims can intersect with race and ethnicity, too."
+                ],
+                "comment": "Perhaps important features / attributes are missing from the model\u2019s input",
+                "report_index": NaN
+            },
+            {
+                "label": "Distributional Bias",
+                "confidence": "potential",
+                "snippets": [
+                    "\"The Justice Department found that only 7% of Black people in the sample were classified as minimum level risk compared to 21% of white people,\" she added. "
+                ],
+                "comment": "If distributional learning is used, perhaps racial biases are present in the learning system.",
+                "report_index": NaN
+            }
+        ]
+    },
+    "192": {
+        "task": [
+            {
+                "label": "Automatic Skill Assessment",
+                "confidence": "known",
+                "snippets": [
+                    "The women had been told to reapply for their positions, but were then informed they were being made redundant in part on the basis of an automated judgment by a computer."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Automatic Speech Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "She said that in the interview they were asked questions about putting on make-up \u2014 but rather than demonstrating it they had to describe the process, which she found difficult."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Regression",
+                "confidence": "potential",
+                "snippets": [
+                    "The women had been told to reapply for their positions, but were then informed they were being made redundant in part on the basis of an automated judgment by a computer."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Classification",
+                "confidence": "potential",
+                "snippets": [
+                    "The women had been told to reapply for their positions, but were then informed they were being made redundant in part on the basis of an automated judgment by a computer."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ],
+        "failure": [
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "Questions in the video interview process, which did not ask for any demonstrations of the make-up artists\u2019 work, included how to create a smokey eye, according to one of the artists."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    "Questions in the video interview process, which did not ask for any demonstrations of the make-up artists\u2019 work, included how to create a smokey eye, according to one of the artists."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Inadequate Data Sampling",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Lack of Explainability",
+                "confidence": "known",
+                "snippets": [
+                    "The three women also said that no one could explain how they were scored in the HireVue interview.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "39": {
+        "task": [
+            {
+                "label": "Deepfake Video Generation",
+                "confidence": "known",
+                "snippets": [
+                    "The researchers used 14 hours of Obama's weekly address videos to train a neural network. Once trained, their system was then able to take an audio clip from the former president, create mouth shapes that synced with the audio and then synthesize a realistic looking mouth that matched Obama's. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "The researchers chose Obama for their latest work because there were hours of high-definition video of him available online in the public domain. The research team had a neural net analyze millions of frames of video to determine how elements of Obama's face moved as he talked, such as his lips and teeth and wrinkles around his mouth and chin."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Face Detection",
+                "confidence": "known",
+                "snippets": [
+                    "In an artificial neural network, components known as artificial neurons are fed data, and work together to solve a problem such as identifying faces or recognizing speech."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Recurrent Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "Using a recurrent neural network, the AI was able to match up the president\u2019s spoken words with the mouth shapes he made during the videos. ",
+                    "The researchers note their videos are currently not always perfect. For example, when Obama tilted his face away from the camera in a target video, imperfect 3-D modeling of his face could cause parts of his mouth to get superimposed outside the face and onto the background."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "3D reconstruction",
+                "confidence": "potential",
+                "snippets": [
+                    "The researchers note their videos are currently not always perfect. For example, when Obama tilted his face away from the camera in a target video, imperfect 3-D modeling of his face could cause parts of his mouth to get superimposed outside the face and onto the background.",
+                    "The program then created 3D mouth textures for the different sounds and mapped them onto the president\u2019s face in other videos."
+                ],
+                "comment": "Good deepfakes of political actors may cause unrest, democratic institution degeneration, fake news, societal fallout.",
+                "report_index": 2
+            },
+            {
+                "label": "Generative Adversarial Network",
+                "confidence": "known",
+                "snippets": [
+                    "The researchers used 14 hours of Obama's weekly address videos to train a neural network. Once trained, their system was then able to take an audio clip from the former president, create mouth shapes that synced with the audio and then synthesize a realistic looking mouth that matched Obama's. ",
+                    "One neural network generates content, while the other rejects or approves each effort. The back-and-forth interplay between the two eventually produces a realistic result that can easily fool the human eye, including reproducing a static scene behind the head as it bobs back and forth.",
+                    "Portraits. It relies on a type of AI called generative adversarial networks (GANs) to modify a \u201ctarget\u201d actor based on the facial and head movement of a \u201csource\u201d actor. "
+                ],
+                "comment": NaN,
+                "report_index": 3
+            }
+        ],
+        "failure": [
+            {
+                "label": "Information Hazard",
+                "confidence": "potential",
+                "snippets": [
+                    "The researchers used 14 hours of Obama's weekly address videos to train a neural network. Once trained, their system was then able to take an audio clip from the former president, create mouth shapes that synced with the audio and then synthesize a realistic looking mouth that matched Obama's. ",
+                    "Although the researchers transplanted only words that were actually said by President Obama at some point, their project does raise some scary questions about the future of AI.",
+                    "The video serves as a PSA on how A.I. can be used to promote misinformation, slander, fraud, and misrepresentation, and it urges, through its example, consumers to be discerning about the sources from which they are getting information and the factual nature of information shared online. The fake Obama ends the video saying, \u201cStay woke, b*****.\u201d",
+                    "The videos caused a bit of a stir. The DeepFake algorithm was subsequently released on GitHub, giving anyone with sufficient knowhow and a decent enough computer the means to make pretty decent fakeries.",
+                    "\u201cWith ever-improving video editing technology, we must also start being more critical about the video content we consume every day, especially if there is no proof of origin,\u201d said Michael Zollh\u00f6fer, a visiting assistant professor at Stanford University and member of the Deep Video Portraits team, in the press release.",
+                    "Toward that end, the research team is training the same adversarial neural networks to spot video forgeries. "
+                ],
+                "comment": "Good deepfakes of political actors may cause unrest, democratic institution degeneration, fake news, societal fallout.",
+                "report_index": 2
+            }
+        ]
+    },
+    "21": {
+        "task": [
+            {
+                "label": "Question Answering",
+                "confidence": "known",
+                "snippets": [
+                    "The Winograd Schema Challenge asks computers to make sense of sentences that are ambiguous but usually simple for humans to parse."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "failure": [
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "The best two entrants were correct 48 percent of the time, compared to 45 percent if the answers are chosen at random. "
+                ],
+                "comment": "Generic diagnosis",
+                "report_index": NaN
+            },
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "In the sentence \u201cThe city councilmen refused the demonstrators a permit because they feared violence,\u201d it is logically unclear who the word \u201cthey\u201d refers to, although humans understand because of the broader context."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "In the sentence \u201cThe city councilmen refused the demonstrators a permit because they feared violence,\u201d it is logically unclear who the word \u201cthey\u201d refers to, although humans understand because of the broader context."
+                ],
+                "comment": "Presumably the model is not large enough to capture correctly enough context information during training, and /or grammatical structures required to correctly disambiguate non-straightforward cases.",
+                "report_index": NaN
+            },
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    "The Winograd Schema Challenge asks computers to make sense of sentences that are ambiguous but usually simple for humans to parse."
+                ],
+                "comment": "This classification is a more focused description of the symptom",
+                "report_index": NaN
+            }
+        ],
+        "technology": [
+            {
+                "label": "Language Modeling",
+                "confidence": "known",
+                "snippets": [
+                    "Hand-coding knowledge is impossibly time-consuming, and it isn\u2019t simple for computers to learn about the real world by performing statistical analysis of text."
+                ],
+                "comment": "Presumably the model is not large enough to capture correctly enough context information during training, and /or grammatical structures required to correctly disambiguate non-straightforward cases.",
+                "report_index": NaN
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "known",
+                "snippets": [
+                    "Hand-coding knowledge is impossibly time-consuming, and it isn\u2019t simple for computers to learn about the real world by performing statistical analysis of text."
+                ],
+                "comment": "This classification is a more focused description of the symptom",
+                "report_index": NaN
+            },
+            {
+                "label": "Transformer",
+                "confidence": "potential",
+                "snippets": [
+                    "Liu\u2019s group, which included researchers from York University in Toronto and the National Research Council of Canada, used deep learning to train a computer to recognize the relationship between different events, such as \u201cplaying basketball\u201d and \u201cwinning\u201d or \u201cgetting injured,\u201d from thousands of texts."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "137": {
+        "task": [
+            {
+                "label": "Processing",
+                "confidence": "known",
+                "snippets": [
+                    "The story began in 2014 when the farm Har Shemesh, which is not part of any community, asked the Tax Authority to explain how it had calculated a fine they were required to pay."
+                ],
+                "comment": "The system probably does not use AI at all.",
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Regression",
+                "confidence": "potential",
+                "snippets": [
+                    "The story began in 2014 when the farm Har Shemesh, which is not part of any community, asked the Tax Authority to explain how it had calculated a fine they were required to pay."
+                ],
+                "comment": "Perhaps a manually built model  is used to arrive at numeric costs, weighing different input components.",
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Lack of Transparency",
+                "confidence": "known",
+                "snippets": [
+                    "\u201cTo obtain the guidelines would require the authority to use reverse engineering techniques and to trace the programming processes,\u201d the authority wrote. \u201cIt\u2019s not at all certain that these techniques will yield the desired results. Also, it would oblige the authority to set up a team of programmers to identify all the computer\u2019s software dealing with this request.\u201d",
+                    "In many cases the software arrives with only an executable file (.exe file) written in computer language, unlike a source code that is understood by the programmers. In this case, the entire supervision is conditioned on reverse engineering, in which prolonged experiments are conducted on the software to learn about its source code. In the absence of a human being to make the decision and without an open-source software, there is no real supervisor \u2013 a public employee, a gatekeeper or the public - on the way decisions are made.",
+                    "Human beings, like Tax Authority employees in this case, have a tendency to rely on the machine\u2019s decision, but the result the machine reaches isn\u2019t necessarily the right one, and the machine\u2019s decisions must be supervised."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "1": {
+        "task": [
+            {
+                "label": "Recommendation",
+                "confidence": "known",
+                "snippets": [
+                    "An off-brand Paw Patrol video called \"Babies Pretend to Die Suicide\" features several disturbing scenarios.\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\n\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\nMany of those views came from YouTube's \"up next\" and \"recommended\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\nIf you don't pick another video to watch after the current video ends, the \"up next\" video will automatically play.\n"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Search",
+                "confidence": "known",
+                "snippets": [
+                    "An off-brand Paw Patrol video called \"Babies Pretend to Die Suicide\" features several disturbing scenarios.\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\n\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\nMany of those views came from YouTube's \"up next\" and \"recommended\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\nIf you don't pick another video to watch after the current video ends, the \"up next\" video will automatically play.\n"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Hate Speech Detection",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "NSFW Content Detection",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "technology": [
+            {
+                "label": "Content-based Filtering",
+                "confidence": "known",
+                "snippets": [
+                    "If you searched for \"moon landing\" on YouTube Kids, three videos appeared that claim that the moon landing was hoaxed. All three videos have since been hidden by YouTube after we informed it of the issue."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Collaborative Filtering",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Classification",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "Appropriateness could arise by appropriateness classifiers",
+                "report_index": NaN
+            },
+            {
+                "label": "Ensemble Aggregation",
+                "confidence": "potential",
+                "snippets": [
+                    "\nPart of YouTube\u2019s plan is to increase human moderation and tweak its algorithm, \u201ctraining machine-learning technology across other challenging content areas, including child safety and hate speech.\u201d YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads \u2014 many of which, Golin says, aren\u2019t child appropriate \u2014 this will affect channels and videos on the platform."
+                ],
+                "comment": "In cases where  \"child-appropriateness\" measure arises from multiple marginal detectors of-related subclasses (e.g. violent, adult, political themes)",
+                "report_index": NaN
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "failure": [
+            {
+                "label": "Concept Drift",
+                "confidence": "potential",
+                "snippets": [
+                    "\u201cFrom a child standpoint, the problem is not fixable,\u201d Golin said. \u201cThe YouTube model has created something, which is so vast, but there are 400 hours of content are uploaded every minute. It\u2019s simply too big. "
+                ],
+                "comment": "Concept drift in cases where appropriateness evolves and changes with the passage of time and is culturally determined -- e.g. akin to old messed up disney cartoons.",
+                "report_index": NaN
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "\u201cFrom a child standpoint, the problem is not fixable,\u201d Golin said. \u201cThe YouTube model has created something, which is so vast, but there are 400 hours of content are uploaded every minute. It\u2019s simply too big. ",
+                    "\"There are vast, vast numbers of these videos,\" Bridle said. \"Channel after channel after channel of similar content, churned out at the rate of hundreds of new videos every week. Industrialized nightmare production.\""
+                ],
+                "comment": "Based on huge dataset size.",
+                "report_index": NaN
+            },
+            {
+                "label": "Misconfigured Aggregation",
+                "confidence": "potential",
+                "snippets": [
+                    "\nPart of YouTube\u2019s plan is to increase human moderation and tweak its algorithm, \u201ctraining machine-learning technology across other challenging content areas, including child safety and hate speech.\u201d YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads \u2014 many of which, Golin says, aren\u2019t child appropriate \u2014 this will affect channels and videos on the platform.",
+                    "\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. ",
+                    "On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to \u201csmash\u201d that like button and comment on their videos.\nI spent a weekend babysitting my brother\u2019s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, \u201cWho is going to win this game?\u201d ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He\u2019d do that same thing several times throughout the video.\n\nWhat\u2019s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It\u2019s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube\u2019s recommendation algorithm, thus bringing in more traffic and more money."
+                ],
+                "comment": "In cases where  \"child-appropriateness\" measure arises from multiple marginal detectors of-related subclasses (e.g. violent, adult, political themes)",
+                "report_index": NaN
+            },
+            {
+                "label": "Distributional Bias",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Misaligned Objective",
+                "confidence": "potential",
+                "snippets": [
+                    "\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. ",
+                    "On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to \u201csmash\u201d that like button and comment on their videos.\nI spent a weekend babysitting my brother\u2019s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, \u201cWho is going to win this game?\u201d ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He\u2019d do that same thing several times throughout the video.\n\nWhat\u2019s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It\u2019s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube\u2019s recommendation algorithm, thus bringing in more traffic and more money."
+                ],
+                "comment": "Recommendation training is using child-appropriateness in its objective in a diminished capacity (as a component with a small contribution), or not at all (completely relying in post-hoc reviewing and filtering by other systems and humans).",
+                "report_index": NaN
+            },
+            {
+                "label": "Tuning Issues",
+                "confidence": "known",
+                "snippets": [
+                    "\nPart of YouTube\u2019s plan is to increase human moderation and tweak its algorithm, \u201ctraining machine-learning technology across other challenging content areas, including child safety and hate speech.\u201d YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads \u2014 many of which, Golin says, aren\u2019t child appropriate \u2014 this will affect channels and videos on the platform.",
+                    "\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. ",
+                    "On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to \u201csmash\u201d that like button and comment on their videos.\nI spent a weekend babysitting my brother\u2019s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, \u201cWho is going to win this game?\u201d ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He\u2019d do that same thing several times throughout the video.\n\nWhat\u2019s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It\u2019s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube\u2019s recommendation algorithm, thus bringing in more traffic and more money.",
+                    "Conspiracy videos also appear when children search for popular conspiracy theories. Searches for \"chemtrails,\" \"flat earth,\" and \"nibiru\" are all allowed in the app. However, it's (hopefully) unlikely that children are regularly watching these videos unless they appear as suggestions on more popular content in the app.\n\nThe conspiracy videos didn't just appear in searches or suggested videos, either. After watching several conspiracy videos, the top recommended video on the home page of YouTube Kids was a conspiracy theory about aliens on the moon:"
+                ],
+                "comment": "Default classification, in cases where the poor consideration of child -appropriateness context information does not fall under current subclasses of this classification.",
+                "report_index": NaN
+            },
+            {
+                "label": "Lack of Adversarial Robustness",
+                "confidence": "known",
+                "snippets": [
+                    "The first line of defense for YouTube Kids are algorithmic filters. After that, there is a team of humans that review videos which have been flagged. If a video with recognizable children\u2019s characters gets flagged in YouTube\u2019s main app, which is much larger than the Kids app, it will be sent to the policy review team. YouTube says it has thousands of people working around the clock in different time zones to review flagged content. If the review finds the video is in violation of the new policy, it will be age restrictied, automatically blocking it from showing up in the Kids app. YouTube says it typically takes at least a few days for content to make its way from YouTube proper to YouTube Kids, and the hope is that within that window, users will flag anything potentially disturbing to children. YouTube also has a team of volunteer moderators, which it calls Contributors, looking for inappropriate content. YouTube says it will start training its review team on the new policy and it should be live within a few weeks. \nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids. Within that window it is hoped users and a specially-trained team will flag disturbing content.\n\n\n"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Adversarial Data",
+                "confidence": "known",
+                "snippets": [
+                    "The first line of defense for YouTube Kids are algorithmic filters. After that, there is a team of humans that review videos which have been flagged. If a video with recognizable children\u2019s characters gets flagged in YouTube\u2019s main app, which is much larger than the Kids app, it will be sent to the policy review team. YouTube says it has thousands of people working around the clock in different time zones to review flagged content. If the review finds the video is in violation of the new policy, it will be age restrictied, automatically blocking it from showing up in the Kids app. YouTube says it typically takes at least a few days for content to make its way from YouTube proper to YouTube Kids, and the hope is that within that window, users will flag anything potentially disturbing to children. YouTube also has a team of volunteer moderators, which it calls Contributors, looking for inappropriate content. YouTube says it will start training its review team on the new policy and it should be live within a few weeks. \nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids. Within that window it is hoped users and a specially-trained team will flag disturbing content.\n\n\n"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "72": {
+        "task": [
+            {
+                "label": "Machine Translation",
+                "confidence": "known",
+                "snippets": [
+                    "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
+                    "Facebook\u2019s translations are entirely powered by AI, and around 4.5 billion translations are made each day across the social network.\n"
+                ],
+                "comment": "Presumably the arabic dialect in the text is not represented adequately in the training data, hence the translation performance issues. \n",
+                "report_index": 1
+            },
+            {
+                "label": "Object Detection",
+                "confidence": "potential",
+                "snippets": [
+                    "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
+                    "Israeli police became suspicious of the post since he was standing next to a bulldozer, a vehicle that has been used in earlier terror attacks, the website reported.\n\n",
+                    "The advantage for Facebook in using its own translation system is that it can have more control over people\u2019s news feeds, by understanding the meaning behind text and images. "
+                ],
+                "comment": "If multimodal learning is used, perhaps the buldozer was recognized and its extracted keyword contributed to the bias in the NLP domain.",
+                "report_index": 17
+            }
+        ],
+        "failure": [
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "known",
+                "snippets": [
+                    "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
+                    "Reports also pointed out that there is only one difference in lettering between the colloquial Arabic phrase for \u201cgood morning to you all\u201d and \u201churt them.\u201d\n\n",
+                    "Arabic is considered particularly difficult for many machine translation services due to the large number of different dialects in use around the world, on top of Modern Standard Arabic, the international form of the language.",
+                    "The Guardian explains that Arabic can be particularly difficult to translate due to the sheer number of dialects that are used throughout the world. AI translation mistakes are common, especially when asked to translate specific words in unrelated languages."
+                ],
+                "comment": "Presumably the arabic dialect in the text is not represented adequately in the training data, hence the translation performance issues. \n",
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Bias",
+                "confidence": "known",
+                "snippets": [
+                    "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
+                    "In the caption, he wrote an Arabic term meaning 'good morning', but a software malfunction translated it to mean 'attack them' in Hebrew and 'hurt them' in English.\n\n",
+                    "Israeli police became suspicious of the post since he was standing next to a bulldozer, a vehicle that has been used in earlier terror attacks, the website reported.\n\n",
+                    "Machine translation mistakes are a regular occurrence for anyone using AI to translate languages, particularly ones with little relationship. Earlier this month, Chinese social network WeChat apologised after its own machine translation system translated a neutral phrase meaning \u201cblack foreigner\u201d as the n-word.\n\u201cWhen I ran the translator, the n-word came up and I was gobsmacked,\u201d said Ann James, who had been texting back and forth with a friend when the faulty translation appeared."
+                ],
+                "comment": "Biased language in Western / Israeli media texts about Arabs could build false associations and high priors to terrorism and violence.",
+                "report_index": 2
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
+                    "Reports also pointed out that there is only one difference in lettering between the colloquial Arabic phrase for \u201cgood morning to you all\u201d and \u201churt them.\u201d\n\n",
+                    "Arabic is considered particularly difficult for many machine translation services due to the large number of different dialects in use around the world, on top of Modern Standard Arabic, the international form of the language.",
+                    "The Guardian explains that Arabic can be particularly difficult to translate due to the sheer number of dialects that are used throughout the world. AI translation mistakes are common, especially when asked to translate specific words in unrelated languages."
+                ],
+                "comment": "Perhaps only one (standard arabic) or a few dialects are supported, and one or more language models is used as fallback for all arabic languages.",
+                "report_index": 2
+            }
+        ],
+        "technology": [
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "The error comes after Facebook announced in August that it shifted to neural machine translation, which uses convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to automatically translate content across its site. Many tech companies including Facebook, Google and Microsoft have been pivoting towards neural machine translation and away from phrase-based, pattern-tracking statistical machine translation (SMT) to quicken and improve their translation software."
+                ],
+                "comment": NaN,
+                "report_index": 4
+            },
+            {
+                "label": "Recurrent Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "The error comes after Facebook announced in August that it shifted to neural machine translation, which uses convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to automatically translate content across its site. Many tech companies including Facebook, Google and Microsoft have been pivoting towards neural machine translation and away from phrase-based, pattern-tracking statistical machine translation (SMT) to quicken and improve their translation software."
+                ],
+                "comment": NaN,
+                "report_index": 6
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "known",
+                "snippets": [
+                    "Machine translation mistakes are a regular occurrence for anyone using AI to translate languages, particularly ones with little relationship. Earlier this month, Chinese social network WeChat apologised after its own machine translation system translated a neutral phrase meaning \u201cblack foreigner\u201d as the n-word.\n\u201cWhen I ran the translator, the n-word came up and I was gobsmacked,\u201d said Ann James, who had been texting back and forth with a friend when the faulty translation appeared.",
+                    "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
+                    "However, AI translation depends on learning from the most common uses of words, and most bi- or multi-lingual speakers find that Google and Facebook translations are very lacking."
+                ],
+                "comment": NaN,
+                "report_index": 8
+            },
+            {
+                "label": "Intermmediate modeling",
+                "confidence": "potential",
+                "snippets": [
+                    "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
+                    "It was unclear how such a translation error could have been made as there are no apparent similarities between the Arabic expression used for 'good morning' and the phrases in Hebrew or English.\nAt the time, Google said its software looks for patterns in hundreds of millions of documents to decide and generate the best translation, but noted that the process is still difficult since the meaning of words depends the context in which they are used.",
+                    "The Guardian explains that Arabic can be particularly difficult to translate due to the sheer number of dialects that are used throughout the world. AI translation mistakes are common, especially when asked to translate specific words in unrelated languages."
+                ],
+                "comment": "Perhaps intermmediate languages are used (i.e. if no model has been trained to translate X to Y, use X->Z and then Z->Y), which accumulate errors.",
+                "report_index": 12
+            },
+            {
+                "label": "Classification",
+                "confidence": "potential",
+                "snippets": [
+                    "The Guardian explains that Arabic can be particularly difficult to translate due to the sheer number of dialects that are used throughout the world. AI translation mistakes are common, especially when asked to translate specific words in unrelated languages.",
+                    "The application can translate 40 languages in 1,800 directions (such as French to English, or Japanese to Spanish). ",
+                    "Artificial intelligence is behind Facebook\u2019s translation feature \u2014 when the company switched entirely to its own system last year, the software handled around 2 billion translations a day in 40 languages. Additional options allow users to report bad translations and rate translated text."
+                ],
+                "comment": "GIven the amount of supported languages for translation, a system must exist to detect the input language and classify amongst supported languages.",
+                "report_index": 13
+            },
+            {
+                "label": "Multimodal Learning",
+                "confidence": "potential",
+                "snippets": [
+                    "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
+                    "Israeli police became suspicious of the post since he was standing next to a bulldozer, a vehicle that has been used in earlier terror attacks, the website reported.\n\n",
+                    "The advantage for Facebook in using its own translation system is that it can have more control over people\u2019s news feeds, by understanding the meaning behind text and images. "
+                ],
+                "comment": "If image was also utilized to generate the translation, that would provide additional evidence to the mistranslation.",
+                "report_index": 15
+            }
+        ]
+    },
+    "112": {
+        "task": [
+            {
+                "label": "Audio Detection",
+                "confidence": "known",
+                "snippets": [
+                    "The system was suppose to become attuned to the way sounds were heard in Troy's streets and differentiate among the brakes of a truck climbing the Hoosic Street hill, from a firecracker, actual shots and any other noise.",
+                    "It was expected to take a full year to fine-tune the acoustic devices so it would pick out the gunshots from other sounds. Tedesco said that never occurred.\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Audio Localization",
+                "confidence": "known",
+                "snippets": [
+                    "The system records all loud noises, Greene said. The computer uses at least three microphones to locate the gunshot within a 25-meter radius. Then, at SST\u2019s location in Newark, staff reviews each report to make sure the computer flags only gunshots."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ],
+        "failure": [
+            {
+                "label": "Poor Generalization",
+                "confidence": "known",
+                "snippets": [
+                    "It was expected to take a full year to fine-tune the acoustic devices so it would pick out the gunshots from other sounds. Tedesco said that never occurred.\n",
+                    "In about 14 percent of incidents in the zones, a ShotSpotter alert did not go off. Instead, residents notified police about gunfire.",
+                    "Police could find no evidence of a shooting at the scene about 80 percent of the time, said Joe Frank Picazo, the chief\u2019s assistant.\n",
+                    "The California-based company decided it could no longer offer its service to the city for free after police and administration officials balked at funding a system that they said worked less than 50 percent of the time and even missed all seven shots that were fired when a man was killed two months ago in downtown Fall River.",
+                    "Dupere said last summer that ShotSpotter had reported too many false alarms of gunfire while missing actual shots-fired incidents in Fall River. Dupere said then that he and other city officials decided the money would be better used to expand the police department\u2019s video surveillance system in the city.",
+                    "While other communities have reported using it relatively well, the system in Fall River never operated smoothly. Dupere said the city was told that the system was capable \u201cof doing things it just couldn\u2019t do.\u201d",
+                    "Greene also acknowledged at trial that \u201cwe freely admit that anything and everything in the environment can affect location and detection accuracy.\u201d\n",
+                    " The sensors have been placed almost exclusively in predominantly Black and brown communities, while the white enclaves in the north and northwest of the city have no sensors at all, despite Chicago police data that shows gun crime is spread throughout the city."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "It was expected to take a full year to fine-tune the acoustic devices so it would pick out the gunshots from other sounds. Tedesco said that never occurred.\n",
+                    "In about 14 percent of incidents in the zones, a ShotSpotter alert did not go off. Instead, residents notified police about gunfire.",
+                    "Police could find no evidence of a shooting at the scene about 80 percent of the time, said Joe Frank Picazo, the chief\u2019s assistant.\n",
+                    "The California-based company decided it could no longer offer its service to the city for free after police and administration officials balked at funding a system that they said worked less than 50 percent of the time and even missed all seven shots that were fired when a man was killed two months ago in downtown Fall River.",
+                    "Dupere said last summer that ShotSpotter had reported too many false alarms of gunfire while missing actual shots-fired incidents in Fall River. Dupere said then that he and other city officials decided the money would be better used to expand the police department\u2019s video surveillance system in the city."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Inadequate Data Sampling",
+                "confidence": "potential",
+                "snippets": [
+                    "In Reed\u2019s case, ShotSpotter failed to pinpoint the exact location of Reed\u2019s alleged crime near Turk and Buchanan streets, according to Greene\u2019s testimony. In fact, additional analysis conducted after the shooting, at the behest of police, determined the location was about a block away from where it was first reported."
+                ],
+                "comment": "Low sampling resolution regarding sensor placement. ",
+                "report_index": 2
+            },
+            {
+                "label": "Underspecification",
+                "confidence": "potential",
+                "snippets": [
+                    "ShotSpotter, which the manufacturer claims helps reduce gun violence, can pinpoint \u201cprecise locations for first responders aiding victims, searching for evidence and interviewing witnesses,\u201d according to SST\u2019s website, which also noted the technology can report the number of shooters and shots fired."
+                ],
+                "comment": "Marketed capabilities exceed functionality.",
+                "report_index": 2
+            },
+            {
+                "label": "Concept Drift",
+                "confidence": "potential",
+                "snippets": [
+                    "But the technology\u2019s accuracy depends on everything from topography, temperature, humidity and wind speed, as well as the trained ears of employees, according to Greene.",
+                    "Despite changes in topography in the Western Addition, from new buildings to taller trees, the 46 sensors there have not been retested since they were first put in, Greene testified last week.",
+                    "While other communities have reported using it relatively well, the system in Fall River never operated smoothly. Dupere said the city was told that the system was capable \u201cof doing things it just couldn\u2019t do.\u201d",
+                    " The sensors have been placed almost exclusively in predominantly Black and brown communities, while the white enclaves in the north and northwest of the city have no sensors at all, despite Chicago police data that shows gun crime is spread throughout the city."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Misconfigured Threshold",
+                "confidence": "potential",
+                "snippets": [
+                    "In about 14 percent of incidents in the zones, a ShotSpotter alert did not go off. Instead, residents notified police about gunfire.",
+                    "Police could find no evidence of a shooting at the scene about 80 percent of the time, said Joe Frank Picazo, the chief\u2019s assistant.\n",
+                    "The California-based company decided it could no longer offer its service to the city for free after police and administration officials balked at funding a system that they said worked less than 50 percent of the time and even missed all seven shots that were fired when a man was killed two months ago in downtown Fall River."
+                ],
+                "comment": NaN,
+                "report_index": 3
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "Dupere said last summer that ShotSpotter had reported too many false alarms of gunfire while missing actual shots-fired incidents in Fall River. Dupere said then that he and other city officials decided the money would be better used to expand the police department\u2019s video surveillance system in the city."
+                ],
+                "comment": NaN,
+                "report_index": 4
+            }
+        ],
+        "technology": [
+            {
+                "label": "Acoustic Triangulation",
+                "confidence": "known",
+                "snippets": [
+                    "The system records all loud noises, Greene said. The computer uses at least three microphones to locate the gunshot within a 25-meter radius. Then, at SST\u2019s location in Newark, staff reviews each report to make sure the computer flags only gunshots."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ]
+    },
+    "241": {
+        "task": [
+            {
+                "label": "Robotic Manipulation",
+                "confidence": "known",
+                "snippets": [
+                    "But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine suddenly snapped one his fingers, breaking it."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Object Detection",
+                "confidence": "potential",
+                "snippets": [
+                    "But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine suddenly snapped one his fingers, breaking it."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Lack of Capability Control",
+                "confidence": "known",
+                "snippets": [
+                    "A seven-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should, which led to the non-standard behavior of the robot.\nThe AI robotic arm grabbed the young player\u2019s index finger and squeezed his finger firmly. "
+                ],
+                "comment": "Force required to break a child's finger far exceeds force required to grip a chess piece.",
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "If the robot applies perception and the child's finger was misidentified as a piece.",
+                "report_index": 3
+            },
+            {
+                "label": "Underspecification",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "If the robot applies perception,  but human interaction was not accounted for; thus, no instances with human hands was present in the training data, from which to learn appropriate behaviour (e.g. halt / show error) .  Additionally, no \"zero-shot\"-like learning appears to take place here. \nFurther, if the robot does not perceive the chessboard but is informed of piece location directly (e.g. via signals wired directly from a piece - chessboard combo) then it has no way to measure obstruction and chances of injury, hence the underspecification & design failure.",
+                "report_index": 3
+            }
+        ],
+        "technology": [
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "potential",
+                "snippets": [
+                    "But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine suddenly snapped one his fingers, breaking it."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ]
+    },
+    "149": {
+        "task": [
+            {
+                "label": "Market Forecasting",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Regression",
+                "confidence": "known",
+                "snippets": [
+                    "\"We've determined the unpredictability in forecasting home prices far exceeds what we anticipated and continuing to scale Zillow Offers would result in too much earnings and balance-sheet volatility,\" said Rich Barton, Zillow's co-founder and CEO."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Sequential Analysis",
+                "confidence": "known",
+                "snippets": [
+                    "\"We've determined the unpredictability in forecasting home prices far exceeds what we anticipated and continuing to scale Zillow Offers would result in too much earnings and balance-sheet volatility,\" said Rich Barton, Zillow's co-founder and CEO."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Multimodal Learning",
+                "confidence": "known",
+                "snippets": [
+                    "For Zillow, one of the first steps in its decision to purchase any home is the \"Zestimate\" \u2014 a machine-learning-assisted estimate of a home's market value that is calculated by taking into account oodles of data about the property gathered from sources including tax and property records, homeowner-submitted details such as the addition of a bathroom or bedroom, and pictures of the house."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Optical Character Recognition",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "OCR could be used to extracting text from scanned documents.",
+                "report_index": 2
+            },
+            {
+                "label": "Conceptual Data Handling",
+                "confidence": "known",
+                "snippets": [
+                    "For Zillow, one of the first steps in its decision to purchase any home is the \"Zestimate\" \u2014 a machine-learning-assisted estimate of a home's market value that is calculated by taking into account oodles of data about the property gathered from sources including tax and property records, homeowner-submitted details such as the addition of a bathroom or bedroom, and pictures of the house."
+                ],
+                "comment": "Given the complexity of user-submitted data, some could be categorical rather than numerical or primitive data. E.g. company staff could map manually submitted information to such categorical / boolean variables.",
+                "report_index": 2
+            },
+            {
+                "label": "Clustering",
+                "confidence": "potential",
+                "snippets": [
+                    "\"The Zestimate, facts you provided, and comparable homes nearby are used to calculate an estimated sale price,\" Zillow explained on its Zillow Offers webpage to homeowners who may be interested in selling their property to the company."
+                ],
+                "comment": "The location cutoff could be determined by location-based clustering.",
+                "report_index": 2
+            }
+        ],
+        "failure": [
+            {
+                "label": "Concept Drift",
+                "confidence": "known",
+                "snippets": [
+                    "\"We've determined the unpredictability in forecasting home prices far exceeds what we anticipated and continuing to scale Zillow Offers would result in too much earnings and balance-sheet volatility,\" said Rich Barton, Zillow's co-founder and CEO."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "potential",
+                "snippets": [
+                    "Still, \"you can have a real estate agent look at a house and in one second pick out one critical factor of the valuation that just doesn't exist as ones and zeroes in any database,\" said Mike DelPrete, a real estate technology strategist and scholar-in-residence at the University of Colorado Boulder.",
+                    "For instance, if any homes Zillow purchased had hidden problems \u2014 such as a missed crack in the foundation \u2014 the Zestimate would not be able to predict those issues, he said.",
+                    "There are also many unquantifiable aspects of putting a price tag on a home, DelPrete noted, such as the value of living in the same neighborhood you grew up in or down the street from your parents. ",
+                    "These can vary from person to person, which makes it even harder to outsource a home valuation process to a computer."
+                ],
+                "comment": "If an agent can pinpoint flaws directly and the AI system can't, perhaps not all useful data in a house listing have been submitted to the system. E.g. house owners have to list all flaws, etc. House buyers have to specify area preference, area type preference (suburbs / city), etc.",
+                "report_index": 1
+            },
+            {
+                "label": "Adversarial Data",
+                "confidence": "potential",
+                "snippets": [
+                    "For instance, if any homes Zillow purchased had hidden problems \u2014 such as a missed crack in the foundation \u2014 the Zestimate would not be able to predict those issues, he said."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "It's one thing to build a model on a website that's often reasonably accurate. It's another to then try to use that model in the real world to make very costly bets \u2014 and do so at scale, according to Nima Shahbazi, a member of the team that won the Zestimate algorithm competition and CEO of Mindle.AI, which helps companies use AI to make predictions."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "But there simply isn't enough data for an algorithm to learn about longer busts and booms, according to Malik, who researches algorithmic pricing and has studied the Zestimate in particular."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ]
+    },
+    "10": {
+        "failure": [
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "known",
+                "snippets": [
+                    "\u201cYou\u2019re waiting on your job to control your life,\u201d she said, with the scheduling software used by her employer dictating everything from \u201chow much sleep Gavin will get to what groceries I\u2019ll be able to buy this month.\u201d",
+                    "Along with virtually every major retail and restaurant chain, Starbucks relies on software that choreographs workers in precise, intricate ballets, using sales patterns and other data to determine which of its 130,000 baristas are needed in its thousands of locations and exactly when.",
+                    "Among other changes, the company said it would end the practice of \"clopening,\" when an employee responsible for closing a store late at night is also assigned to open it early in the morning.",
+                    "In a follow-up piece, the author, Jodi Kantor, points directly to Kronos' scheduling software as the root of the problem."
+                ],
+                "comment": "System is applied with no consideration on human impact",
+                "report_index": 1
+            },
+            {
+                "label": "Tuning Issues",
+                "confidence": "potential",
+                "snippets": [
+                    "In addition, Kronos is improving a feature meant to help give employees more control over their schedules: Though the software already incorporates employee availability and preferences into its scheduling calculations, improvements to a shift-swapping feature on its employee-facing web and mobile apps will theoretically allow employees to work around conflicts among themselves."
+                ],
+                "comment": "Weight of employee preferences is udnervalued in the prediction.",
+                "report_index": 3
+            },
+            {
+                "label": "Misconfigured Aggregation",
+                "confidence": "potential",
+                "snippets": [
+                    "In addition, Kronos is improving a feature meant to help give employees more control over their schedules: Though the software already incorporates employee availability and preferences into its scheduling calculations, improvements to a shift-swapping feature on its employee-facing web and mobile apps will theoretically allow employees to work around conflicts among themselves."
+                ],
+                "comment": "Employee preference decision component is aggregated with very small contribution weight.",
+                "report_index": 3
+            }
+        ],
+        "technology": [
+            {
+                "label": "Regression",
+                "confidence": "potential",
+                "snippets": [
+                    "\u201cYou\u2019re waiting on your job to control your life,\u201d she said, with the scheduling software used by her employer dictating everything from \u201chow much sleep Gavin will get to what groceries I\u2019ll be able to buy this month.\u201d"
+                ],
+                "comment": "Potentially the number of required staff and/or some numeric measure of traffic is estimated for each branch?",
+                "report_index": 1
+            },
+            {
+                "label": "Conceptual Data Handling",
+                "confidence": "potential",
+                "snippets": [
+                    "In a follow-up piece, the author, Jodi Kantor, points directly to Kronos' scheduling software as the root of the problem."
+                ],
+                "comment": "Diverse types of input data could involve high-level attributes / categories.",
+                "report_index": 2
+            }
+        ],
+        "task": [
+            {
+                "label": "Market Forecasting",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 3
+            },
+            {
+                "label": "Scheduling",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 3
+            }
+        ]
+    },
+    "144": {
+        "task": [
+            {
+                "label": "Hate Speech Detection",
+                "confidence": "known",
+                "snippets": [
+                    "YouTube's overeager AI might have misinterpreted a conversation about chess as racist language.\n",
+                    "Using the software on over 680,000 comments taken from five popular YouTube chess channels, they found 82 percent of the comments flagged in a sample set didn't include any obvious racist language or hate speech."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Classification",
+                "confidence": "known",
+                "snippets": [
+                    "YouTube's overeager AI might have misinterpreted a conversation about chess as racist language.\n",
+                    "Using the software on over 680,000 comments taken from five popular YouTube chess channels, they found 82 percent of the comments flagged in a sample set didn't include any obvious racist language or hate speech."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "known",
+                "snippets": [
+                    "More than 80 percent of the comments the programs flagged lacked any racist language, but they did include chess terms like 'black,' 'white,' 'attack' and 'threat'",
+                    "The software's accuracy depends on the examples its given, KhudaBukhsh said, and the training data sets for YouTube's classifiers 'likely include few examples of chess talk, leading to misclassification.'"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Distributional Bias",
+                "confidence": "known",
+                "snippets": [
+                    "More than 80 percent of the comments the programs flagged lacked any racist language, but they did include chess terms like 'black,' 'white,' 'attack' and 'threat'",
+                    "The software's accuracy depends on the examples its given, KhudaBukhsh said, and the training data sets for YouTube's classifiers 'likely include few examples of chess talk, leading to misclassification.'"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "259": {
+        "task": [
+            {
+                "label": "Text Generation",
+                "confidence": "known",
+                "snippets": [
+                    "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Transformer",
+                "confidence": "known",
+                "snippets": [
+                    "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "known",
+                "snippets": [
+                    "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Sequential Analysis",
+                "confidence": "known",
+                "snippets": [
+                    "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "known",
+                "snippets": [
+                    "\u201cThis is a good opportunity to discuss not the harm, but the fact that this harm is so obviously foreseeable, and that his response of \u2018show me where it has DONE harm\u2019 misses the point and is inadequate,\u201d they said.",
+                    " But the reality is that he essentially invented a hate speech machine, used it 30,000 times and released it into the wild. And yeah, I understand being annoyed with safety regulations but that\u2019s not a legitimate response to that annoyance.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Unsafe Exposure or Access",
+                "confidence": "known",
+                "snippets": [
+                    "He said that he feels he\u2019s made that clear, but that he wanted his results to be reproducible and that\u2019s why he posted the model to Hugging Face.",
+                    "Kathryn Cramer, a Complex Systems & Data Science graduate student at the University of Vermont, pointed out that GPT-3 has guardrails that prevent it from being used to build this kind of racist bot and that Kilcher had to use GPT-J to build his system. ",
+                    " But the reality is that he essentially invented a hate speech machine, used it 30,000 times and released it into the wild. And yeah, I understand being annoyed with safety regulations but that\u2019s not a legitimate response to that annoyance.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "221": {
+        "technology": [
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "potential",
+                "snippets": [
+                    "The vehicle's sensors apparently failed to detect a bright yellow road repair truck, despite its large reflectors and digital sign, and slammed into its rear."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Image Segmentation",
+                "confidence": "known",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Object Detection",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "Potentially subtask of segmentation.",
+                "report_index": 2
+            },
+            {
+                "label": "Classification",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "Potentially subtask of segmentation.",
+                "report_index": 2
+            }
+        ],
+        "failure": [
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "known",
+                "snippets": [
+                    "Above all, it should not allow a driver to feel so confident it will handle everything to the point this person confesses to the police that was exactly the case."
+                ],
+                "comment": "Should not use autopilot without supervision.",
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "known",
+                "snippets": [
+                    "Theoretically, the system should be able to see a bright yellow emergency truck right in front of it. It should be able to brake the car to prevent a crash."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "task": [
+            {
+                "label": "Autonomous Driving",
+                "confidence": "known",
+                "snippets": [
+                    "The vehicle's sensors apparently failed to detect a bright yellow road repair truck, despite its large reflectors and digital sign, and slammed into its rear."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ]
+    }
+}

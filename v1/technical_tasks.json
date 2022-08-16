@@ -1,0 +1,68 @@
+{
+  "name": "Technical Tasks",
+  "description": "A taxonomy of high-level technical AI / Machine learning tasks a system may perform during its operation",
+"children": [
+  {
+    "name": "Processing",
+    "description": "Computation that does not involve the usage of AI and ML."
+  },
+  {
+    "name": "Source Localization",
+    "description": "The task of determining the source location of an input signal and/or collections of multiple input signals."
+  },
+  {
+    "name": "Object Detection",
+    "description": "The task of location objects of interest via visual perception."
+  },
+  {
+    "name": "Machine Translation",
+    "description": "Automatic translation of text from a source to a target language."
+  },
+  {
+    "name": "Retrieval",
+    "description": "The task of selecting relevant instances from an available pool of candidates.",
+    "children": [
+      {
+        "name": "Recommendation",
+        "description": "Automatic retrieval and serving of data to a user based on their profile, activity and/or history."
+      },
+      {
+        "name": "Search",
+        "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query."
+      }
+    ]
+  },
+  {
+    "name": "Sequential Analysis",
+    "description": "The task of producing predictions based on a history of multiple data points"
+  },
+  {
+    "name": "Supervised Learning",
+    "description": "Learning methods facilitating training with ground truth.",
+    "children": [
+      {
+        "name": "Regression",
+        "description": "The task of annotating data with real-valued predictions."
+      },
+      {
+        "name": "Classification",
+        "description": "The task of annotating data to one or more semantic labels from a given labelset."
+      }
+    ]
+  },
+  {
+    "name": "Unsupervised Learning",
+    "description": "The approach of modeling data patterns and structure without usage of ground truth.",
+    "children": [
+      {
+        "name": "Clustering",
+        "description": "The unsupervised task of grouping data instances into groups with high internal similarity and low similarity across different groups."
+      },
+      {
+        "name": "Generation",
+        "description": "The task of generating from existing background knowledge, context and/or prompts."
+      }
+    ]
+  }
+]
+}
