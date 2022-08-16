@@ -123,6 +123,15 @@
     "name": "Lack of Explainability",
     "description": "The system converts input data into outputs without its internal workings being explainable to users or even experts. ",
     "issues": "Could merge with transparency failure."
+  },
+  {
+    "name": "Hardware Failure",
+    "description": "Scenarios where the material system component failures contribute to the emergence of the incident."
+  },
+  {
+    "name": "Software Bug",
+    "description": "Cases where errors in the system's software (e.g. logic errors, unhandled exceptions, etc.) contribute to the emergence of the incident."
   }
+  
 ]
 }

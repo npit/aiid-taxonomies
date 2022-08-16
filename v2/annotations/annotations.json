@@ -1,4 +1,114 @@
 {
+    "252": {
+        "task": [
+            {
+                "label": "Autonomous Drones",
+                "confidence": "known",
+                "snippets": [
+                    "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Image Segmentation",
+                "confidence": "potential",
+                "snippets": [
+                    "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Lack of Capability Control",
+                "confidence": "potential",
+                "snippets": [
+                    "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
+                ],
+                "comment": "Dangerous unreliable machines near children.",
+                "report_index": NaN
+            },
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "potential",
+                "snippets": [
+                    "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
+                ],
+                "comment": "Accidents / errors should be expected with application of near-lethal weapons in a school setting.",
+                "report_index": NaN
+            }
+        ]
+    },
+    "253": {
+        "task": [
+            {
+                "label": "Autonomous Driving",
+                "confidence": "known",
+                "snippets": [
+                    "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ],
+        "technology": [
+            {
+                "label": "Image Segmentation",
+                "confidence": "potential",
+                "snippets": [
+                    "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Geolocation",
+                "confidence": "potential",
+                "snippets": [
+                    "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ],
+        "failure": [
+            {
+                "label": "Software Bug",
+                "confidence": "potential",
+                "snippets": [
+                    "Terrifyingly, Wired adds that on that particular evening \u201cInternal messages seen by WIRED show that nearly 60 vehicles were disabled across the city over a 90-minute period after they lost touch with a Cruise server.\u201d",
+                    "Worst of all, the company was unable to access its fallback system, which allows remote operators to safely steer stopped vehicles to the side of the road.\u201d",
+                    "Cruise spokesperson Tiffany Testo said in a statement to Wired that \u201cWe\u2019re working to minimize how often this happens, but it is and will remain one aspect of our overall safety operations,\u201d That doesn\u2019t really explain why this keeps happening, nor does it inspire much confidence that it won\u2019t happen again and again, nor does it show any concern for potentially deadly consequences."
+                ],
+                "comment": "Speculative error to server availability issues.",
+                "report_index": 3
+            },
+            {
+                "label": "Hardware Failure",
+                "confidence": "potential",
+                "snippets": [
+                    "Worst of all, the company was unable to access its fallback system, which allows remote operators to safely steer stopped vehicles to the side of the road.\u201d",
+                    "Cruise spokesperson Tiffany Testo said in a statement to Wired that \u201cWe\u2019re working to minimize how often this happens, but it is and will remain one aspect of our overall safety operations,\u201d That doesn\u2019t really explain why this keeps happening, nor does it inspire much confidence that it won\u2019t happen again and again, nor does it show any concern for potentially deadly consequences."
+                ],
+                "comment": "Speculative error to server availability issues.",
+                "report_index": 3
+            },
+            {
+                "label": "Backup Failure",
+                "confidence": "potential",
+                "snippets": [
+                    "Wired adds that in that incident, \u201cCompany staff were unable to see where the vehicles were located or communicate with riders inside. ",
+                    "Worst of all, the company was unable to access its fallback system, which allows remote operators to safely steer stopped vehicles to the side of the road.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
     "254": {
         "task": [
             {
@@ -22,7 +132,7 @@
                 "report_index": 1
             },
             {
-                "label": "Face Recognition",
+                "label": "Face Detection",
                 "confidence": "potential",
                 "snippets": [
                     "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
@@ -231,14 +341,9 @@
             {
                 "label": "Inappropriate Training Content",
                 "confidence": "known",
-                "snippets": [],
-                "comment": NaN,
-                "report_index": 9
-            },
-            {
-                "label": 14,
-                "confidence": "potential",
-                "snippets": [],
+                "snippets": [
+                    "ScatterLab explained that the chatbot did not learn this behavior from the users it interacted with during the two weeks of service but rather learned it from the original training dataset. In other words, ScatterLab had not fully removed or filtered inappropriate language or intimate and sexual conversations from the dataset. "
+                ],
                 "comment": NaN,
                 "report_index": 9
             },
