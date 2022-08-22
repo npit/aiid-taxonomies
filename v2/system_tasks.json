@@ -73,6 +73,11 @@
           "description": "The selection of an image subset that contains the most salient content."
         },
         {
+          "name": "Image Tagging",
+          "description": "The task of attaching semantic label to an image based on its content.."
+
+        },
+        {
           "name": "Face Recognition",
           "description": "The task of matching a human face from a set of reference candidates to a specific instance.",
           "issues": "Horrible definition, refactor. Could also be nested under retrieval."
@@ -113,6 +118,10 @@
       "description": "The automatic generation of videos that imitate the face, voice and mannerisms of individuals."
     }
     ]
+    },
+    {
+      "name": "AI Voice Assistant", 
+      "description": "The usage of AI for automated voice assistance functionality."
     },
     {
       "name": "Automated Content Curation",
@@ -156,6 +165,12 @@
         "description": "Tasks involving autonomous drone robots (e.g. such as Boston Dynamics robots)"
       }
       ]
+    }
+    ,
+    {
+        "name": "Black Swan Event", 
+        "description": "Incident is a result from highly improbable circumstances occuring.",
+        "issues": "Label added late and quite generic; needs another incident pass"
     }
 
 

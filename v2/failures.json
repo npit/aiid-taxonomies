@@ -12,8 +12,8 @@
     "issue": "This label was added later; many incidents annotated with 'distributional bias', 'underfitting', 'Concept Drift' / 'Covariate Shift' may this label as well."
   },
   {
-    "name": "Learning Dataset Noise",
-    "description": "The learning dataset the system is built with contains significant amounts of noise, errors and critical outliers that impact performance."
+    "name": "Data or Labelling Noise",
+    "description": "The system is applied or learns from data that significant amounts of noise, errors, artefacts and critical outliers in its content and/or annotated labels, that impact performance."
   },
   {
     "name": "Inappropriate Training Content",
@@ -137,6 +137,10 @@
   {
     "name": "Software Bug",
     "description": "Cases where errors in the system's software (e.g. logic errors, unhandled exceptions, etc.) contribute to the emergence of the incident."
+  },
+  {
+    "name": "Misuse",
+    "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to incidents."
   }
   
 ]

@@ -35,6 +35,10 @@
       ]
     },
     {
+      "name": "Character NGrams",
+      "description": "The approach of using character-level ngrams to build text representations"
+    },
+    {
       "name": "Geolocation",
       "description": "Estimation of the geographic position of objects of interest.",
       "issues": "Is this technical enough? Compare/contrast it to 'clustering'."
@@ -54,6 +58,12 @@
     {
       "name": "Automatic Speech Recognition",
       "description": "The process of automatically transcribing human speech from audio."
+    },
+    {
+
+      "name": "Speaker Diarization",
+      "description": "The approach of identifying separate speakers from conversations in input audio.",
+      "issues": "Could be a task"
     },
     {
       "name": "Distributional Learning",
@@ -95,6 +105,7 @@
     {
       "name": "Unsupervised Learning",
       "description": "The approach of modeling data patterns and structure without usage of ground truth.",
+      "issues": "Category probably unhelpful",
       "children": [
         {
           "name": "Clustering",
@@ -108,7 +119,13 @@
       ]
     },
     {
+      "name": "Keyword Filtering",
+      "description": "Methods of statically restricting keywords from participating in input / output sets of a task."
+
+    },
+    {
       "name": "Supervised Learning",
+      "issues": "Category probably unhelpful",
       "description": "Learning methods facilitating training with ground truth.",
       "children": [
         {
@@ -125,6 +142,11 @@
       "name": "Sequential Analysis",
       "description": "The task of producing predictions based on a history of multiple data points",
           "issue": "Most likely deprecate"
+    }
+    {
+      "name": "Acoustic Fingerprint",
+      "description": "The generation of short summaries from audio signals for rapid retrieval and recognition."
+
     }
   ]
 }
