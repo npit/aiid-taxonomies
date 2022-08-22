@@ -1,4 +1,779 @@
 {
+    "34": {
+        "task": [
+            {
+                "label": "AI Voice Assistant",
+                "confidence": "known",
+                "snippets": [
+                    "According to one couple on Twitter, their Amazon Echo lit up on Thursday night, not in response to their voice, but a voice the device heard on TV. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Automatic Speech Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "According to one couple on Twitter, their Amazon Echo lit up on Thursday night, not in response to their voice, but a voice the device heard on TV. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Language Modeling",
+                "confidence": "known",
+                "snippets": [
+                    "According to one couple on Twitter, their Amazon Echo lit up on Thursday night, not in response to their voice, but a voice the device heard on TV. "
+                ],
+                "comment": NaN,
+                "report_index": 3
+            },
+            {
+                "label": "Acoustic Fingerprint",
+                "confidence": "known",
+                "snippets": [
+                    "Amazon said this is thanks to \"acoustic fingerprinting\", meaning that the Echo recognises this as an advert and not the command of whoever is in the room."
+                ],
+                "comment": NaN,
+                "report_index": 4
+            }
+        ],
+        "failure": [
+            {
+                "label": "Unsafe Exposure or Access",
+                "confidence": "known",
+                "snippets": [
+                    "Alexa is not without its SNAFUs when it comes to tiny tots. Just a few days ago, Alexa made headlines after it returned a child\u2019s request for a favorite song with \"crude porn.\"\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 3
+            },
+            {
+                "label": "Misuse",
+                "confidence": "known",
+                "snippets": [
+                    "But Amazon says Neitzel could have further avoided the \u201caccidental\u201d order by managing her shopping settings in the Alexa app, such as by turning off voice purchasing or requiring a confirmation code before every order. It\u2019s all spelled out here."
+                ],
+                "comment": NaN,
+                "report_index": 12
+            },
+            {
+                "label": "Unauthorized Data Access",
+                "confidence": "potential",
+                "snippets": [
+                    "The device starts recording whenever it hears the wake word \u201cAlexa,\u201d recording sound for up to 60 seconds each time. (For this reason, authorities have recently tried to gain access to Alexa\u2019s data in a murder investigation.) While that\u2019s helpful, the feature arguably borders on invading privacy and has fanned overall security concerns that surround the rise of internet of things (IoT) devices."
+                ],
+                "comment": "This may apply on an ethical level: presumably the users sign an agreement consenting to passive voice capture.",
+                "report_index": 15
+            },
+            {
+                "label": "Sensitive Information Leak",
+                "confidence": "potential",
+                "snippets": [
+                    "The device starts recording whenever it hears the wake word \u201cAlexa,\u201d recording sound for up to 60 seconds each time. (For this reason, authorities have recently tried to gain access to Alexa\u2019s data in a murder investigation.) While that\u2019s helpful, the feature arguably borders on invading privacy and has fanned overall security concerns that surround the rise of internet of things (IoT) devices."
+                ],
+                "comment": "This may apply on an ethical level: presumably the users sign an agreement consenting to passive voice capture.",
+                "report_index": 15
+            },
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    "Another owner reported how their child\u2019s demand for a game called Digger Digger was misheard as a request for porn.",
+                    "One owner uploaded a video in which their Amazon Echo read back a shopping list that included \u201chunk of poo, big fart, girlfriend, [and] Dove soap\u201d.",
+                    "Another included \u201c150,000 bottles of shampoo\u201d and \u201csled dogs\u201d."
+                ],
+                "comment": NaN,
+                "report_index": 15
+            },
+            {
+                "label": "Lack of Capability Control",
+                "confidence": "potential",
+                "snippets": [
+                    "Another included \u201c150,000 bottles of shampoo\u201d and \u201csled dogs\u201d."
+                ],
+                "comment": "This is relevant if the order went through.",
+                "report_index": 19
+            },
+            {
+                "label": "Underspecification",
+                "confidence": "potential",
+                "snippets": [
+                    "Stephen Cobb, a senior security researcher, told TV station CW6: \u201cThese devices don't recognize your specific voice and so then we have the situations where you have a guest staying or you have a child who is talking and accidentally order something because the device isn't aware that it's a child versus a parent."
+                ],
+                "comment": "Speaker diarization / recognition missing.",
+                "report_index": 27
+            }
+        ]
+    },
+    "13": {
+        "task": [
+            {
+                "label": "Hate Speech Detection",
+                "confidence": "known",
+                "snippets": [
+                    "However, computer scientists and others on the internet have found the system unable to identify a wide swath of hateful comments, while categorizing innocuous word combinations like \u201chate is bad\u201d and \u201cgarbage truck\u201d as overwhelmingly toxic."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Limited Dataset",
+                "confidence": "potential",
+                "snippets": [
+                    "It\u2019s very limited to the types of abuse and toxicity in that initial training data set. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Context Misidentification",
+                "confidence": "known",
+                "snippets": [
+                    "\u201cThis is essentially finding \u2018good words\u2019 and \u2018bad words,\u2019 but it is clear that it cannot deal with any nuanced (or even just compositional) word usage.\u201d",
+                    "For example, \u201cracism is bad\u201d triggers the old system into giving an overwhelmingly negative score because the words \u201cracism\u201d and \u201cbad\u201d are seen as negative, Goldberg says.",
+                    "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Misaligned Objective",
+                "confidence": "potential",
+                "snippets": [
+                    "First, the system shown to Greenberg was a research model specifically trained to detect personal attacks, meaning it would be much more sensitive to words like \u201cyou\u201d or \u201cyou\u2019re.\u201d",
+                    "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "known",
+                "snippets": [
+                    "\u201cCharacter-level models are much better able to understand misspellings and different fragments of words, but overall it\u2019s going to do much worse,\u201d Dixon told Quartz.",
+                    "But in real-world applications, these systems are susceptible to intelligent subversion or attacks,\" said senior author Radha Poovendran, chair of the UW electrical engineering department and director of the Network Security Lab.",
+                    "Designing a system with a benign operating environment in mind and deploying it in adversarial environments can have devastating consequences.\""
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "\u201cCharacter-level models are much better able to understand misspellings and different fragments of words, but overall it\u2019s going to do much worse,\u201d Dixon told Quartz.",
+                    "That\u2019s because, while that technique can be efficiently pointed at a very specific problem, like figuring out that smiley faces correlate with someone being nice, the deep neural network being trained through the API now has a much greater capacity to understand the nuances of the entire language.",
+                    "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Lack of Adversarial Robustness",
+                "confidence": "known",
+                "snippets": [
+                    "For example, simply changing \"idiot\" to \"idiiot\" reduced the toxicity rate of an otherwise identical comment from 84% to 20%.",
+                    "They showed one can subtly modify a phrase that receives a high toxicity score so that it contains the same abusive language but receives a low toxicity score.",
+                    "They showed that the system is vulnerable to both missing incendiary language and falsely blocking non-abusive phrases.",
+                    "But in real-world applications, these systems are susceptible to intelligent subversion or attacks,\" said senior author Radha Poovendran, chair of the UW electrical engineering department and director of the Network Security Lab."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            },
+            {
+                "label": "Distributional Bias",
+                "confidence": "potential",
+                "snippets": [
+                    "The Google AI tool used to flag \u201coffensive comments\u201d has a seemingly built-in bias against conservative and libertarian viewpoints.\n\n",
+                    "But when testing out its algorithm, Perspective generally scores conservative and libertarian comments as more \u201ctoxic\u201d than establishment talking points.\n\n",
+                    "They believe they are going to use it to fight \u201ctoxicity\u201d online. And by \u201ctoxicity\u201d they mean \u201csaying anything with negative sentiment\u201d. And by \u201cnegative sentiment\u201d they mean \u201cwhatever word2vec thinks is bad\u201d. ",
+                    "Annotators read through each transcript and identified segments that appeared to be especially uncivil or civil, rating them on a ten-point scale for measures like \u201cpolite/rude,\u201d \u201cfriendly/hostile,\u201d \u201ccooperative/quarrelsome,\u201d and \u201ccalm/agitated.\u201d",
+                    "Perspective tends to label certain identities \u2014 including \u201cgay,\u201d \u201cAfrican-American,\u201d \u201cMuslim\u201d and \u201cIslam,\u201d \u201cJew,\u201d \u201cwomen,\u201d and \u201cfeminism\u201d and \u201cfeminist\u201d \u2014 as toxic. Moreover, the API erroneously flags words relating to violence and death (e.g., \u201cdie,\u201d \u201ckill,\u201d \u201cshooting,\u201d \u201cprostitution,\u201d \u201cpornography,\u201d \u201csexual\u201d) even in the absence of incivility, as well as words that in one context could be toxic but in another could refer to a name (e.g., \u201cDick\u201d)."
+                ],
+                "comment": NaN,
+                "report_index": 3
+            },
+            {
+                "label": "Data or Labelling Noise",
+                "confidence": "potential",
+                "snippets": [
+                    "The Alphabet subsidiary worked with partners like Wikipedia and The New York Times to gather hundreds of thousands of comments, and then crowdsourced 10 answers for each comment on whether they were toxic or not. ",
+                    "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
+                ],
+                "comment": "Potentially profanity was annotated as hate speech.",
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Character NGrams",
+                "confidence": "known",
+                "snippets": [
+                    "They then captured 1-5 character snippets, called character-level ngrams, of the attacking comments and trained a machine-learning algorithm that those ngrams were correlated with toxic activity."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "potential",
+                "snippets": [
+                    "The Google AI tool used to flag \u201coffensive comments\u201d has a seemingly built-in bias against conservative and libertarian viewpoints.\n\n",
+                    "But when testing out its algorithm, Perspective generally scores conservative and libertarian comments as more \u201ctoxic\u201d than establishment talking points.\n\n",
+                    "They believe they are going to use it to fight \u201ctoxicity\u201d online. And by \u201ctoxicity\u201d they mean \u201csaying anything with negative sentiment\u201d. And by \u201cnegative sentiment\u201d they mean \u201cwhatever word2vec thinks is bad\u201d. ",
+                    "Annotators read through each transcript and identified segments that appeared to be especially uncivil or civil, rating them on a ten-point scale for measures like \u201cpolite/rude,\u201d \u201cfriendly/hostile,\u201d \u201ccooperative/quarrelsome,\u201d and \u201ccalm/agitated.\u201d",
+                    "Perspective tends to label certain identities \u2014 including \u201cgay,\u201d \u201cAfrican-American,\u201d \u201cMuslim\u201d and \u201cIslam,\u201d \u201cJew,\u201d \u201cwomen,\u201d and \u201cfeminism\u201d and \u201cfeminist\u201d \u2014 as toxic. Moreover, the API erroneously flags words relating to violence and death (e.g., \u201cdie,\u201d \u201ckill,\u201d \u201cshooting,\u201d \u201cprostitution,\u201d \u201cpornography,\u201d \u201csexual\u201d) even in the absence of incivility, as well as words that in one context could be toxic but in another could refer to a name (e.g., \u201cDick\u201d)."
+                ],
+                "comment": NaN,
+                "report_index": 3
+            }
+        ]
+    },
+    "27": {
+        "technology": [
+            {
+                "label": "Satellite Imaging",
+                "confidence": "potential",
+                "snippets": [
+                    "Petrov's responsibilities included observing the satellite early warning network and notifying his superiors of any impending nuclear missile attack against the Soviet Union.",
+                    "It was subsequently determined that the false alarms were caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits,[13] an error later corrected by cross-referencing a geostationary satellite.",
+                    "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Data or Labelling Noise",
+                "confidence": "known",
+                "snippets": [
+                    "It was subsequently determined that the false alarms were caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits,[13] an error later corrected by cross-referencing a geostationary satellite.",
+                    "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n",
+                    " \u201cAnd by chance that blinding light landed right in the center of the system\u2019s eye.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Limited Dataset",
+                "confidence": "known",
+                "snippets": [
+                    "It was subsequently determined that the false alarms were caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits,[13] an error later corrected by cross-referencing a geostationary satellite.",
+                    "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n",
+                    "\u201cAnd that day the satellites told us with the highest degree of certainty that these rockets were on the way.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "It was subsequently determined that the false alarms were caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits,[13] an error later corrected by cross-referencing a geostationary satellite.",
+                    "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n",
+                    "\u201cAnd that day the satellites told us with the highest degree of certainty that these rockets were on the way.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Black Swan Event",
+                "confidence": "known",
+                "snippets": [
+                    " \u201cAnd by chance that blinding light landed right in the center of the system\u2019s eye.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "task": [
+            {
+                "label": "Visual Object Detection",
+                "confidence": "known",
+                "snippets": [
+                    "Petrov's responsibilities included observing the satellite early warning network and notifying his superiors of any impending nuclear missile attack against the Soviet Union."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "16": {
+        "task": [
+            {
+                "label": "Image Tagging",
+                "confidence": "known",
+                "snippets": [
+                    "Google has been forced to apologise after its image recognition software mislabelled photographs of black people as gorillas.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Underfitting",
+                "confidence": "known",
+                "snippets": [
+                    "Google has been forced to apologise after its image recognition software mislabelled photographs of black people as gorillas.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "While the app\u2019s algorithm was able to correctly identify pictures of a \u201cgraduation,\u201d \u201cskyscrapers,\u201d and \u201cairplanes,\u201d it labeled photos of Alcine and a female friend as gorillas."
+                ],
+                "comment": NaN,
+                "report_index": 3
+            },
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    NaN
+                ],
+                "comment": NaN,
+                "report_index": 5
+            }
+        ],
+        "technology": [
+            {
+                "label": "Face Detection",
+                "confidence": "known",
+                "snippets": [
+                    "He said however the error may occur in photographs where their image recognition software failed to detect a face at all.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "Engineers at Google's research labs also recently ran various pictures through its \"neural network\", asking the software to identify patterns in the images and then alter that image to exaggerate the patterns."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Keyword Filtering",
+                "confidence": "known",
+                "snippets": [
+                    NaN,
+                    NaN
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "111": {
+        "task": [
+            {
+                "label": "Automatic Skill Assessment",
+                "confidence": "known",
+                "snippets": [
+                    "Contract drivers say algorithms terminate them by email\u2014even when they have done nothing wrong.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Geolocation",
+                "confidence": "known",
+                "snippets": [
+                    "The system also uses GPS to decide how long it should take to reach a specific address but sometimes fails to account for the fact that navigating a rural road in the snow takes a lot longer than traversing a suburban street on a sunny day."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Regression",
+                "confidence": "potential",
+                "snippets": [
+                    "Contract drivers say algorithms terminate them by email\u2014even when they have done nothing wrong.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Face Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "One driver posting on reddit said they were terminated because, according to the Flex app, the selfies they took to verify their identity at the start of the shift didn\u2019t match the driver\u2019s license photo they uploaded when they set up the account. ",
+                    "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "potential",
+                "snippets": [
+                    "Normandin says Amazon punished him for things beyond his control that prevented him from completing his deliveries, such as locked apartment complexes. ",
+                    "Bloomberg interviewed 15 Flex drivers, including four who say they were wrongly terminated, as well as former Amazon managers who say the largely automated system is insufficiently attuned to the real-world challenges drivers face every day. ",
+                    "Flex metrics focus mostly on punctuality, unlike ride-hailing services such as Uber and Lyft, which also prioritize things like a car\u2019s cleanliness or driver courtesy. Moreover, Uber and Lyft passengers know when they\u2019re stuck in traffic, so drivers are less likely to be penalized for circumstances beyond their control."
+                ],
+                "comment": "Important information omitted?",
+                "report_index": 1
+            },
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "potential",
+                "snippets": [
+                    "Amazon knew delegating work to machines would lead to mistakes and damaging headlines, these former managers said, but decided it was cheaper to trust the algorithms than pay people to investigate mistaken firings so long as the drivers could be replaced easily.",
+                    "Inside Amazon, the Flex program is considered a great success, whose benefits far outweigh the collateral damage, said a former engineer who helped design the system. \u201cExecutives knew this was gonna shit the bed,\u201d this person said. \u201cThat\u2019s actually how they put it in meetings. The only question was how much poo we wanted there to be.\u201d"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Misconfigured Threshold",
+                "confidence": "potential",
+                "snippets": [
+                    "By then, Cope had already decided there was no way he could meet the algorithms\u2019 demands. Driving miles along winding dirt roads outside Denver in the snow, he often shook his head in disbelief that Amazon expected the customer to get the package within two hours.",
+                    "Early on, according to a person familiar with the situation, designers set too tight a time period for drivers to get to the delivery station. They had failed to factor in human nature. Drivers eager for work would promise to arrive by a certain time when they were too far away to make it. "
+                ],
+                "comment": "In cases where expected quota / boundaries are manually set.",
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Limited Dataset",
+                "confidence": "potential",
+                "snippets": [
+                    "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Covariate Shift",
+                "confidence": "potential",
+                "snippets": [
+                    "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "36": {
+        "task": [
+            {
+                "label": "Face Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "Chinese AI traffic cam mistook a bus ad for a human and publicly shamed the CEO it depicted for jaywalking\n\n"
+                ],
+                "comment": "i.e. the context of \u2018not a living human\u2019 was not detected in order to produce a negative result on the face detection part of the recognition pipeline.",
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Face Detection",
+                "confidence": "potential",
+                "snippets": [
+                    "Chinese AI traffic cam mistook a bus ad for a human and publicly shamed the CEO it depicted for jaywalking\n\n"
+                ],
+                "comment": "i.e. the context of \u2018not a living human\u2019 was not detected in order to produce a negative result on the face detection part of the recognition pipeline.",
+                "report_index": 1
+            },
+            {
+                "label": "Ensemble Aggregation",
+                "confidence": "potential",
+                "snippets": [
+                    "Earlier this month, it was reported that Chinese authorities have started using \"gait recognition\" software -- artificial intelligence that identifies people by their walk -- in Beijing and Shanghai."
+                ],
+                "comment": "Separate gait classifier as a recognition component?",
+                "report_index": 6
+            },
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "potential",
+                "snippets": [
+                    "The AI genius employed by said cops comes from Shenzhen-based Intellifusion, whose \"DeepEye\" provides \u201cCloud based deep learning for public safety and industrial monitoring\u201d according to the company. "
+                ],
+                "comment": NaN,
+                "report_index": 11
+            }
+        ],
+        "failure": [
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    "Chinese AI traffic cam mistook a bus ad for a human and publicly shamed the CEO it depicted for jaywalking\n\n"
+                ],
+                "comment": "i.e. the context of \u2018not a living human\u2019 was not detected in order to produce a negative result on the face detection part of the recognition pipeline.",
+                "report_index": 1
+            },
+            {
+                "label": "Data or Labelling Noise",
+                "confidence": "potential",
+                "snippets": [
+                    "Chinese AI traffic cam mistook a bus ad for a human and publicly shamed the CEO it depicted for jaywalking\n\n"
+                ],
+                "comment": "In case the training dataset contains such false positives",
+                "report_index": 2
+            }
+        ]
+    },
+    "167": {
+        "technology": [
+            {
+                "label": "Siamese Network",
+                "confidence": "potential",
+                "snippets": [
+                    "Presented with photos of gay men and straight men, a computer program was able to determine which of the two was gay with 81 percent accuracy, according to Dr. Kosinski and co-author Yilun Wang\u2019s paper."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Neural Network",
+                "confidence": "known",
+                "snippets": [
+                    "The images were cropped further and then processed through a deep neural network, a layered mathematical system capable of identifying patterns in vast amounts of data."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "potential",
+                "snippets": [
+                    "The images were cropped further and then processed through a deep neural network, a layered mathematical system capable of identifying patterns in vast amounts of data."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Conceptual Data Handling",
+                "confidence": "potential",
+                "snippets": [
+                    "The software extracts information from thousands of facial data points, including nose width, mustache shape, eyebrows, corners of the mouth, hairline and even aspects of the face we don\u2019t have words for. It then turns the faces into numbers."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ],
+        "failure": [
+            {
+                "label": "Limited Dataset",
+                "confidence": "known",
+                "snippets": [
+                    "He noted in an email that \u201cthe algorithms were only trained and tested on white, American, openly gay men (and white, American, presumed straight comparisons),\u201d and therefore probably would not have broader implications."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "known",
+                "snippets": [
+                    "Some 300,000 images were whittled down to 35,000 that showed faces clearly and met certain criteria. All were white, the researchers said, because they could not find enough dating profiles of gay minorities to generate a statistically valid result."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "potential",
+                "snippets": [
+                    "The software extracts information from thousands of facial data points, including nose width, mustache shape, eyebrows, corners of the mouth, hairline and even aspects of the face we don\u2019t have words for. It then turns the faces into numbers.",
+                    "Dr. Kosinski and Mr. Wang say that the algorithm is responding to fixed facial features, like nose shape, along with \u201cgrooming choices,\u201d such as eye makeup.\n\n"
+                ],
+                "comment": "Using just faces to predict sexuality is probably a limited approach. Additionally, engineered features used may provide an incomplete face representation.",
+                "report_index": NaN
+            },
+            {
+                "label": "Overfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "Yet none of the scenarios remotely resembled a scan of people \u201cin the wild,\u201d as Ms. Garvie put it. And when the tool was challenged with other scenarios \u2014 such as distinguishing between gay men\u2019s Facebook photos and straight men\u2019s online dating photos \u2014 accuracy dropped to 74 percent."
+                ],
+                "comment": "Soudns like advertised performance is on the training set or on one specific domain.",
+                "report_index": NaN
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "known",
+                "snippets": [
+                    "Yet none of the scenarios remotely resembled a scan of people \u201cin the wild,\u201d as Ms. Garvie put it. And when the tool was challenged with other scenarios \u2014 such as distinguishing between gay men\u2019s Facebook photos and straight men\u2019s online dating photos \u2014 accuracy dropped to 74 percent."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Ignored Expected Externalities",
+                "confidence": "known",
+                "snippets": [
+                    "Some argued that the study is just the latest example of a disturbing technology-fueled revival of physiognomy, the long discredited notion that personality traits can be revealed by measuring the size and shape of a person\u2019s eyes, nose and face."
+                ],
+                "comment": "Societal fallout was expected.",
+                "report_index": NaN
+            },
+            {
+                "label": "Lack of Explainability",
+                "confidence": "potential",
+                "snippets": [
+                    "Dr. Kosinski and Mr. Wang say that the algorithm is responding to fixed facial features, like nose shape, along with \u201cgrooming choices,\u201d such as eye makeup.\n\n",
+                    "But it\u2019s also possible that the algorithm is seeing something totally unknown.\n\n"
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "68": {
+        "task": [
+            {
+                "label": "Autonomous Drones",
+                "confidence": "known",
+                "snippets": [
+                    "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Image Segmentation",
+                "confidence": "potential",
+                "snippets": [
+                    "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ]
+    },
+    "74": {
+        "task": [
+            {
+                "label": "Face Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "On a Thursday afternoon in January, Robert Julian-Borchak Williams was in his office at an automotive supply company when he got a call from the Detroit Police Department telling him to come to the station to be arrested."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Face Detection",
+                "confidence": "known",
+                "snippets": [
+                    "On a Thursday afternoon in January, Robert Julian-Borchak Williams was in his office at an automotive supply company when he got a call from the Detroit Police Department telling him to come to the station to be arrested."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Convolutional Neural Network",
+                "confidence": "potential",
+                "snippets": [
+                    "On a Thursday afternoon in January, Robert Julian-Borchak Williams was in his office at an automotive supply company when he got a call from the Detroit Police Department telling him to come to the station to be arrested."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": "Minorities under-represented in the learning dataset",
+                "report_index": 2
+            }
+        ],
+        "failure": [
+            {
+                "label": "Learning Dataset Imbalance",
+                "confidence": "potential",
+                "snippets": [
+                    "Last year, during a public hearing about the use of facial recognition in Detroit, an assistant police chief was among those who raised concerns. \u201cOn the question of false positives \u2014 that is absolutely factual, and it\u2019s well-documented,\u201d James White said.",
+                    "Clare Garvie, a lawyer at Georgetown University\u2019s Center on Privacy and Technology, has written about problems with the government\u2019s use of facial recognition. She argues that low-quality search images \u2014 such as a still image from a grainy surveillance video \u2014 should be banned, and that the systems currently in use should be tested rigorously for accuracy and bias."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "Last year, during a public hearing about the use of facial recognition in Detroit, an assistant police chief was among those who raised concerns. \u201cOn the question of false positives \u2014 that is absolutely factual, and it\u2019s well-documented,\u201d James White said.",
+                    "Clare Garvie, a lawyer at Georgetown University\u2019s Center on Privacy and Technology, has written about problems with the government\u2019s use of facial recognition. She argues that low-quality search images \u2014 such as a still image from a grainy surveillance video \u2014 should be banned, and that the systems currently in use should be tested rigorously for accuracy and bias.",
+                    "In 2019, algorithms from both companies were included in a federal study of over 100 facial recognition systems that found they were biased, falsely identifying African-American and Asian faces 10 times to 100 times more than Caucasian faces."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "\u201cIf we would use the software only [to identify subjects], we would not solve the case 95-97 percent of the time,\u201d Craig said. \u201cThat\u2019s if we relied totally on the software, which would be against our current policy \u2026 If we were just to use the technology by itself, to identify someone, I would say 96 percent of the time it would misidentify.\"",
+                    "Critics say police rely too heavily on the technology, particularly since research has shown it misidentifies women and people of color more often than white men."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Bias",
+                "confidence": "potential",
+                "snippets": [
+                    "The software\u2019s accuracy is heavily dependent on image quality: Blurry, grainy or dark photos often lead to poor results. But even the algorithms used in a facial recognition search can offer a wide range of effectiveness: Several of those tested in a 2019 federal study were up to 100 times more likely to misidentify the face of a Black or Asian person, compared with a White person."
+                ],
+                "comment": "Minorities under-represented in the learning dataset",
+                "report_index": 2
+            },
+            {
+                "label": "Covariate Shift",
+                "confidence": "potential",
+                "snippets": [
+                    "The software\u2019s accuracy is heavily dependent on image quality: Blurry, grainy or dark photos often lead to poor results. But even the algorithms used in a facial recognition search can offer a wide range of effectiveness: Several of those tested in a 2019 federal study were up to 100 times more likely to misidentify the face of a Black or Asian person, compared with a White person."
+                ],
+                "comment": "If low-quality data only mostly present during deployment.",
+                "report_index": 2
+            }
+        ]
+    },
     "252": {
         "task": [
             {
@@ -445,7 +1220,7 @@
                 "report_index": 2
             },
             {
-                "label": "Learning Dataset Noise",
+                "label": "Data or Labelling Noise",
                 "confidence": "potential",
                 "snippets": [
                     "Instead, Cook thinks the origin could lie in a language bias of the data filtering process. \u201cOne thing that did occur to me while reading around is that a lot of these datasets strip out text that isn\u2019t English,\u201d he said. Image captions that include Hindi, for example, might be getting removed, leaving images with no supporting, explanatory text or labels floating free in the primordial AI soup, he explained."

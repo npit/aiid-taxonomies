@@ -27,6 +27,10 @@
           "description": "A class of neural networks used for data generation, employing generator and discriminator components to produce synthetic data with high fidelity."
         },
         {
+          "name": "Siamese Network",
+          "description": "A neural network that uses shared weights on dual inputs, to produce output representations that optimize a distance / similarity relation."
+        },
+        {
           "name": "Autoencoder",
           "description": "A neural network trained to optimize low-dimensional representation bottlenecks with input recostruction objectives.",
           "issues": "This also can be nested under unsupervised learning"
@@ -142,11 +146,17 @@
       "name": "Sequential Analysis",
       "description": "The task of producing predictions based on a history of multiple data points",
           "issue": "Most likely deprecate"
-    }
+    },
     {
       "name": "Acoustic Fingerprint",
       "description": "The generation of short summaries from audio signals for rapid retrieval and recognition."
 
+    },
+    {
+      "name": "Satellite Imaging",
+      "description": "The use of imaging satellites for earth observation image data acquisition."
+
     }
+
   ]
 }
