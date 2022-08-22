@@ -1,6 +1,6 @@
 {
   "name": "System Tasks",
-  "description": "A taxonomy of high-level, domain-facing tasks and use cases that an AI / Machine system may perform during its operation",
+  "description": "A taxonomy of high-level, domain-facing tasks and use cases that an AI / Machine system may tackle during its operation",
   "children": [
     {
       "name": "Processing",
@@ -71,6 +71,11 @@
         {
           "name": "Image Cropping",
           "description": "The selection of an image subset that contains the most salient content."
+        },
+        {
+          "name": "Face Recognition",
+          "description": "The task of matching a human face from a set of reference candidates to a specific instance.",
+          "issues": "Horrible definition, refactor. Could also be nested under retrieval."
         }
       ]
 

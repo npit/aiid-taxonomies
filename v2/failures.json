@@ -7,6 +7,11 @@
     "description": "Data sampling is misconfigured, in terms of resolution, selection, biases,  etc."
   },
   {
+    "name": "Limited Dataset",
+    "description": "Training dataset size and/or distribution is limited, impacting generalization.",
+    "issue": "This label was added later; many incidents annotated with 'distributional bias', 'underfitting', 'Concept Drift' / 'Covariate Shift' may this label as well."
+  },
+  {
     "name": "Learning Dataset Noise",
     "description": "The learning dataset the system is built with contains significant amounts of noise, errors and critical outliers that impact performance."
   },
@@ -36,7 +41,8 @@
   },
   {
     "name": "Learning Dataset Imbalance",
-    "description": "An AI system is set to learn from a collection of data that does not provide enough instances for all desired predictions (e.g. classes)."
+    "description": "An AI system is set to learn from a collection of data that does not provide enough instances for all desired predictions (e.g. classes).",
+    "issues": "Rename to 'imbalanced dataset' for brevity"
   },
   {
     "name": "Poor Generalization",
@@ -85,7 +91,7 @@
       },
       {
         "name": "Misaligned Objective",
-        "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective."
+        "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective and/or a bad proxy being used instead."
       },
       {
         "name": "Unsafe Exposure or Access",
@@ -93,12 +99,12 @@
       },
       {
         "name": "Incomplete Data Attribute Capture",
-        "description": "Information extraction from real-world instances omit attributes that are important to representing the instance and solving the learning problem effectively."
+        "description": "Information extraction from real-world instances omit attributes that are important and/or use attributes that are obviously incomplete, towards faithfully and holistically representing the instance in order to solve the learning problem effectively."
       },
       {
         "name": "Ignored Expected Externalities",
-        "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers and/or owners",
-        "issues": "Perhaps we need a 'non-technical' classification for incidents where the AI system works pretty much as intended"
+        "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers, owners or users of the system",
+        "issues": "Perhaps we need a 'non-technical' or 'design-oriented' classification for incidents where the AI system works pretty much as intended"
       },
       {
         "name": "Information Hazard",

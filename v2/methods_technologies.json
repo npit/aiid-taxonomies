@@ -36,7 +36,8 @@
     },
     {
       "name": "Geolocation",
-      "description": "Estimation of the geographic position of objects of interest."
+      "description": "Estimation of the geographic position of objects of interest.",
+      "issues": "Is this technical enough? Compare/contrast it to 'clustering'."
     },
     {
       "name": "Image Segmentation",
