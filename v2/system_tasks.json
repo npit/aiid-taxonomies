@@ -6,7 +6,6 @@
       "name": "Processing",
       "description": "Computation that does not involve the usage of AI and ML.",
       "issues": "Too generic for a task."
-
     },
     {
       "name": "Automatic Stock Trading",
@@ -45,10 +44,9 @@
       ]
     },
     {
-      "name": "Natural Language Processing / Understanding",
+      "name": "Natural Language Processing / Understanding Tasks",
       "description": "The task of intelligent processing, reasoning and manipulation of text",
-      "children":
-      [
+      "children": [
         {
           "name": "Machine Translation",
           "description": "Automatic translation of text from a source to a target language."
@@ -64,10 +62,9 @@
       ]
     },
     {
-      "name": "Computer Vision",
+      "name": "Computer Vision Tasks",
       "description": "Tasks operating on visual modalities",
-      "children":
-      [
+      "children": [
         {
           "name": "Image Cropping",
           "description": "The selection of an image subset that contains the most salient content."
@@ -75,7 +72,6 @@
         {
           "name": "Image Tagging",
           "description": "The task of attaching semantic label to an image based on its content.."
-
         },
         {
           "name": "Face Recognition",
@@ -83,16 +79,10 @@
           "issues": "Horrible definition, refactor. Could also be nested under retrieval."
         }
       ]
-
     },
     {
       "name": "Risk Assessment",
-          "description": "The task of producing risk estimates for a target usecase and domain."
-    }
-    ,
-    {
-      "name": "Autonomous Driving", 
-      "description": "The task of autonomously operating a vehicle."
+      "description": "The task of producing risk estimates for a target usecase and domain."
     },
     {
       "name": "Automatic Skill Assessment",
@@ -103,76 +93,74 @@
       "name": "Synthetic Content Generation",
       "description": "Tasks that generate high-quality content via automatic means",
       "children": [
-    {
-      "name": "Text Generation", 
-      "description": "The automatic generation of text data from a seed prompt.",
-      "issues": "Embed under generic 'generation' if it exists for other modalities"
+        {
+          "name": "Text Generation",
+          "description": "The automatic generation of text data from a seed prompt.",
+          "issues": "Embed under generic 'generation' if it exists for other modalities"
+        },
+        {
+          "name": "Text to Image Generation",
+          "description": "The automatic generation of images from descriptive textual prompts."
+        },
+        {
+          "name": "Deepfake Video Generation",
+          "description": "The automatic generation of videos that imitate the face, voice and mannerisms of individuals."
+        }
+      ]
     },
     {
-
-      "name": "Text to Image Generation", 
-      "description": "The automatic generation of images from descriptive textual prompts."
-    },
-    {
-      "name": "Deepfake Video Generation", 
-      "description": "The automatic generation of videos that imitate the face, voice and mannerisms of individuals."
-    }
-    ]
-    },
-    {
-      "name": "AI Voice Assistant", 
+      "name": "AI Voice Assistant",
       "description": "The usage of AI for automated voice assistance functionality."
     },
     {
       "name": "Automated Content Curation",
       "description": "Tasks that estimate how suitable / appropriate content is for the target domain, audience or context",
-      "children":[
-      {
-        "name": "Hate Speech Detection", 
-        "description": "The detection of hateful language (e.g. chauvinism / discrimination against race, religion, gender, etc.) in text."
-      },
-      {
-        "name": "NSFW Content Detection",
-        "description": "The task of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
-      }
-
+      "children": [
+        {
+          "name": "Hate Speech Detection",
+          "description": "The detection of hateful language (e.g. chauvinism / discrimination against race, religion, gender, etc.) in text."
+        },
+        {
+          "name": "Content Moderation and Filtering",
+          "description": "Tasks that detect / filter data based on content appropriateness to rules and guidelines of a given domain",
+          "children": [
+            {
+              "name": "NSFW Content Detection",
+              "description": "The task of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
+            }
+          ]
+        }
       ]
     },
     {
-      "name": "Scheduling", 
+      "name": "Scheduling",
       "description": "The task of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints"
-
     },
     {
-      "name": "Market Forecasting", 
+      "name": "Market Forecasting",
       "description": "The class of tasks that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)"
-
     },
     {
-      "name": "Data Grouping", 
+      "name": "Data Grouping",
       "description": "The task of building groups of semantically contiguous elements."
     },
     {
-      "name": "Robotics",
+      "name": "Robotics and Autonomous Systems",
       "description": "Tasks involving robotic actuators and/or autonomous robots",
       "children": [
-      {
-        "name": "Robotic Manipulation", 
-        "description": "The task of manipulating physical objects via robotic actuators (e.g. arms, industrial robots, etc.)"
-      },
-      {
-        "name": "Autonomous Drones", 
-        "description": "Tasks involving autonomous drone robots (e.g. such as Boston Dynamics robots)"
-      }
+        {
+          "name": "Robotic Manipulation",
+          "description": "The task of manipulating physical objects via robotic actuators (e.g. arms, industrial robots, etc.)"
+        },
+        {
+          "name": "Autonomous Drones",
+          "description": "Tasks involving autonomous drone robots (e.g. such as Boston Dynamics robots)"
+        },
+        {
+          "name": "Autonomous Driving",
+          "description": "The task of autonomously operating a vehicle in conventional traffic."
+        }
       ]
     }
-    ,
-    {
-        "name": "Black Swan Event", 
-        "description": "Incident is a result from highly improbable circumstances occuring.",
-        "issues": "Label added late and quite generic; needs another incident pass"
-    }
-
-
   ]
 }

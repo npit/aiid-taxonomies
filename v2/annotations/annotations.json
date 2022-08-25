@@ -1,4 +1,77 @@
 {
+    "133": {
+        "task": [
+            {
+                "label": "Content Moderation and Filtering",
+                "confidence": "known",
+                "snippets": [
+                    "Myself, alongside many other creators, especially BIPOC, LGBTQPIA+, and those living with disabilities, are being targeted by trolls who are intentionally falsely reporting our content with the goal to delete our videos from the app."
+                ],
+                "comment": "If a content analysis component in moderation exists",
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Object Detection",
+                "confidence": "potential",
+                "snippets": [
+                    "Myself, alongside many other creators, especially BIPOC, LGBTQPIA+, and those living with disabilities, are being targeted by trolls who are intentionally falsely reporting our content with the goal to delete our videos from the app."
+                ],
+                "comment": "If a content analysis component in moderation exists",
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Lack of Transparency",
+                "confidence": "potential",
+                "snippets": [
+                    "There is little transparency on why TikTok removes or does not remove content. They also do not give reasons on why an appeal was denied."
+                ],
+                "comment": "Potential, since internally more information may be available but undisclosed.",
+                "report_index": 1
+            },
+            {
+                "label": "Misconfigured Threshold",
+                "confidence": "potential",
+                "snippets": [
+                    "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Misconfigured Aggregation",
+                "confidence": "potential",
+                "snippets": [
+                    "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "potential",
+                "snippets": [
+                    "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again.",
+                    "After my appeal was denied, I went live on my new TikTok account, one of the trolls entered the live and reported me. I was banned from livestreaming for 24hours for \u201cserious pornography.\u201d I was wearing a tanktop."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Conceptual Data Handling",
+                "confidence": "potential",
+                "snippets": [
+                    "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again.",
+                    "After my appeal was denied, I went live on my new TikTok account, one of the trolls entered the live and reported me. I was banned from livestreaming for 24hours for \u201cserious pornography.\u201d I was wearing a tanktop."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
     "34": {
         "task": [
             {

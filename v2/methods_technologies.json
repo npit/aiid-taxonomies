@@ -2,6 +2,7 @@
   "name": "Methods and Technologies",
   "description": "A taxonomy of methods and technologies that may be used to implement AI / ML system tasks and use cases",
   "children": [
+
     {
       "name": "Acoustic Triangulation",
       "description": "A process that determines the distance and/or orientation of an audio signal using multiple sensors placed at different locations."
@@ -39,14 +40,10 @@
       ]
     },
     {
-      "name": "Character NGrams",
-      "description": "The approach of using character-level ngrams to build text representations"
-    },
-    {
-      "name": "Geolocation",
-      "description": "Estimation of the geographic position of objects of interest.",
-      "issues": "Is this technical enough? Compare/contrast it to 'clustering'."
-    },
+      "name": "Computer Vision Methods and Technologies",
+      "description": "Methods and technologies used under the computer vision domain.",
+      "children":[
+
     {
       "name": "Image Segmentation",
       "description": "The approach of partitioning an image to semantically contiguous regions"
@@ -60,6 +57,50 @@
           "description": "The detection of human faces in visual content."
     },
     {
+      "name": "Optical Character Recognition",
+      "description": "The use of image processing and computer vision techniques in order to extract text from images, document pdfs and other visual media."
+    },
+
+    {
+      "name": "Satellite Imaging",
+      "description": "The use of imaging satellites for earth observation image data acquisition."
+
+    }
+
+      ]
+
+    },
+    {
+
+      "name": "Natural Language Processing Methods and Technologies",
+      "description": "Methods and technologies commonly utilized for text analysis",
+      "children":[
+
+    {
+      "name": "Character NGrams",
+      "description": "The approach of using character-level ngrams to build text representations"
+    },
+    {
+      "name": "Language Modeling",
+      "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context.",
+      "issues": "Add hierarchy with distributional learning."
+    },
+
+          {
+        "name": "Keyword Filtering",
+        "description": "Methods of statically restricting keywords from participating in input / output sets of a task."
+
+    }
+
+      ]
+
+    },
+    {
+      "name": "Audio Analysis Methods and Technologies",
+      "description": "Methods and technologies utilized in audio analysis systems",
+      "children":[
+
+    {
       "name": "Automatic Speech Recognition",
       "description": "The process of automatically transcribing human speech from audio."
     },
@@ -69,42 +110,62 @@
       "description": "The approach of identifying separate speakers from conversations in input audio.",
       "issues": "Could be a task"
     },
+
     {
-      "name": "Distributional Learning",
-      "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+      "name": "Acoustic Fingerprint",
+      "description": "The generation of short summaries from audio signals for rapid retrieval and recognition."
+
+    }
+
+      ]
+
+
     },
     {
-      "name": "Language Modeling",
-      "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context.",
-      "issues": "Add hierarchy with distributional learning."
+      "name": "Machine Learning Methods",
+      "description": "Broad methods and techniques used for ML model building",
+      "children":
+      [
+
+    {
+      "name": "Ensemble Aggregation",
+      "description": "Approaches where outputs of multiple (distinct and individual) learners are collectively considered (e.g. via aggregation, fusion, voting, pooling ,etc.) to produce a final prediction."
     },
     {
       "name": "Intermmediate modeling",
       "description": "The approach where a learning system cannot directly use data X to obtain the target solution Y due to existing limitations. Instead, the system works around it by solving distinct related tasks such that a path to Y is reached, e.g.  X-> A ->  [...] B -> Y ."
     },
     {
+      "name": "Distributional Learning",
+      "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+    },
+    {
       "name": "Multimodal Learning",
       "description": "The paradigm where multiple data modalities (e.g. text, audio, images) are utilized for learning and problem-solving."
+    }
+
+      ]
+
     },
     {
-      "name": "Ensemble Aggregation",
-      "description": "Approaches where outputs of multiple (distinct and individual) learners are collectively considered (e.g. via aggregation, fusion, voting, pooling ,etc.) to produce a final prediction."
-    },
+      "name": "Other domain-specific methods",
+      "description": "Popular methods mostly relevant to specific domains",
+      "children": [
+
     {
-      "name": "Collaborative Filtering",
-      "description": "Methods where user representations are built from attributes, history, activity, etc. and utilized for producing recommendations based on preferences of similar users."
-    },
-    {
-      "name": "Content-based Filtering",
-      "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
-    },
-    {
-      "name": "Optical Character Recognition",
-      "description": "The use of image processing and computer vision techniques in order to extract text from images, document pdfs and other visual media."
+      "name": "Geolocation",
+      "description": "Estimation of the geographic position of objects of interest.",
+      "issues": "Is this technical enough? Compare/contrast it to 'clustering'."
     },
     {
       "name": "Conceptual Data Handling",
-      "description": "The use of conceptual / categorical data as learning inputs, rather than numeric or primitive (e.g. image, audio, text, etc.)."
+      "description": "The use of conceptual / categorical data as learning inputs, rather than numeric or primitive (e.g. image, audio, text, etc.).",
+      "issues": "A better label is something to emphasize the diversity / unevenness of the data"
+    }
+
+      ]
+
+
     },
     {
       "name": "Unsupervised Learning",
@@ -119,13 +180,17 @@
           "name": "Generation",
           "description": "The task of generating data from existing background knowledge, context and/or prompts.",
           "issue": "Deprecate; tasks such as 'text generation' exist"
-        }
-      ]
+        },
+    {
+      "name": "Collaborative Filtering",
+      "description": "Methods where user representations are built from attributes, history, activity, etc. and utilized for producing recommendations based on preferences of similar users."
     },
     {
-      "name": "Keyword Filtering",
-      "description": "Methods of statically restricting keywords from participating in input / output sets of a task."
+      "name": "Content-based Filtering",
+      "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
+    }
 
+      ]
     },
     {
       "name": "Supervised Learning",
@@ -145,18 +210,7 @@
     {
       "name": "Sequential Analysis",
       "description": "The task of producing predictions based on a history of multiple data points",
-          "issue": "Most likely deprecate"
-    },
-    {
-      "name": "Acoustic Fingerprint",
-      "description": "The generation of short summaries from audio signals for rapid retrieval and recognition."
-
-    },
-    {
-      "name": "Satellite Imaging",
-      "description": "The use of imaging satellites for earth observation image data acquisition."
-
+      "issue": "Most likely deprecate"
     }
-
   ]
 }
