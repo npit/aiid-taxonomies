@@ -26,6 +26,15 @@
         {
           "name": "Audio Localization",
           "description": "The task of determining the source location of audio signals."
+        },
+        {
+          "name": "Substance Detection",
+          "description": "Tasks related to detecting chemical substances with the use of specialized sensors."
+        },
+        {
+          "name": "License Plate Recognition",
+          "description": "The task of automatically reading cat license plates."
+
         }
       ]
     },
@@ -108,10 +117,13 @@
         }
       ]
     },
+
     {
       "name": "AI Voice Assistant",
-      "description": "The usage of AI for automated voice assistance functionality."
+      "description": "The usage of AI for automated voice assistance functionality.",
+      "issues": "Consider nesting this under a new 'Home Automation' task"
     },
+
     {
       "name": "Automated Content Curation",
       "description": "Tasks that estimate how suitable / appropriate content is for the target domain, audience or context",

@@ -1,4 +1,272 @@
 {
+    "171": {
+        "task": [
+            {
+                "label": "License Plate Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "This is one of the reasons the world is working so hard on robotaxis, and why traffic enforcement in large cities has moved to license-plate reading traffic cameras. In both cases, accuracy and reliability seem to be the biggest problems."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Visual Object Detection",
+                "confidence": "known",
+                "snippets": [
+                    "This is one of the reasons the world is working so hard on robotaxis, and why traffic enforcement in large cities has moved to license-plate reading traffic cameras. In both cases, accuracy and reliability seem to be the biggest problems."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Optical Character Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "This is one of the reasons the world is working so hard on robotaxis, and why traffic enforcement in large cities has moved to license-plate reading traffic cameras. In both cases, accuracy and reliability seem to be the biggest problems."
+                ],
+                "comment": "The algorithm\u2019s detection score on the obscured text and match score to the car plate presumably was deemed good enough.",
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Context Misidentification",
+                "confidence": "potential",
+                "snippets": [
+                    "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
+                    "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Misconfigured Threshold",
+                "confidence": "potential",
+                "snippets": [
+                    "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
+                    "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
+                ],
+                "comment": "The algorithm\u2019s detection score on the obscured text and match score to the car plate presumably was deemed good enough.",
+                "report_index": 1
+            },
+            {
+                "label": "Misconfigured Aggregation",
+                "confidence": "potential",
+                "snippets": [
+                    "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
+                    "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
+                ],
+                "comment": "Potentially, an object detector detects plates; if that generated a low score but is not very highly weighted, this could lead to the failure.",
+                "report_index": NaN
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
+                    "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
+    "287": {
+        "task": [
+            {
+                "label": "Question Answering",
+                "confidence": "known",
+                "snippets": [
+                    "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Transformer",
+                "confidence": "known",
+                "snippets": [
+                    "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Language Modeling",
+                "confidence": "known",
+                "snippets": [
+                    "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Learning",
+                "confidence": "known",
+                "snippets": [
+                    "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
+                ],
+                "comment": "If no training data citing sources is available and/or not enough data from a medical domain were available.",
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Limited Dataset",
+                "confidence": "potential",
+                "snippets": [
+                    "One serious concern is that GPT-3 very often gives wrong yet grammatically correct answers, with no scientific reference that a physician could check. ",
+                    "If the first diagnosis example below GPT-3 ignores the fever of the little girl that suggests ethmoiditis and mentions a \u201crash\u201d that does not exist."
+                ],
+                "comment": "If no training data citing sources is available and/or not enough data from a medical domain were available.",
+                "report_index": 1
+            },
+            {
+                "label": "Problematic Input",
+                "confidence": "potential",
+                "snippets": [
+                    "One serious concern is that GPT-3 very often gives wrong yet grammatically correct answers, with no scientific reference that a physician could check. "
+                ],
+                "comment": "If the prompt does not state that references are required.",
+                "report_index": 1
+            },
+            {
+                "label": "Distributional Hallucination",
+                "confidence": "known",
+                "snippets": [
+                    "If the first diagnosis example below GPT-3 ignores the fever of the little girl that suggests ethmoiditis and mentions a \u201crash\u201d that does not exist.",
+                    "\u201cBecause of the way it was trained, it lacks the scientific and medical expertise that would make it useful for medical documentation, diagnosis support, treatment recommendation or any medical Q&A,\u201d the Nabla team noted in a report on its research efforts. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Robustness Failure",
+                "confidence": "potential",
+                "snippets": [
+                    "As others have observed, the quality of GPT-3 outputs is much impacted by the seed words used - the same question formulated in two different ways can result in very different answers."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Overfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "As others have observed, the quality of GPT-3 outputs is much impacted by the seed words used - the same question formulated in two different ways can result in very different answers.",
+                    "Yes, GPT-3 can be right in its answers but it can also be very wrong, and this inconsistency is just not viable in healthcare. "
+                ],
+                "comment": "System does not capture the semantic content of the prompt, but focuses on specific verbage.",
+                "report_index": 1
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "Yet GPT-3\u2019s general nature is also its downfall; it cannot master any particular domain. "
+                ],
+                "comment": "Due to lack of fine-tuning, the model can be considered as having a poor fit for specific medical questions.",
+                "report_index": 1
+            },
+            {
+                "label": "Inadequate Sequential Memory",
+                "confidence": "potential",
+                "snippets": [
+                    "One serious concern is that GPT-3 very often gives wrong yet grammatically correct answers, with no scientific reference that a physician could check. ",
+                    "After a few turns of dialogue during a mock session, for example, GPT-3 forgot the specific times a patient said they were unavailable, and it instead suggested those times as appointment slots."
+                ],
+                "comment": NaN,
+                "report_index": 2
+            }
+        ]
+    },
+    "46": {
+        "task": [
+            {
+                "label": "Substance Detection",
+                "confidence": "known",
+                "snippets": [
+                    "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "technology": [
+            {
+                "label": "Regression",
+                "confidence": "potential",
+                "snippets": [
+                    "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Gesture Recognition",
+                "confidence": "known",
+                "snippets": [
+                    "It\u2019s pretty easy to silence a false alarm, but the chirp because of a failed device cannot be silenced and it happened right before bed."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            }
+        ],
+        "failure": [
+            {
+                "label": "Hardware Failure",
+                "confidence": "potential",
+                "snippets": [
+                    "Several users have echoed a similar experience on a Nest Community support thread reporting cases where the Nest Protect hardware had to be replaced to resolve the issue with startling false alarms. "
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Limited User Access",
+                "confidence": "potential",
+                "snippets": [
+                    "It\u2019s pretty easy to silence a false alarm, but the chirp because of a failed device cannot be silenced and it happened right before bed."
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Unsafe Exposure or Access",
+                "confidence": "known",
+                "snippets": [
+                    "he company discovered a bug in its algorithm for the Nest Wave gesture, a convenience feature designed to let people disable their alarms by waving their hand. "
+                ],
+                "comment": "No context established for when the wave is directed to the device.",
+                "report_index": 3
+            },
+            {
+                "label": "Underfitting",
+                "confidence": "potential",
+                "snippets": [
+                    "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026",
+                    "Nest Labs\u2013a startup recently bought by Google which brings high style and web smarts to mundane household devices\u2013is recalling Nest Protect, a smoke and carbon monoxide detector, over concerns that its alarm might fail to go off in emergency situations."
+                ],
+                "comment": "We have both false positives and false negatives here.",
+                "report_index": 4
+            },
+            {
+                "label": "Poor Generalization",
+                "confidence": "potential",
+                "snippets": [
+                    "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026",
+                    "Nest Labs\u2013a startup recently bought by Google which brings high style and web smarts to mundane household devices\u2013is recalling Nest Protect, a smoke and carbon monoxide detector, over concerns that its alarm might fail to go off in emergency situations."
+                ],
+                "comment": NaN,
+                "report_index": NaN
+            }
+        ]
+    },
     "133": {
         "task": [
             {

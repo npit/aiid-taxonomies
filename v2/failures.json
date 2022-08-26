@@ -35,6 +35,11 @@
         {
           "name": "Unauthorized Data Access",
           "description": "The system was built and/or uses data without proper authorization / consent."
+        },
+        {
+          "name": "Problematic Input",
+          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous input, leading to unexpected / erroneous outputs.",
+          "issues": "Rename"
         }
 
       ]
@@ -63,10 +68,23 @@
           "name": "Distributional Bias",
           "description": "A trained model reflects biases that exist in its training data that are not representative to the real world or convey meaning that is context-specific and not generally applicable."
         },
+
+        {
+          "name": "Distributional Hallucination",
+          "description": "The model provides outputs that reflect its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be infered.",
+          "issues": "rename"
+        },
       {
         "name": "Context Misidentification",
         "description": "Cases where the learner fails to detect the correct context and produces erroneous predictions as a result."
+      },
+      {
+        "name": "Inadequate Sequential Memory",
+        "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps."
+
       }
+
+
 
       ]
     },
@@ -117,6 +135,14 @@
         {
           "name": "Sensitive Information Leak",
           "description": "The system utilizes sensitive information, but this information is being accidentally exposed during its deployment and/or distribution."
+        },
+        {
+          "name": "Faulty Interface or Instructions",
+          "description": "The usage means of the system (e.g. user interface, instructions, etc.) is problematic, leading to failures."
+        },
+        {
+          "name": "Limited User Access",
+          "description": "The system restricts user access / tampering excessively and/or in a way that leads to failure."
         }
 
       ]
@@ -138,7 +164,7 @@
     },
     {
       "name": "Robustness Failure",
-      "description": "System failure arises due to unexpected edge cases.",
+      "description": "System failure arises due to unexpected edge cases or system sensitivity to small differences in their inputs.",
       "children": [
         {
           "name": "Hardware Failure",
