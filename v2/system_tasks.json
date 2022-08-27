@@ -1,15 +1,20 @@
 {
   "name": "System Tasks",
   "description": "A taxonomy of high-level, domain-facing tasks and use cases that an AI / Machine system may tackle during its operation",
+  "issue": "Tidy up structure, it's a mess.",
+
   "children": [
     {
-      "name": "Processing",
+      "name": "Processing Tasks",
       "description": "Computation that does not involve the usage of AI and ML.",
-      "issues": "Too generic for a task."
-    },
-    {
-      "name": "Copyrighted Content Detection",
-      "description": "The task of detecting / identifying the presence of copyrighted content elements in input data."
+      "issues": "Too generic for a task.",
+      "children":[
+          {
+            "name": "Financial Processing",
+            "description": "Tasks geared towards the estimation of financial quantities."
+
+          }
+      ]
     },
     {
       "name": "Automatic Stock Trading",
@@ -53,14 +58,7 @@
         },
         {
           "name": "Search",
-          "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query.",
-          "children":[
-            {
-              "name": "Near-duplicate search",
-              "description": "The task of obtaining almost identical elements to an input query"
-            }
-
-          ]
+          "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query."
         }
       ]
     },
@@ -79,7 +77,13 @@
         {
           "name": "Chatbot",
           "description": "The task of an NLP / AI engaging in conversation."
+        },
+        {
+          "name": "AI Voice Assistant",
+          "description": "The usage of AI for automated voice assistance functionality.",
+          "issues": "Consider nesting this under a new 'Home Automation' task"
         }
+
       ]
     },
     {
@@ -98,6 +102,11 @@
           "name": "Face Recognition",
           "description": "The task of matching a human face from a set of reference candidates to a specific instance.",
           "issues": "Horrible definition, refactor. Could also be nested under retrieval."
+        },
+        {
+          "name": "Earth Observation",
+          "description": "Tasks dealing with visual inspection of the earth via satellite imaging."
+
         }
       ]
     },
@@ -135,9 +144,9 @@
     },
 
     {
-      "name": "AI Voice Assistant",
-      "description": "The usage of AI for automated voice assistance functionality.",
-      "issues": "Consider nesting this under a new 'Home Automation' task"
+      "name": "Smart Devices",
+      "description": "Tasks that include usage of interconnected AI devices for 'smart' living."
+
     },
 
     {
@@ -149,15 +158,14 @@
           "description": "The detection of hateful language (e.g. chauvinism / discrimination against race, religion, gender, etc.) in text."
         },
         {
-          "name": "Content Moderation and Filtering",
-          "description": "Tasks that detect / filter data based on content appropriateness to rules and guidelines of a given domain",
-          "children": [
-            {
-              "name": "NSFW Content Detection",
-              "description": "The task of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
-            }
-          ]
+          "name": "NSFW Content Detection",
+          "description": "The task of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
+        },
+        {
+          "name": "Copyrighted Content Detection",
+          "description": "The task of detecting / identifying the presence of copyrighted content elements in input data."
         }
+        
       ]
     },
     {

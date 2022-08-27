@@ -33,6 +33,7 @@ def add_classification(incident_id, row, snippet_value, task, confidence, key):
         annotations[incident_id] = defaultdict(list)
     annotations[incident_id][key].append(annot)
 
+
 for k, df in x.items():
     if any(v in k for v in "TEMPLATE Definitions".split()):
         continue
@@ -69,6 +70,12 @@ for k, df in x.items():
         add_classification(incident_id, row, row.tech_snippet, row.technologies_potential, "potential", 'technology')
         add_classification(incident_id, row, row.failures_snippet, row.failures_known, 'known', 'failure')
         add_classification(incident_id, row, row.failures_snippet, row.failures_potential, "potential", 'failure')
+    issues = df["Issues"].dropna().values.tolist()
+    annotations[incident_id]['issues'] = issues
+    if issues:
+        for issue in issues:
+            print("Issue:", issue)
+
 
 print(f"Writing {len(annotations)} annotations.")
 with open("annotations.json", 'w') as f:

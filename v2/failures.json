@@ -33,13 +33,12 @@
           "issues": "Rename to 'imbalanced dataset' for brevity"
         },
         {
-          "name": "Unauthorized Data Access",
-          "description": "The system was built and/or uses data without proper authorization, consent or licensing permissions.",
-          "name": "Rename to 'unauthorized data' to capture both access, use, outputting, etc."
+          "name": "Unauthorized Data",
+          "description": "The system was built and/or uses data without proper authorization, consent or licensing permissions."
         },
         {
           "name": "Problematic Input",
-          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous input, leading to unexpected / erroneous outputs.",
+          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs.",
           "issues": "Rename"
         }
 
@@ -78,14 +77,7 @@
       {
         "name": "Context Misidentification",
         "description": "Cases where the learner fails to detect the correct context and produces erroneous predictions as a result."
-      },
-      {
-        "name": "Inadequate Sequential Memory",
-        "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps."
-
       }
-
-
 
       ]
     },
@@ -109,7 +101,7 @@
       "children": [
         {
           "name": "Lack of Capability Control",
-          "description": "The system is allowed to act in the real world with a impact / capability levels far beyond what its requires."
+          "description": "The system is allowed to act in the real world with a impact / capability levels far beyond what its task reasonably requires."
         },
         {
           "name": "Misaligned Objective",
@@ -144,13 +136,12 @@
         },
         {
           "name": "Faulty Interface or Instructions",
-          "description": "The usage means of the system (e.g. user interface, instructions, etc.) is problematic, leading to failures."
+          "description": "The usage means of the system (e.g. user interface, instructions, physical controls etc.) is problematic, leading to failures."
         },
         {
           "name": "Limited User Access",
           "description": "The system restricts user access / tampering excessively and/or in a way that leads to failure."
         }
-
       ]
     },
     {
@@ -170,12 +161,17 @@
     },
     {
       "name": "Robustness Failure",
-      "description": "System failure arises due to unexpected edge cases or system sensitivity to small differences in their inputs.",
+      "description": "System failure arises due to the model being poorly equipped / sensitive to handling subsets of cases (e.g. different, unexpected, edge cases).",
       "children": [
         {
           "name": "Hardware Failure",
           "description": "Scenarios where the material system component failures contribute to the emergence of the incident."
         },
+      {
+        "name": "Inadequate Sequential Memory",
+        "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps, leading to failures over dealing with longer data sequences."
+
+      },
         {
           "name": "Lack of Adversarial Robustness",
           "description": "The scenario where a model is sensitive to small changes to input data causing large, undesirable changes in its output."

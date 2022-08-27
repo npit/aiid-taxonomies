@@ -3,10 +3,6 @@
   "description": "A taxonomy of methods and technologies that may be used to implement AI / ML system tasks and use cases",
   "children": [
     {
-      "name": "Acoustic Triangulation",
-      "description": "A process that determines the distance and/or orientation of an audio signal using multiple sensors placed at different locations."
-    },
-    {
       "name": "Neural Network",
       "description": "A learning model composed of artificial neurons organized into nonlinear computational circuits",
       "children": [
@@ -64,6 +60,10 @@
         {
           "name": "Satellite Imaging",
           "description": "The use of imaging satellites for earth observation image data acquisition."
+        },
+        {
+          "name": "Image Classification",
+          "description": "The use of image representation and classification techniques to detect concepts in images."
         }
       ]
     },
@@ -106,6 +106,10 @@
         {
           "name": "Spectrogram",
           "description": "The use of spectrogram features for audio representation."
+        },
+        {
+          "name": "Acoustic Triangulation",
+          "description": "A process that determines the distance and/or orientation of an audio signal using multiple sensors placed at different locations."
         }
       ]
     },
@@ -122,12 +126,44 @@
           "description": "The approach where a learning system cannot directly use data X to obtain the target solution Y due to existing limitations. Instead, the system works around it by solving distinct related tasks such that a path to Y is reached, e.g.  X-> A ->  [...] B -> Y ."
         },
         {
-          "name": "Distributional Learning",
-          "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
-        },
-        {
           "name": "Multimodal Learning",
           "description": "The paradigm where multiple data modalities (e.g. text, audio, images) are utilized for learning and problem-solving."
+        },
+        {
+          "name": "Unsupervised Learning",
+          "description": "The approach of modeling data patterns and structure without usage of ground truth.",
+          "children": [
+            {
+              "name": "Clustering",
+              "description": "The unsupervised task of grouping data instances into groups with high internal similarity and low similarity across different groups."
+            },
+            {
+              "name": "Collaborative Filtering",
+              "description": "Methods where user representations are built from attributes, history, activity, etc. and utilized for producing recommendations based on preferences of similar users."
+            },
+            {
+              "name": "Content-based Filtering",
+              "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
+            },
+            {
+              "name": "Distributional Learning",
+              "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+            }
+          ]
+        },
+        {
+          "name": "Supervised Learning",
+          "description": "Learning methods facilitating training with ground truth.",
+          "children": [
+            {
+              "name": "Regression",
+              "description": "The task of annotating data with real-valued predictions."
+            },
+            {
+              "name": "Classification",
+              "description": "The task of annotating data to one or more semantic labels from a given labelset."
+            }
+          ]
         }
       ]
     },
@@ -144,45 +180,6 @@
           "name": "Conceptual Data Handling",
           "description": "The use of conceptual / categorical data as learning inputs, rather than numeric or primitive (e.g. image, audio, text, etc.).",
           "issues": "A better label is something to emphasize the diversity / unevenness of the data"
-        }
-      ]
-    },
-    {
-      "name": "Unsupervised Learning",
-      "description": "The approach of modeling data patterns and structure without usage of ground truth.",
-      "issues": "Category probably unhelpful",
-      "children": [
-        {
-          "name": "Clustering",
-          "description": "The unsupervised task of grouping data instances into groups with high internal similarity and low similarity across different groups."
-        },
-        {
-          "name": "Generation",
-          "description": "The task of generating data from existing background knowledge, context and/or prompts.",
-          "issue": "Deprecate; tasks such as 'text generation' exist"
-        },
-        {
-          "name": "Collaborative Filtering",
-          "description": "Methods where user representations are built from attributes, history, activity, etc. and utilized for producing recommendations based on preferences of similar users."
-        },
-        {
-          "name": "Content-based Filtering",
-          "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
-        }
-      ]
-    },
-    {
-      "name": "Supervised Learning",
-      "issues": "Category probably unhelpful",
-      "description": "Learning methods facilitating training with ground truth.",
-      "children": [
-        {
-          "name": "Regression",
-          "description": "The task of annotating data with real-valued predictions."
-        },
-        {
-          "name": "Classification",
-          "description": "The task of annotating data to one or more semantic labels from a given labelset."
         }
       ]
     },

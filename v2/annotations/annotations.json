@@ -42,7 +42,7 @@
         ],
         "failure": [
             {
-                "label": "Distributional Biases",
+                "label": "Distributional Bias",
                 "confidence": "known",
                 "snippets": [
                     "Ask Delphi is no different in this regard, and its training data incorporates some unusual sources, including a series of one-sentence prompts scraped from two subreddits: r/AmITheAsshole and r/Confessions.",
@@ -99,24 +99,14 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "31": {
         "task": [
             {
                 "label": "Autonomous Driving",
                 "confidence": "known",
-                "snippets": [
-                    "New Delhi, Dec 20 (IANS) The Delhi Metro on Wednesday sacked four of its officials, including a Deputy General Manager, for Tuesday's accident in which a metro train rammed through a wall after failure of its brakes."
-                ],
-                "comment": NaN,
-                "report_index": 1
-            }
-        ],
-        "technology": [
-            {
-                "label": "Visual Object Recognition",
-                "confidence": "potential",
                 "snippets": [
                     "New Delhi, Dec 20 (IANS) The Delhi Metro on Wednesday sacked four of its officials, including a Deputy General Manager, for Tuesday's accident in which a metro train rammed through a wall after failure of its brakes."
                 ],
@@ -143,7 +133,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "179": {
         "task": [
@@ -212,7 +203,7 @@
                 "report_index": 1
             },
             {
-                "label": "Unauthoriatazed D",
+                "label": "Unauthorized Data",
                 "confidence": "potential",
                 "snippets": [
                     "The model can generate known entities including trademarked logos and copyrighted characters. "
@@ -229,7 +220,8 @@
                 "comment": "Potential, since the previous report analysis failure modes and providing details was an openai document.",
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "240": {
         "task": [
@@ -239,7 +231,7 @@
                 "snippets": [
                     "GitHub Copilot draws context from the code you\u2019re working on, suggesting whole lines or entire functions."
                 ],
-                "comment": "Perhaps it could be moved to \u2018potential\u2019, since it is contested in the article.",
+                "comment": "Classifying as\u2018potential\u2019, since it is heavily contested in the article.",
                 "report_index": 1
             }
         ],
@@ -250,7 +242,7 @@
                 "snippets": [
                     "OpenAI Codex has broad knowledge of how people use code and is significantly more capable than GPT-3 in code generation, in part, because it was trained on a data set that includes a much larger concentration of public source code. "
                 ],
-                "comment": "Perhaps it could be moved to \u2018potential\u2019, since it is contested in the article.",
+                "comment": "Classifying as\u2018potential\u2019, since it is heavily contested in the article.",
                 "report_index": 1
             },
             {
@@ -265,39 +257,20 @@
         ],
         "failure": [
             {
-                "label": "Unauthorized Data Access",
-                "confidence": "known",
+                "label": "Unauthorized Data",
+                "confidence": "potential",
                 "snippets": [
                     "Having been \u201ctrained on billions of lines of public code,\u201d one of the first questions that has come up regarding Copilot has focused on issues of copyright, specifically pointing to the idea of the viral GPL license, which requires that all derivative works carry that same license.",
                     "On the idea of copyright infringement, Guadamuz first points to a research paper by Alber Ziegler published by GitHub, which looks at situations where Copilot reproduces exact texts, and finds those instances to be exceedingly rare. ",
                     "\u201cIf you look at the GitHub Terms of Service, no matter what license you use, you give GitHub the right to host your code and to use your code to improve their products and features,\u201d Downing says. \u201cSo with respect to code that\u2019s already on GitHub, I think the answer to the question of copyright infringement is fairly straightforward.\u201d"
                 ],
-                "comment": "Perhaps it could be moved to \u2018potential\u2019, since it is contested in the article.",
-                "report_index": 1
-            }
-        ]
-    },
-    "141": {
-        "task": [
-            {
-                "label": "Near-duplicate Search",
-                "confidence": "known",
-                "snippets": [
-                    "We know this because he\u2019s become a viral sensation on Instagram after blasting the 1990\u2019s hit at a citizen in a misguided attempt to get Instagram\u2019s algorithm to take down a live stream due to copyright infringement."
-                ],
-                "comment": NaN,
-                "report_index": 1
-            },
-            {
-                "label": "Copyrighted Content Detection",
-                "confidence": "known",
-                "snippets": [
-                    "We know this because he\u2019s become a viral sensation on Instagram after blasting the 1990\u2019s hit at a citizen in a misguided attempt to get Instagram\u2019s algorithm to take down a live stream due to copyright infringement."
-                ],
-                "comment": "This applies in malicous reporting, not the AI itself.",
+                "comment": "Classifying as\u2018potential\u2019, since it is heavily contested in the article.",
                 "report_index": 1
             }
         ],
+        "issues": []
+    },
+    "141": {
         "technology": [
             {
                 "label": "Acoustic Fingerprint",
@@ -356,7 +329,19 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "task": [
+            {
+                "label": "Copyrighted Content Detection",
+                "confidence": "known",
+                "snippets": [
+                    "We know this because he\u2019s become a viral sensation on Instagram after blasting the 1990\u2019s hit at a citizen in a misguided attempt to get Instagram\u2019s algorithm to take down a live stream due to copyright infringement."
+                ],
+                "comment": "This applies in malicous reporting, not the AI itself.",
+                "report_index": 1
+            }
+        ],
+        "issues": []
     },
     "125": {
         "task": [
@@ -421,7 +406,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "171": {
         "task": [
@@ -496,7 +482,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "287": {
         "task": [
@@ -607,12 +594,22 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "46": {
         "task": [
             {
                 "label": "Substance Detection",
+                "confidence": "known",
+                "snippets": [
+                    "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
+                ],
+                "comment": NaN,
+                "report_index": 1
+            },
+            {
+                "label": "Smart Devices",
                 "confidence": "known",
                 "snippets": [
                     "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
@@ -689,12 +686,15 @@
                 "comment": NaN,
                 "report_index": NaN
             }
+        ],
+        "issues": [
+            "Verify task; reapply to annotated incidents"
         ]
     },
     "133": {
         "task": [
             {
-                "label": "Content Moderation and Filtering",
+                "label": "Automated Content Curation",
                 "confidence": "known",
                 "snippets": [
                     "Myself, alongside many other creators, especially BIPOC, LGBTQPIA+, and those living with disabilities, are being targeted by trolls who are intentionally falsely reporting our content with the goal to delete our videos from the app."
@@ -762,7 +762,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "34": {
         "task": [
@@ -825,7 +826,7 @@
                 "report_index": 12
             },
             {
-                "label": "Unauthorized Data Access",
+                "label": "Unauthorized Data",
                 "confidence": "potential",
                 "snippets": [
                     "The device starts recording whenever it hears the wake word \u201cAlexa,\u201d recording sound for up to 60 seconds each time. (For this reason, authorities have recently tried to gain access to Alexa\u2019s data in a murder investigation.) While that\u2019s helpful, the feature arguably borders on invading privacy and has fanned overall security concerns that surround the rise of internet of things (IoT) devices."
@@ -871,7 +872,8 @@
                 "comment": "Speaker diarization / recognition missing.",
                 "report_index": 27
             }
-        ]
+        ],
+        "issues": []
     },
     "13": {
         "task": [
@@ -997,7 +999,8 @@
                 "comment": NaN,
                 "report_index": 3
             }
-        ]
+        ],
+        "issues": []
     },
     "27": {
         "technology": [
@@ -1059,14 +1062,17 @@
         ],
         "task": [
             {
-                "label": "Visual Object Detection",
+                "label": "Earth Observation",
                 "confidence": "known",
                 "snippets": [
                     "Petrov's responsibilities included observing the satellite early warning network and notifying his superiors of any impending nuclear missile attack against the Soviet Union."
                 ],
                 "comment": NaN,
-                "report_index": 1
+                "report_index": 5
             }
+        ],
+        "issues": [
+            "Decide on how generic a task we want here. E.g. Visual Object Detection, Earth Observation, Defence System, Missle Defence System."
         ]
     },
     "16": {
@@ -1139,7 +1145,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "111": {
         "task": [
@@ -1242,7 +1249,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "36": {
         "task": [
@@ -1304,7 +1312,8 @@
                 "comment": "In case the training dataset contains such false positives",
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "167": {
         "technology": [
@@ -1411,7 +1420,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "68": {
         "task": [
@@ -1446,7 +1456,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "74": {
         "task": [
@@ -1483,7 +1494,7 @@
                 "label": "Distributional Learning",
                 "confidence": "potential",
                 "snippets": [],
-                "comment": "Minorities under-represented in the learning dataset",
+                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -1520,15 +1531,6 @@
                 "report_index": 1
             },
             {
-                "label": "Distributional Bias",
-                "confidence": "potential",
-                "snippets": [
-                    "The software\u2019s accuracy is heavily dependent on image quality: Blurry, grainy or dark photos often lead to poor results. But even the algorithms used in a facial recognition search can offer a wide range of effectiveness: Several of those tested in a 2019 federal study were up to 100 times more likely to misidentify the face of a Black or Asian person, compared with a White person."
-                ],
-                "comment": "Minorities under-represented in the learning dataset",
-                "report_index": 2
-            },
-            {
                 "label": "Covariate Shift",
                 "confidence": "potential",
                 "snippets": [
@@ -1537,7 +1539,8 @@
                 "comment": "If low-quality data only mostly present during deployment.",
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "252": {
         "task": [
@@ -1581,7 +1584,8 @@
                 "comment": "Accidents / errors should be expected with application of near-lethal weapons in a school setting.",
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "253": {
         "task": [
@@ -1647,7 +1651,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "254": {
         "task": [
@@ -1683,7 +1688,7 @@
         ],
         "failure": [
             {
-                "label": "Unauthorized Data Access",
+                "label": "Unauthorized Data",
                 "confidence": "potential",
                 "snippets": [
                     "Google \u201cis in direct violation\u201d of this law, the complaint claims, as it allegedly collects and analyzes a person\u2019s facial structure in connection with its face grouping feature \u201cwithout providing notice, obtaining informed written consent or publishing data retention policies.\u201d"
@@ -1691,7 +1696,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "28": {
         "task": [
@@ -1736,7 +1742,8 @@
                 "comment": NaN,
                 "report_index": 7
             }
-        ]
+        ],
+        "issues": []
     },
     "103": {
         "task": [
@@ -1794,7 +1801,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "106": {
         "task": [
@@ -1857,7 +1865,7 @@
                 "report_index": 1
             },
             {
-                "label": "Unauthorized Data Access",
+                "label": "Unauthorized Data",
                 "confidence": "known",
                 "snippets": [
                     "Scatter Lab said its developers erased real names with its filtering algorithms but failed to remove all of them depending on the context, saying all data used in training Luda has been unverifiable and that it removed sensitive personal information, including names, phone numbers and addresses.",
@@ -1896,7 +1904,8 @@
                 "comment": NaN,
                 "report_index": 11
             }
-        ]
+        ],
+        "issues": []
     },
     "262": {
         "task": [
@@ -1993,7 +2002,8 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "151": {
         "task": [
@@ -2038,7 +2048,8 @@
                 "comment": "Potentially the divider was not detected or detected at a wrong distance from the car.",
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "154": {
         "task": [
@@ -2109,7 +2120,8 @@
                 "comment": "If distributional learning is used, perhaps racial biases are present in the learning system.",
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "192": {
         "task": [
@@ -2176,7 +2188,7 @@
                 "confidence": "potential",
                 "snippets": [],
                 "comment": NaN,
-                "report_index": 2
+                "report_index": NaN
             },
             {
                 "label": "Lack of Explainability",
@@ -2186,8 +2198,25 @@
                 ],
                 "comment": NaN,
                 "report_index": NaN
+            },
+            {
+                "label": "Problematic Input",
+                "confidence": "potential",
+                "snippets": [],
+                "comment": NaN,
+                "report_index": NaN
+            },
+            {
+                "label": "Incomplete Data Attribute Capture",
+                "confidence": "known",
+                "snippets": [
+                    "She said that in the interview they were asked questions about putting on make-up \u2014 but rather than demonstrating it they had to describe the process, which she found difficult."
+                ],
+                "comment": "Makeup skill assessment with verbal descriptions, rather visual media.",
+                "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "39": {
         "task": [
@@ -2267,7 +2296,8 @@
                 "comment": "Good deepfakes of political actors may cause unrest, democratic institution degeneration, fake news, societal fallout.",
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "21": {
         "task": [
@@ -2347,12 +2377,13 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "137": {
         "task": [
             {
-                "label": "Processing",
+                "label": "Financial Processing",
                 "confidence": "known",
                 "snippets": [
                     "The story began in 2014 when the farm Har Shemesh, which is not part of any community, asked the Tax Authority to explain how it had calculated a fine they were required to pay."
@@ -2384,7 +2415,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "1": {
         "task": [
@@ -2540,7 +2572,8 @@
                 "comment": NaN,
                 "report_index": NaN
             }
-        ]
+        ],
+        "issues": []
     },
     "72": {
         "task": [
@@ -2553,17 +2586,6 @@
                 ],
                 "comment": "Presumably the arabic dialect in the text is not represented adequately in the training data, hence the translation performance issues. \n",
                 "report_index": 1
-            },
-            {
-                "label": "Object Detection",
-                "confidence": "potential",
-                "snippets": [
-                    "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
-                    "Israeli police became suspicious of the post since he was standing next to a bulldozer, a vehicle that has been used in earlier terror attacks, the website reported.\n\n",
-                    "The advantage for Facebook in using its own translation system is that it can have more control over people\u2019s news feeds, by understanding the meaning behind text and images. "
-                ],
-                "comment": "If multimodal learning is used, perhaps the buldozer was recognized and its extracted keyword contributed to the bias in the NLP domain.",
-                "report_index": 17
             }
         ],
         "failure": [
@@ -2666,8 +2688,20 @@
                 ],
                 "comment": "If image was also utilized to generate the translation, that would provide additional evidence to the mistranslation.",
                 "report_index": 15
+            },
+            {
+                "label": "Image Classification",
+                "confidence": "potential",
+                "snippets": [
+                    "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
+                    "Israeli police became suspicious of the post since he was standing next to a bulldozer, a vehicle that has been used in earlier terror attacks, the website reported.\n\n",
+                    "The advantage for Facebook in using its own translation system is that it can have more control over people\u2019s news feeds, by understanding the meaning behind text and images. "
+                ],
+                "comment": "If multimodal learning is used, perhaps the buldozer was recognized and its extracted keyword contributed to the bias in the NLP domain.",
+                "report_index": 17
             }
-        ]
+        ],
+        "issues": []
     },
     "112": {
         "task": [
@@ -2782,7 +2816,8 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "241": {
         "task": [
@@ -2840,7 +2875,8 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "149": {
         "task": [
@@ -2955,7 +2991,8 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     },
     "10": {
         "failure": [
@@ -3025,7 +3062,8 @@
                 "comment": NaN,
                 "report_index": 3
             }
-        ]
+        ],
+        "issues": []
     },
     "144": {
         "task": [
@@ -3073,7 +3111,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "259": {
         "task": [
@@ -3138,7 +3177,8 @@
                 "comment": NaN,
                 "report_index": 1
             }
-        ]
+        ],
+        "issues": []
     },
     "221": {
         "technology": [
@@ -3203,6 +3243,7 @@
                 "comment": NaN,
                 "report_index": 2
             }
-        ]
+        ],
+        "issues": []
     }
 }
