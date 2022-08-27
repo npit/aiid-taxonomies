@@ -8,6 +8,10 @@
       "issues": "Too generic for a task."
     },
     {
+      "name": "Copyrighted Content Detection",
+      "description": "The task of detecting / identifying the presence of copyrighted content elements in input data."
+    },
+    {
       "name": "Automatic Stock Trading",
       "description": "The task of automatically valuing and performing transactions in the stock market."
     },
@@ -41,6 +45,7 @@
     {
       "name": "Retrieval",
       "description": "The task of selecting relevant instances from an available pool of candidates.",
+      "issues": "What to do for multi-parent nodes? E.g. retrieval of images",
       "children": [
         {
           "name": "Recommendation",
@@ -48,7 +53,14 @@
         },
         {
           "name": "Search",
-          "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query."
+          "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query.",
+          "children":[
+            {
+              "name": "Near-duplicate search",
+              "description": "The task of obtaining almost identical elements to an input query"
+            }
+
+          ]
         }
       ]
     },
@@ -96,7 +108,11 @@
     {
       "name": "Automatic Skill Assessment",
       "description": "The task of estimating employee skills automatically.",
-      "issues": "Surely, too specific"
+      "issues": "Rename to automatic performance evaluation."
+    },
+    {
+      "name": "Activity Tracking",
+      "description": "The task of tracking and monitoring of human activities via smart equipment, wearables, etc."
     },
     {
       "name": "Synthetic Content Generation",
@@ -170,7 +186,7 @@
         },
         {
           "name": "Autonomous Driving",
-          "description": "The task of autonomously operating a vehicle in conventional traffic."
+          "description": "The task of autonomous, driverless vehicle operation."
         }
       ]
     }

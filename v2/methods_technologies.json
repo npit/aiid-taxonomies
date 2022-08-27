@@ -102,6 +102,10 @@
         {
           "name": "Acoustic Fingerprint",
           "description": "The generation of short summaries from audio signals for rapid retrieval and recognition."
+        },
+        {
+          "name": "Spectrogram",
+          "description": "The use of spectrogram features for audio representation."
         }
       ]
     },

@@ -34,7 +34,8 @@
         },
         {
           "name": "Unauthorized Data Access",
-          "description": "The system was built and/or uses data without proper authorization / consent."
+          "description": "The system was built and/or uses data without proper authorization, consent or licensing permissions.",
+          "name": "Rename to 'unauthorized data' to capture both access, use, outputting, etc."
         },
         {
           "name": "Problematic Input",
@@ -115,6 +116,11 @@
           "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective and/or a bad proxy being used instead."
         },
         {
+          "name": "System Gaming Vulnerability",
+          "description": "The system operates as expected, but malicous agents can game its function towards producing undesired results",
+          "issues": "Nest under misaligned objective?"
+        },
+        {
           "name": "Unsafe Exposure or Access",
           "description": "The system lacks exposure / access limitations and safeguarding measures; as a result, its outputs become harmful."
         },
@@ -130,7 +136,7 @@
         {
           "name": "Information Hazard",
           "description": "The system includes information / application routes / technologies that will cause harm if used by malicious agents for nefarious goals.",
-          "issues": "Investigate whether a more specific label / hierarchy is adequate, given the incident samples (e.g. fake news)."
+          "issues": "Investigate whether a more specific label / hierarchy is adequate, given the incident samples (e.g. fake news, misinformation hazard, etc.). Also, this label is perhaps too grandiose / scary-looking."
         },
         {
           "name": "Sensitive Information Leak",
