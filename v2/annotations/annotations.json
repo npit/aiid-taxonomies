@@ -753,7 +753,7 @@
                 "report_index": NaN
             },
             {
-                "label": "Conceptual Data Handling",
+                "label": "Diverse Data",
                 "confidence": "potential",
                 "snippets": [
                     "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again.",
@@ -1098,7 +1098,7 @@
                 "report_index": 1
             },
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "While the app\u2019s algorithm was able to correctly identify pictures of a \u201cgraduation,\u201d \u201cskyscrapers,\u201d and \u201cairplanes,\u201d it labeled photos of Alcine and a female friend as gorillas."
@@ -1345,7 +1345,7 @@
                 "report_index": NaN
             },
             {
-                "label": "Conceptual Data Handling",
+                "label": "Diverse Data",
                 "confidence": "potential",
                 "snippets": [
                     "The software extracts information from thousands of facial data points, including nose width, mustache shape, eyebrows, corners of the mouth, hairline and even aspects of the face we don\u2019t have words for. It then turns the faces into numbers."
@@ -1365,7 +1365,7 @@
                 "report_index": NaN
             },
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "known",
                 "snippets": [
                     "Some 300,000 images were whittled down to 35,000 that showed faces clearly and met certain criteria. All were white, the researchers said, because they could not find enough dating profiles of gay minorities to generate a statistically valid result."
@@ -1500,7 +1500,7 @@
         ],
         "failure": [
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "Last year, during a public hearing about the use of facial recognition in Detroit, an assistant police chief was among those who raised concerns. \u201cOn the question of false positives \u2014 that is absolutely factual, and it\u2019s well-documented,\u201d James White said.",
@@ -1974,7 +1974,7 @@
                 "report_index": 2
             },
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "Dayma suggested that images of South Asian women in saris may have been heavily represented in those original photosets that feed DALL-E Mini."
@@ -2065,7 +2065,7 @@
         ],
         "technology": [
             {
-                "label": "Conceptual Data Handling",
+                "label": "Diverse Data",
                 "confidence": "potential",
                 "snippets": [
                     "\"You use a term like 'risk assessment tool,' it has this patina of science, it sounds highly technical, but it's not,\" said Patricia Richman, who works on national policy issues for the Federal Public and Community Defenders. \"A risk assessment tool is just a series of policy decisions.\"Those policy decisions are made by determining what counts as a risk factor and by how much."
@@ -2166,7 +2166,7 @@
         ],
         "failure": [
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "Questions in the video interview process, which did not ask for any demonstrations of the make-up artists\u2019 work, included how to create a smokey eye, according to one of the artists."
@@ -2322,7 +2322,7 @@
                 "report_index": NaN
             },
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "In the sentence \u201cThe city councilmen refused the demonstrators a permit because they feared violence,\u201d it is logically unclear who the word \u201cthey\u201d refers to, although humans understand because of the broader context."
@@ -2590,7 +2590,7 @@
         ],
         "failure": [
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "known",
                 "snippets": [
                     "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
@@ -2743,7 +2743,7 @@
                 "report_index": 1
             },
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "It was expected to take a full year to fine-tune the acoustic devices so it would pick out the gunshots from other sounds. Tedesco said that never occurred.\n",
@@ -2915,7 +2915,7 @@
                 "report_index": 2
             },
             {
-                "label": "Conceptual Data Handling",
+                "label": "Diverse Data",
                 "confidence": "known",
                 "snippets": [
                     "For Zillow, one of the first steps in its decision to purchase any home is the \"Zestimate\" \u2014 a machine-learning-assisted estimate of a home's market value that is calculated by taking into account oodles of data about the property gathered from sources including tax and property records, homeowner-submitted details such as the addition of a bathroom or bedroom, and pictures of the house."
@@ -2974,7 +2974,7 @@
                 "report_index": 2
             },
             {
-                "label": "Learning Dataset Imbalance",
+                "label": "Dataset Imbalance",
                 "confidence": "potential",
                 "snippets": [
                     "But there simply isn't enough data for an algorithm to learn about longer busts and booms, according to Malik, who researches algorithmic pricing and has studied the Zestimate in particular."
@@ -3029,7 +3029,7 @@
                 "report_index": 1
             },
             {
-                "label": "Conceptual Data Handling",
+                "label": "Diverse Data",
                 "confidence": "potential",
                 "snippets": [
                     "In a follow-up piece, the author, Jodi Kantor, points directly to Kronos' scheduling software as the root of the problem."

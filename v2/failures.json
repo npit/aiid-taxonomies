@@ -28,9 +28,8 @@
           "description": "The learning dataset the system is built with contains significant amounts of instances that are problematic given the target domain (e.g. conveying biases, violent / adult content, etc.)."
         },
         {
-          "name": "Learning Dataset Imbalance",
-          "description": "An AI system is set to learn from a collection of data that does not provide enough instances for all desired predictions (e.g. classes).",
-          "issues": "Rename to 'imbalanced dataset' for brevity"
+          "name": "Dataset Imbalance",
+          "description": "An AI system is set to learn from a collection of data that does not provide enough instances for all desired predictions (e.g. classes)."
         },
         {
           "name": "Unauthorized Data",
@@ -170,7 +169,6 @@
       {
         "name": "Inadequate Sequential Memory",
         "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps, leading to failures over dealing with longer data sequences."
-
       },
         {
           "name": "Lack of Adversarial Robustness",

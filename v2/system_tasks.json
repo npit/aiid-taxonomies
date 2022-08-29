@@ -1,12 +1,10 @@
 {
   "name": "System Tasks",
   "description": "A taxonomy of high-level, domain-facing tasks and use cases that an AI / Machine system may tackle during its operation",
-  "issue": "Tidy up structure, it's a mess.",
   "children": [
     {
       "name": "Financial and Market-related Tasks",
       "description": "General computational processing tasks that do not necessarily involve the usage of AI and ML.",
-      "issues": "Too generic for a task.",
       "children": [
         {
           "name": "Financial Processing",
@@ -71,9 +69,8 @@
       ]
     },
     {
-      "name": "Retrieval",
+      "name": "Information Retrieval",
       "description": "The task of selecting relevant instances from an available pool of candidates.",
-      "issues": "What to do for multi-parent nodes? E.g. retrieval of images",
       "children": [
         {
           "name": "Recommendation",
@@ -103,12 +100,7 @@
         },
         {
           "name": "Chatbot",
-          "description": "The task of an NLP / AI engaging in conversation."
-        },
-        {
-          "name": "AI Voice Assistant",
-          "description": "The usage of AI for automated voice assistance functionality.",
-          "issues": "Consider nesting this under a new 'Home Automation' task"
+          "description": "The task of an NLP / AI engaging in dialogue and conversation."
         }
       ]
     },
@@ -126,12 +118,21 @@
         },
         {
           "name": "Face Recognition",
-          "description": "The task of matching a human face from a set of reference candidates to a specific instance.",
-          "issues": "Horrible definition, refactor. Could also be nested under retrieval."
+          "description": "The task of automatically recognizing a human face in media content, out of a set of reference candidates."
         },
         {
           "name": "Earth Observation",
           "description": "Tasks dealing with visual inspection of the earth via satellite imaging."
+        }
+      ]
+    },
+    {
+      "name": "Smart Devices",
+      "description": "Tasks that include usage of AI technology for automation, interconnected devices, IoT, 'smart' living, etc..",
+      "children": [
+        {
+          "name": "AI Voice Assistant",
+          "description": "The usage of AI for automated voice assistance functionality."
         }
       ]
     },
@@ -141,8 +142,7 @@
       "children": [
         {
           "name": "Text Generation",
-          "description": "The automatic generation of text data from a seed prompt.",
-          "issues": "Embed under generic 'generation' if it exists for other modalities"
+          "description": "The automatic generation of text data from a seed prompt."
         },
         {
           "name": "Text to Image Generation",
@@ -187,10 +187,6 @@
         {
           "name": "Autonomous Driving",
           "description": "The task of autonomous, driverless vehicle operation."
-        },
-        {
-          "name": "Smart Devices",
-          "description": "Tasks that include usage of interconnected AI devices for 'smart' living."
         }
       ]
     }

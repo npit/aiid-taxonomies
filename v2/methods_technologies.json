@@ -28,8 +28,7 @@
         },
         {
           "name": "Autoencoder",
-          "description": "A neural network trained to optimize low-dimensional representation bottlenecks with input recostruction objectives.",
-          "issues": "This also can be nested under unsupervised learning"
+          "description": "A neural network trained to optimize low-dimensional representation bottlenecks with input recostruction objectives."
         }
       ]
     },
@@ -77,8 +76,7 @@
         },
         {
           "name": "Language Modeling",
-          "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context.",
-          "issues": "Add hierarchy with distributional learning."
+          "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context."
         },
         {
           "name": "Keyword Filtering",
@@ -96,8 +94,7 @@
         },
         {
           "name": "Speaker Diarization",
-          "description": "The approach of identifying separate speakers from conversations in input audio.",
-          "issues": "Could be a task"
+          "description": "The approach of identifying separate speakers from conversations in input audio."
         },
         {
           "name": "Acoustic Fingerprint",
@@ -168,18 +165,16 @@
       ]
     },
     {
-      "name": "Other domain-specific methods",
+      "name": "Other domain-specific approaches",
       "description": "Popular methods mostly relevant to specific domains",
       "children": [
         {
           "name": "Geolocation",
-          "description": "Estimation of the geographic position of objects of interest.",
-          "issues": "Is this technical enough? Compare/contrast it to 'clustering'."
+          "description": "Estimation and usage of the geographic coordinates for related tasks (e.g. navigation)."
         },
         {
-          "name": "Conceptual Data Handling",
-          "description": "The use of conceptual / categorical data as learning inputs, rather than numeric or primitive (e.g. image, audio, text, etc.).",
-          "issues": "A better label is something to emphasize the diversity / unevenness of the data"
+          "name": "Diverse Data",
+            "description": "The use of different, diverse data types and formats (e.g. numeric, conceptual, categorical) etc. rather than direct mining of digitized inputs (e.g. image, audio, text, etc.)."
         }
       ]
     }
