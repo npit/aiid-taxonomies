@@ -2,23 +2,47 @@
   "name": "System Tasks",
   "description": "A taxonomy of high-level, domain-facing tasks and use cases that an AI / Machine system may tackle during its operation",
   "issue": "Tidy up structure, it's a mess.",
-
   "children": [
     {
-      "name": "Processing Tasks",
-      "description": "Computation that does not involve the usage of AI and ML.",
+      "name": "Financial and Market-related Tasks",
+      "description": "General computational processing tasks that do not necessarily involve the usage of AI and ML.",
       "issues": "Too generic for a task.",
-      "children":[
-          {
-            "name": "Financial Processing",
-            "description": "Tasks geared towards the estimation of financial quantities."
-
-          }
+      "children": [
+        {
+          "name": "Financial Processing",
+          "description": "Tasks geared towards the estimation of financial quantities."
+        },
+        {
+          "name": "Market Forecasting",
+          "description": "The class of tasks that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)"
+        },
+        {
+          "name": "Automatic Stock Trading",
+          "description": "The task of automatically valuing and performing transactions in the stock market."
+        },
+        {
+          "name": "Scheduling",
+          "description": "The task of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints"
+        },
+        {
+          "name": "Automatic Skill Assessment",
+          "description": "The task of estimating employee skills automatically."
+        }
       ]
     },
     {
-      "name": "Automatic Stock Trading",
-      "description": "The task of automatically valuing and performing transactions in the stock market."
+      "name": "Behavioral Modeling",
+      "description": "The task of modeling, estimating and tracking human behaviour in domains of interest.",
+      "children": [
+        {
+          "name": "Recidivism Prediction",
+          "description": "The task of producing recidivism risk estimates for incarcerated population."
+        },
+        {
+          "name": "Activity Tracking",
+          "description": "The task of tracking and monitoring of human activities via smart equipment, wearables, etc."
+        }
+      ]
     },
     {
       "name": "Object Detection",
@@ -43,7 +67,6 @@
         {
           "name": "License Plate Recognition",
           "description": "The task of automatically reading cat license plates."
-
         }
       ]
     },
@@ -59,6 +82,10 @@
         {
           "name": "Search",
           "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query."
+        },
+        {
+          "name": "Data Grouping",
+          "description": "The task of building groups of semantically contiguous elements."
         }
       ]
     },
@@ -83,7 +110,6 @@
           "description": "The usage of AI for automated voice assistance functionality.",
           "issues": "Consider nesting this under a new 'Home Automation' task"
         }
-
       ]
     },
     {
@@ -106,22 +132,8 @@
         {
           "name": "Earth Observation",
           "description": "Tasks dealing with visual inspection of the earth via satellite imaging."
-
         }
       ]
-    },
-    {
-      "name": "Risk Assessment",
-      "description": "The task of producing risk estimates for a target usecase and domain."
-    },
-    {
-      "name": "Automatic Skill Assessment",
-      "description": "The task of estimating employee skills automatically.",
-      "issues": "Rename to automatic performance evaluation."
-    },
-    {
-      "name": "Activity Tracking",
-      "description": "The task of tracking and monitoring of human activities via smart equipment, wearables, etc."
     },
     {
       "name": "Synthetic Content Generation",
@@ -142,13 +154,6 @@
         }
       ]
     },
-
-    {
-      "name": "Smart Devices",
-      "description": "Tasks that include usage of interconnected AI devices for 'smart' living."
-
-    },
-
     {
       "name": "Automated Content Curation",
       "description": "Tasks that estimate how suitable / appropriate content is for the target domain, audience or context",
@@ -165,20 +170,7 @@
           "name": "Copyrighted Content Detection",
           "description": "The task of detecting / identifying the presence of copyrighted content elements in input data."
         }
-        
       ]
-    },
-    {
-      "name": "Scheduling",
-      "description": "The task of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints"
-    },
-    {
-      "name": "Market Forecasting",
-      "description": "The class of tasks that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)"
-    },
-    {
-      "name": "Data Grouping",
-      "description": "The task of building groups of semantically contiguous elements."
     },
     {
       "name": "Robotics and Autonomous Systems",
@@ -195,6 +187,10 @@
         {
           "name": "Autonomous Driving",
           "description": "The task of autonomous, driverless vehicle operation."
+        },
+        {
+          "name": "Smart Devices",
+          "description": "Tasks that include usage of interconnected AI devices for 'smart' living."
         }
       ]
     }

@@ -2054,7 +2054,7 @@
     "154": {
         "task": [
             {
-                "label": "Risk Assessment",
+                "label": "Recidivism Prediction",
                 "confidence": "known",
                 "snippets": [
                     "In a report issued days before Christmas in 2021, the department said its algorithmic tool for assessing the risk that a person in prison would return to crime produced uneven results. "
@@ -2899,15 +2899,6 @@
                 "report_index": 1
             },
             {
-                "label": "Sequential Analysis",
-                "confidence": "known",
-                "snippets": [
-                    "\"We've determined the unpredictability in forecasting home prices far exceeds what we anticipated and continuing to scale Zillow Offers would result in too much earnings and balance-sheet volatility,\" said Rich Barton, Zillow's co-founder and CEO."
-                ],
-                "comment": NaN,
-                "report_index": 2
-            },
-            {
                 "label": "Multimodal Learning",
                 "confidence": "known",
                 "snippets": [
@@ -3138,15 +3129,6 @@
             },
             {
                 "label": "Distributional Learning",
-                "confidence": "known",
-                "snippets": [
-                    "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
-                ],
-                "comment": NaN,
-                "report_index": 1
-            },
-            {
-                "label": "Sequential Analysis",
                 "confidence": "known",
                 "snippets": [
                     "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "

@@ -123,7 +123,7 @@
         },
         {
           "name": "Intermmediate modeling",
-          "description": "The approach where a learning system cannot directly use data X to obtain the target solution Y due to existing limitations. Instead, the system works around it by solving distinct related tasks such that a path to Y is reached, e.g.  X-> A ->  [...] B -> Y ."
+          "description": "The approach uses an attainable, intermmediate proxy modeling Y, to obtain desired outputs Z from inputs X due to existing limitations."
         },
         {
           "name": "Multimodal Learning",
@@ -182,11 +182,6 @@
           "issues": "A better label is something to emphasize the diversity / unevenness of the data"
         }
       ]
-    },
-    {
-      "name": "Sequential Analysis",
-      "description": "The task of producing predictions based on a history of multiple data points",
-      "issue": "Most likely deprecate"
     }
   ]
 }

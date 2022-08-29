@@ -161,7 +161,7 @@
     },
     {
       "name": "Robustness Failure",
-      "description": "System failure arises due to the model being poorly equipped / sensitive to handling subsets of cases (e.g. different, unexpected, edge cases).",
+      "description": "System failure arises due to the model being sensitive to handling specific scenarios (e.g. different, unexpected, edge cases).",
       "children": [
         {
           "name": "Hardware Failure",
@@ -178,12 +178,11 @@
         },
         {
           "name": "Backup Failure",
-          "description": "Recovery from a failure was not possible due to subsequent failures in falling back to backup countermeasures."
+          "description": "The system cannot recover from failure due to subsequent failings in deploying backup countermeasures and fall-backs."
         },
         {
-            "name": "Black Swan Event", 
-            "description": "Incident is a result from highly improbable circumstances occuring.",
-            "issues": "Label added late and quite generic; needs another incident pass"
+            "name": "Black Swan Event",
+            "description": "Incident is a result from highly improbable circumstances occuring that the system is not equipped to handle."
         }
       ]
     },
@@ -193,7 +192,7 @@
       "children": [
         {
           "name": "Software Bug",
-          "description": "Cases where errors in the system's software (e.g. logic errors, unhandled exceptions, etc.) contribute to the emergence of the incident."
+          "description": "Cases where conventional errors in the system's programming (e.g. logic errors, unhandled exceptions, etc.) contribute to the emergence of the incident."
         },
         {
           "name": "Misuse",
