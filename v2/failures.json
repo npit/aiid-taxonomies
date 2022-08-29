@@ -3,13 +3,12 @@
   "description": "A taxonomy of technical failings in AI system training, design, performance and generalization.",
   "children": [
     {
-      "name": "Dataset issues",
+      "name": "Dataset Issues",
       "description": "Failures related to the data used with the model (e.g. for training, evaluation, deployment, etc.)",
       "children": [
         {
           "name": "Limited Dataset",
-          "description": "Training dataset size and/or distribution is limited, impacting generalization.",
-          "issue": "This label was added later; many incidents annotated with 'distributional bias', 'underfitting', 'Concept Drift' / 'Covariate Shift' may this label as well."
+          "description": "Training dataset size and/or distribution is limited, impacting generalization."
         },
         {
           "name": "Data or Labelling Noise",
@@ -37,8 +36,7 @@
         },
         {
           "name": "Problematic Input",
-          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs.",
-          "issues": "Rename"
+          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs."
         }
 
       ]
@@ -69,9 +67,8 @@
         },
 
         {
-          "name": "Distributional Hallucination",
-          "description": "The model provides outputs that reflect its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be infered.",
-          "issues": "rename"
+          "name": "Distributional Artifacts",
+          "description": "The model provides outputs that reflect its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be infered."
         },
       {
         "name": "Context Misidentification",
@@ -107,11 +104,6 @@
           "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective and/or a bad proxy being used instead."
         },
         {
-          "name": "System Gaming Vulnerability",
-          "description": "The system operates as expected, but malicous agents can game its function towards producing undesired results",
-          "issues": "Nest under misaligned objective?"
-        },
-        {
           "name": "Unsafe Exposure or Access",
           "description": "The system lacks exposure / access limitations and safeguarding measures; as a result, its outputs become harmful."
         },
@@ -121,13 +113,11 @@
         },
         {
           "name": "Ignored Expected Externalities",
-          "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers, owners or users of the system",
-          "issues": "Perhaps we need a 'non-technical' or 'design-oriented' classification for incidents where the AI system works pretty much as intended"
+          "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers, owners or users of the system"
         },
         {
-          "name": "Information Hazard",
-          "description": "The system includes information / application routes / technologies that will cause harm if used by malicious agents for nefarious goals.",
-          "issues": "Investigate whether a more specific label / hierarchy is adequate, given the incident samples (e.g. fake news, misinformation hazard, etc.). Also, this label is perhaps too grandiose / scary-looking."
+          "name": "Misinformation Hazard",
+          "description": "The system includes information / application routes / technologies that will enable misinformation spread if used maliciously."
         },
         {
           "name": "Sensitive Information Leak",
@@ -153,8 +143,7 @@
         },
         {
           "name": "Lack of Explainability",
-          "description": "The system converts input data into outputs without its internal workings being explainable to users or even experts. ",
-          "issues": "Could merge with transparency failure."
+          "description": "The system converts input data into outputs without its internal workings being explainable to users or even experts. "
         }
       ]
     },
@@ -165,6 +154,10 @@
         {
           "name": "Hardware Failure",
           "description": "Scenarios where the material system component failures contribute to the emergence of the incident."
+        },
+        {
+          "name": "Gaming Vulnerability",
+          "description": "The system usually operates as expected, but malicous agents can game its function towards producing undesired results"
         },
       {
         "name": "Inadequate Sequential Memory",

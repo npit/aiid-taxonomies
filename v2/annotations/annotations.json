@@ -91,7 +91,7 @@
                 "report_index": 1
             },
             {
-                "label": "System Gaming Vulnerability",
+                "label": "Gaming Vulnerability",
                 "confidence": "known",
                 "snippets": [
                     "Most of Ask Delphi\u2019s judgements, though, aren\u2019t so much ethically wrong as they are obviously influenced by their framing. Even very small changes to how you pose a particular quandary can flip the system\u2019s judgement from condemnation to approval."
@@ -183,7 +183,7 @@
                 "report_index": 1
             },
             {
-                "label": "Information Hazard",
+                "label": "Misinformation Hazard",
                 "confidence": "known",
                 "snippets": [
                     "Without sufficient guardrails, models like DALL\u00b7E 2 could be used to generate a wide range of deceptive and otherwise harmful content, and could affect how people perceive the authenticity of content more generally.",
@@ -311,7 +311,7 @@
                 "report_index": 1
             },
             {
-                "label": "System Gaming Vulnerability",
+                "label": "Gaming Vulnerability",
                 "confidence": "known",
                 "snippets": [
                     "This story comes to us from Vice\u2019s Dexter Thomas via the Instagram account of one Sennett Devermont, the citizen on the receiving end of the cop\u2019s silly attempt to game the system.",
@@ -547,7 +547,7 @@
                 "report_index": 1
             },
             {
-                "label": "Distributional Hallucination",
+                "label": "Distributional Artifacts",
                 "confidence": "known",
                 "snippets": [
                     "If the first diagnosis example below GPT-3 ignores the fever of the little girl that suggests ethmoiditis and mentions a \u201crash\u201d that does not exist.",
@@ -1965,7 +1965,7 @@
                 "report_index": 1
             },
             {
-                "label": "Information Hazard",
+                "label": "Misinformation Hazard",
                 "confidence": "potential",
                 "snippets": [
                     "Now, there are some insidiously dangerous risks in this case. As pointed out by Vox, people could leverage this type of AI to make everything from deepnudes to political deepfakes\u2014although the results would be horrific, to say the least. Given how the technology is free to use on the internet, it also harbours the potential to put human illustrators out of work in the long run."
@@ -2283,7 +2283,7 @@
         ],
         "failure": [
             {
-                "label": "Information Hazard",
+                "label": "Misinformation Hazard",
                 "confidence": "potential",
                 "snippets": [
                     "The researchers used 14 hours of Obama's weekly address videos to train a neural network. Once trained, their system was then able to take an audio clip from the former president, create mouth shapes that synced with the audio and then synthesize a realistic looking mouth that matched Obama's. ",
