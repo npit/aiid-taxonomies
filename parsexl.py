@@ -9,6 +9,7 @@ from collections import defaultdict
 
 x = pd.read_excel(sys.argv[1], sheet_name=None)
 annotations = defaultdict(dict)
+nan = np.nan
 
 def add_classification(incident_id, row, snippet_value, task, confidence, key):
     """Dict adder """
@@ -38,6 +39,8 @@ for k, df in x.items():
     if any(v in k for v in "TEMPLATE Definitions".split()):
         continue
     print(k)
+    assert df.columns.tolist() == ['Unnamed: 0', 'Unnamed: 1', 'Unnamed: 2', 'AI Tasks', 'Unnamed: 4', 'Snippet ref', 'AI Technologies', 'Unnamed: 7', 'Snippet ref.1', 'Technical Failures', 'Unnamed: 10', 'Snippet ref.2', 'Comments on classifications', 'Comments on snippents', 'Relevant snippets from incident content', 'Unnamed: 15', 'Unnamed: 16', 'Issues'], "Unexpected df structure!"
+
     df.rename(columns={
         'Unnamed: 0': 'url',
         'Unnamed: 1': 'year',
@@ -63,6 +66,12 @@ for k, df in x.items():
 
     for i, row in df.iterrows():
         if i == 0:
+            expected = ['url', 'Incident year', 'Incident Short Description', 'Known', 'Potential', nan, 'Known', 'Potential', nan, 'Known', 'Potential', nan, nan, nan, 'Report Id / num', 'Snippet Id', 'Snippet text', nan]
+            for rv, v in zip(row.values, expected):
+                if not isinstance(rv, str) and np.isnan(rv):
+                    assert np.isnan(v), "Nan mismatch on second row!"
+                else:
+                    assert rv == v, "Value mismatch on second row!"
             continue
         add_classification(incident_id, row, row.task_snippet, row.tasks_known, "known", 'task')
         add_classification(incident_id, row, row.task_snippet, row.tasks_potential, "potential", 'task')
