@@ -7,7 +7,6 @@
                 "snippets": [
                     "You can pose any question you like and be sure to receive an answer, wrapped in the authority of the algorithm rather than the soothsayer."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -18,7 +17,6 @@
                 "snippets": [
                     " It has clear biases, telling you that America is \u201cgood\u201d and that Somalia is \u201cdangerous\u201d; and it\u2019s amenable to special pleading, noting that eating babies is \u201cokay\u201d as long as you are \u201creally, really hungry.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -27,7 +25,6 @@
                 "snippets": [
                     "You can pose any question you like and be sure to receive an answer, wrapped in the authority of the algorithm rather than the soothsayer."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -36,7 +33,6 @@
                 "snippets": [
                     "You can pose any question you like and be sure to receive an answer, wrapped in the authority of the algorithm rather than the soothsayer."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -48,7 +44,6 @@
                     "Ask Delphi is no different in this regard, and its training data incorporates some unusual sources, including a series of one-sentence prompts scraped from two subreddits: r/AmITheAsshole and r/Confessions.",
                     " It has clear biases, telling you that America is \u201cgood\u201d and that Somalia is \u201cdangerous\u201d; and it\u2019s amenable to special pleading, noting that eating babies is \u201cokay\u201d as long as you are \u201creally, really hungry.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -58,7 +53,6 @@
                     "Sometimes it\u2019s obvious how to tip the scales. For example, the AI will tell you that \u201cdrunk driving\u201d is wrong but that \u201chaving a few beers while driving because it hurts no-one\u201d is a-okay. If you add the phrase \u201cif it makes everyone happy\u201d to the end of your statement, then the AI will smile beneficently on any immoral activity of your choice, up to and including genocide. Similarly, if you add \u201cwithout apologizing\u201d to the end of many benign descriptions, like \u201cstanding still\u201d or \u201cmaking pancakes,\u201d it will assume you should have apologized and tells you that you\u2019re being rude. Ask Delphi is a creature of context.",
                     "Most of Ask Delphi\u2019s judgements, though, aren\u2019t so much ethically wrong as they are obviously influenced by their framing. Even very small changes to how you pose a particular quandary can flip the system\u2019s judgement from condemnation to approval."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -68,7 +62,6 @@
                     "Others found the system woefully inconsistent, illogical and offensive. ",
                     "Most of Ask Delphi\u2019s judgements, though, aren\u2019t so much ethically wrong as they are obviously influenced by their framing. Even very small changes to how you pose a particular quandary can flip the system\u2019s judgement from condemnation to approval."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -77,7 +70,6 @@
                 "snippets": [
                     "Sometimes it\u2019s obvious how to tip the scales. For example, the AI will tell you that \u201cdrunk driving\u201d is wrong but that \u201chaving a few beers while driving because it hurts no-one\u201d is a-okay. If you add the phrase \u201cif it makes everyone happy\u201d to the end of your statement, then the AI will smile beneficently on any immoral activity of your choice, up to and including genocide. Similarly, if you add \u201cwithout apologizing\u201d to the end of many benign descriptions, like \u201cstanding still\u201d or \u201cmaking pancakes,\u201d it will assume you should have apologized and tells you that you\u2019re being rude. Ask Delphi is a creature of context."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -96,11 +88,9 @@
                 "snippets": [
                     "Most of Ask Delphi\u2019s judgements, though, aren\u2019t so much ethically wrong as they are obviously influenced by their framing. Even very small changes to how you pose a particular quandary can flip the system\u2019s judgement from condemnation to approval."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "31": {
         "task": [
@@ -110,7 +100,6 @@
                 "snippets": [
                     "New Delhi, Dec 20 (IANS) The Delhi Metro on Wednesday sacked four of its officials, including a Deputy General Manager, for Tuesday's accident in which a metro train rammed through a wall after failure of its brakes."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -121,7 +110,6 @@
                 "snippets": [
                     "New Delhi, Dec 20 (IANS) The Delhi Metro on Wednesday sacked four of its officials, including a Deputy General Manager, for Tuesday's accident in which a metro train rammed through a wall after failure of its brakes."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -130,11 +118,9 @@
                 "snippets": [
                     "The accident which happened inside the Kalindi Kunj metro depot located on the upcoming Magenta Line (Botanical Garden - Janakpuri West) was a result of \"human error\", the transporter said, arising out of \"not following proper procedure\"."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "179": {
         "task": [
@@ -144,7 +130,6 @@
                 "snippets": [
                     "Without sufficient guardrails, models like DALL\u00b7E 2 could be used to generate a wide range of deceptive and otherwise harmful content, and could affect how people perceive the authenticity of content more generally."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -155,7 +140,6 @@
                 "snippets": [
                     "Without sufficient guardrails, models like DALL\u00b7E 2 could be used to generate a wide range of deceptive and otherwise harmful content, and could affect how people perceive the authenticity of content more generally."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -164,7 +148,6 @@
                 "snippets": [
                     " DALL\u00b7E 2 additionally inherits various biases from its training data, and its outputs sometimes reinforce societal stereotypes."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -179,7 +162,6 @@
                     "For example, when prompted with \u201cwedding,\u201d it tends to assume Western wedding traditions, and to default to heterosexual couples. ",
                     "There are the obvious risks \u2014 that people could use this type of AI to make everything from pornography to political deepfakes, or the possibility that it\u2019ll eventually put some human illustrators out of work. But there is also the risk that DALL-E 2 \u2014 like so many other cutting-edge AI systems \u2014 will reinforce harmful stereotypes and biases, and in doing so, accentuate some of our social problems."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -190,7 +172,6 @@
                     "In qualitative evaluations, we find that the system, even with current mitigations in place, can still be used to generate images that may be harmful in particular contexts and difficult for any reactive response team to identify and catch.",
                     "There are the obvious risks \u2014 that people could use this type of AI to make everything from pornography to political deepfakes, or the possibility that it\u2019ll eventually put some human illustrators out of work. But there is also the risk that DALL-E 2 \u2014 like so many other cutting-edge AI systems \u2014 will reinforce harmful stereotypes and biases, and in doing so, accentuate some of our social problems."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -199,7 +180,6 @@
                 "snippets": [
                     "Despite the pre-training filtering, DALL\u00b7E 2 maintains the ability to generate content that features or suggests any of the following: nudity/sexual content, hate, or violence/harm. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -208,7 +188,6 @@
                 "snippets": [
                     "The model can generate known entities including trademarked logos and copyrighted characters. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -220,8 +199,7 @@
                 "comment": "Potential, since the previous report analysis failure modes and providing details was an openai document.",
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "240": {
         "task": [
@@ -251,7 +229,6 @@
                 "snippets": [
                     "GitHub Copilot draws context from the code you\u2019re working on, suggesting whole lines or entire functions."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -267,8 +244,7 @@
                 "comment": "Classifying as\u2018potential\u2019, since it is heavily contested in the article.",
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "141": {
         "technology": [
@@ -278,7 +254,6 @@
                 "snippets": [
                     "We know this because he\u2019s become a viral sensation on Instagram after blasting the 1990\u2019s hit at a citizen in a misguided attempt to get Instagram\u2019s algorithm to take down a live stream due to copyright infringement."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -298,7 +273,6 @@
                 "snippets": [
                     "This story comes to us from Vice\u2019s Dexter Thomas via the Instagram account of one Sennett Devermont, the citizen on the receiving end of the cop\u2019s silly attempt to game the system."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -317,7 +291,6 @@
                     "This story comes to us from Vice\u2019s Dexter Thomas via the Instagram account of one Sennett Devermont, the citizen on the receiving end of the cop\u2019s silly attempt to game the system.",
                     "Or, even if the algorithm does not detect the song immediately, someone \u2014 for example, a disgruntled police officer\u2014could simply wait until a user posts an archive of the live video on their page, then file a complaint with Instagram that it contains copyrighted material."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -326,7 +299,6 @@
                 "snippets": [
                     "But then again, Instagram\u2019s enforcement of their own policy seems to be unpredictable and inconsistent, and it\u2019s hard to tell what the algorithm will catch during a livestream. "
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -340,8 +312,7 @@
                 "comment": "This applies in malicous reporting, not the AI itself.",
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "125": {
         "task": [
@@ -361,7 +332,6 @@
                     "Not long after, Barrera was written up by a different manager for too much \u201cTime Off Task,\u201d Amazon\u2019s system for tracking employee productivity.",
                     "Minutes later her supervisor materialized to ask why she\u2019d stopped scanning. \u201cI was thinking, how did she know I was not scanning? "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -370,7 +340,6 @@
                 "snippets": [
                     "Not long after, Barrera was written up by a different manager for too much \u201cTime Off Task,\u201d Amazon\u2019s system for tracking employee productivity."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -403,11 +372,9 @@
                     "The robots were too efficient. They could bring items so quickly that the productivity expectations for workers more than doubled, according to a former senior operations manager who saw the transformation. ",
                     "The data back up the accounts of Amazon warehouse workers and former safety professionals who say the company has used the robots to ratchet up production quotas to the point that humans can\u2019t keep up without hurting themselves."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "171": {
         "task": [
@@ -417,7 +384,6 @@
                 "snippets": [
                     "This is one of the reasons the world is working so hard on robotaxis, and why traffic enforcement in large cities has moved to license-plate reading traffic cameras. In both cases, accuracy and reliability seem to be the biggest problems."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -428,7 +394,6 @@
                 "snippets": [
                     "This is one of the reasons the world is working so hard on robotaxis, and why traffic enforcement in large cities has moved to license-plate reading traffic cameras. In both cases, accuracy and reliability seem to be the biggest problems."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -449,7 +414,6 @@
                     "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
                     "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -479,11 +443,9 @@
                     "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
                     "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "287": {
         "task": [
@@ -493,7 +455,6 @@
                 "snippets": [
                     "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -504,7 +465,6 @@
                 "snippets": [
                     "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -513,7 +473,6 @@
                 "snippets": [
                     "Our unique multidisciplinary team of doctors and machine learning engineers at Nabla had the chance to test this new model to tease apart what\u2019s real and what\u2019s hype by exploring different healthcare use cases."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -553,7 +512,6 @@
                     "If the first diagnosis example below GPT-3 ignores the fever of the little girl that suggests ethmoiditis and mentions a \u201crash\u201d that does not exist.",
                     "\u201cBecause of the way it was trained, it lacks the scientific and medical expertise that would make it useful for medical documentation, diagnosis support, treatment recommendation or any medical Q&A,\u201d the Nabla team noted in a report on its research efforts. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -562,7 +520,6 @@
                 "snippets": [
                     "As others have observed, the quality of GPT-3 outputs is much impacted by the seed words used - the same question formulated in two different ways can result in very different answers."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -591,11 +548,9 @@
                     "One serious concern is that GPT-3 very often gives wrong yet grammatically correct answers, with no scientific reference that a physician could check. ",
                     "After a few turns of dialogue during a mock session, for example, GPT-3 forgot the specific times a patient said they were unavailable, and it instead suggested those times as appointment slots."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "46": {
         "task": [
@@ -605,7 +560,6 @@
                 "snippets": [
                     "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -614,7 +568,6 @@
                 "snippets": [
                     "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -625,7 +578,6 @@
                 "snippets": [
                     "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -634,7 +586,6 @@
                 "snippets": [
                     "It\u2019s pretty easy to silence a false alarm, but the chirp because of a failed device cannot be silenced and it happened right before bed."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -645,7 +596,6 @@
                 "snippets": [
                     "Several users have echoed a similar experience on a Nest Community support thread reporting cases where the Nest Protect hardware had to be replaced to resolve the issue with startling false alarms. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -654,7 +604,6 @@
                 "snippets": [
                     "It\u2019s pretty easy to silence a false alarm, but the chirp because of a failed device cannot be silenced and it happened right before bed."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -683,7 +632,6 @@
                     "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026",
                     "Nest Labs\u2013a startup recently bought by Google which brings high style and web smarts to mundane household devices\u2013is recalling Nest Protect, a smoke and carbon monoxide detector, over concerns that its alarm might fail to go off in emergency situations."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -730,7 +678,6 @@
                 "snippets": [
                     "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -739,7 +686,6 @@
                 "snippets": [
                     "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -749,7 +695,6 @@
                     "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again.",
                     "After my appeal was denied, I went live on my new TikTok account, one of the trolls entered the live and reported me. I was banned from livestreaming for 24hours for \u201cserious pornography.\u201d I was wearing a tanktop."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -759,11 +704,9 @@
                     "From what I\u2019ve gathered, if enough people report a video on TikTok (even if it\u2019s a false report) the video is removed automatically, regardless of whether the video actually violated the guidelines or not. This can be appealed and if approved by a computer program, the content will be available again.",
                     "After my appeal was denied, I went live on my new TikTok account, one of the trolls entered the live and reported me. I was banned from livestreaming for 24hours for \u201cserious pornography.\u201d I was wearing a tanktop."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "34": {
         "task": [
@@ -773,7 +716,6 @@
                 "snippets": [
                     "According to one couple on Twitter, their Amazon Echo lit up on Thursday night, not in response to their voice, but a voice the device heard on TV. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -784,7 +726,6 @@
                 "snippets": [
                     "According to one couple on Twitter, their Amazon Echo lit up on Thursday night, not in response to their voice, but a voice the device heard on TV. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -793,7 +734,6 @@
                 "snippets": [
                     "According to one couple on Twitter, their Amazon Echo lit up on Thursday night, not in response to their voice, but a voice the device heard on TV. "
                 ],
-                "comment": NaN,
                 "report_index": 3
             },
             {
@@ -802,7 +742,6 @@
                 "snippets": [
                     "Amazon said this is thanks to \"acoustic fingerprinting\", meaning that the Echo recognises this as an advert and not the command of whoever is in the room."
                 ],
-                "comment": NaN,
                 "report_index": 4
             }
         ],
@@ -813,7 +752,6 @@
                 "snippets": [
                     "Alexa is not without its SNAFUs when it comes to tiny tots. Just a few days ago, Alexa made headlines after it returned a child\u2019s request for a favorite song with \"crude porn.\"\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 3
             },
             {
@@ -822,7 +760,6 @@
                 "snippets": [
                     "But Amazon says Neitzel could have further avoided the \u201caccidental\u201d order by managing her shopping settings in the Alexa app, such as by turning off voice purchasing or requiring a confirmation code before every order. It\u2019s all spelled out here."
                 ],
-                "comment": NaN,
                 "report_index": 12
             },
             {
@@ -851,7 +788,6 @@
                     "One owner uploaded a video in which their Amazon Echo read back a shopping list that included \u201chunk of poo, big fart, girlfriend, [and] Dove soap\u201d.",
                     "Another included \u201c150,000 bottles of shampoo\u201d and \u201csled dogs\u201d."
                 ],
-                "comment": NaN,
                 "report_index": 15
             },
             {
@@ -872,8 +808,7 @@
                 "comment": "Speaker diarization / recognition missing.",
                 "report_index": 27
             }
-        ],
-        "issues": []
+        ]
     },
     "13": {
         "task": [
@@ -883,7 +818,6 @@
                 "snippets": [
                     "However, computer scientists and others on the internet have found the system unable to identify a wide swath of hateful comments, while categorizing innocuous word combinations like \u201chate is bad\u201d and \u201cgarbage truck\u201d as overwhelmingly toxic."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -894,7 +828,6 @@
                 "snippets": [
                     "It\u2019s very limited to the types of abuse and toxicity in that initial training data set. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -905,7 +838,6 @@
                     "For example, \u201cracism is bad\u201d triggers the old system into giving an overwhelmingly negative score because the words \u201cracism\u201d and \u201cbad\u201d are seen as negative, Goldberg says.",
                     "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -915,7 +847,6 @@
                     "First, the system shown to Greenberg was a research model specifically trained to detect personal attacks, meaning it would be much more sensitive to words like \u201cyou\u201d or \u201cyou\u2019re.\u201d",
                     "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -926,7 +857,6 @@
                     "But in real-world applications, these systems are susceptible to intelligent subversion or attacks,\" said senior author Radha Poovendran, chair of the UW electrical engineering department and director of the Network Security Lab.",
                     "Designing a system with a benign operating environment in mind and deploying it in adversarial environments can have devastating consequences.\""
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -937,7 +867,6 @@
                     "That\u2019s because, while that technique can be efficiently pointed at a very specific problem, like figuring out that smiley faces correlate with someone being nice, the deep neural network being trained through the API now has a much greater capacity to understand the nuances of the entire language.",
                     "The tool seems to rank profanity as highly toxic, while deeply harmful statements are often deemed safe\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -949,7 +878,6 @@
                     "They showed that the system is vulnerable to both missing incendiary language and falsely blocking non-abusive phrases.",
                     "But in real-world applications, these systems are susceptible to intelligent subversion or attacks,\" said senior author Radha Poovendran, chair of the UW electrical engineering department and director of the Network Security Lab."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -962,7 +890,6 @@
                     "Annotators read through each transcript and identified segments that appeared to be especially uncivil or civil, rating them on a ten-point scale for measures like \u201cpolite/rude,\u201d \u201cfriendly/hostile,\u201d \u201ccooperative/quarrelsome,\u201d and \u201ccalm/agitated.\u201d",
                     "Perspective tends to label certain identities \u2014 including \u201cgay,\u201d \u201cAfrican-American,\u201d \u201cMuslim\u201d and \u201cIslam,\u201d \u201cJew,\u201d \u201cwomen,\u201d and \u201cfeminism\u201d and \u201cfeminist\u201d \u2014 as toxic. Moreover, the API erroneously flags words relating to violence and death (e.g., \u201cdie,\u201d \u201ckill,\u201d \u201cshooting,\u201d \u201cprostitution,\u201d \u201cpornography,\u201d \u201csexual\u201d) even in the absence of incivility, as well as words that in one context could be toxic but in another could refer to a name (e.g., \u201cDick\u201d)."
                 ],
-                "comment": NaN,
                 "report_index": 3
             },
             {
@@ -983,7 +910,6 @@
                 "snippets": [
                     "They then captured 1-5 character snippets, called character-level ngrams, of the attacking comments and trained a machine-learning algorithm that those ngrams were correlated with toxic activity."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -996,11 +922,9 @@
                     "Annotators read through each transcript and identified segments that appeared to be especially uncivil or civil, rating them on a ten-point scale for measures like \u201cpolite/rude,\u201d \u201cfriendly/hostile,\u201d \u201ccooperative/quarrelsome,\u201d and \u201ccalm/agitated.\u201d",
                     "Perspective tends to label certain identities \u2014 including \u201cgay,\u201d \u201cAfrican-American,\u201d \u201cMuslim\u201d and \u201cIslam,\u201d \u201cJew,\u201d \u201cwomen,\u201d and \u201cfeminism\u201d and \u201cfeminist\u201d \u2014 as toxic. Moreover, the API erroneously flags words relating to violence and death (e.g., \u201cdie,\u201d \u201ckill,\u201d \u201cshooting,\u201d \u201cprostitution,\u201d \u201cpornography,\u201d \u201csexual\u201d) even in the absence of incivility, as well as words that in one context could be toxic but in another could refer to a name (e.g., \u201cDick\u201d)."
                 ],
-                "comment": NaN,
                 "report_index": 3
             }
-        ],
-        "issues": []
+        ]
     },
     "27": {
         "technology": [
@@ -1012,7 +936,6 @@
                     "It was subsequently determined that the false alarms were caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits,[13] an error later corrected by cross-referencing a geostationary satellite.",
                     "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1025,7 +948,6 @@
                     "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n",
                     " \u201cAnd by chance that blinding light landed right in the center of the system\u2019s eye.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1036,7 +958,6 @@
                     "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n",
                     "\u201cAnd that day the satellites told us with the highest degree of certainty that these rockets were on the way.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1047,7 +968,6 @@
                     "It later emerged that the false alarm was the result of a satellite mistaking the reflection of the sun\u2019s rays off the tops of clouds for a missile launch.\n\n",
                     "\u201cAnd that day the satellites told us with the highest degree of certainty that these rockets were on the way.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1056,7 +976,6 @@
                 "snippets": [
                     " \u201cAnd by chance that blinding light landed right in the center of the system\u2019s eye.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1067,7 +986,6 @@
                 "snippets": [
                     "Petrov's responsibilities included observing the satellite early warning network and notifying his superiors of any impending nuclear missile attack against the Soviet Union."
                 ],
-                "comment": NaN,
                 "report_index": 5
             }
         ],
@@ -1083,7 +1001,6 @@
                 "snippets": [
                     "Google has been forced to apologise after its image recognition software mislabelled photographs of black people as gorillas.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1094,7 +1011,6 @@
                 "snippets": [
                     "Google has been forced to apologise after its image recognition software mislabelled photographs of black people as gorillas.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1103,7 +1019,6 @@
                 "snippets": [
                     "While the app\u2019s algorithm was able to correctly identify pictures of a \u201cgraduation,\u201d \u201cskyscrapers,\u201d and \u201cairplanes,\u201d it labeled photos of Alcine and a female friend as gorillas."
                 ],
-                "comment": NaN,
                 "report_index": 3
             },
             {
@@ -1112,7 +1027,6 @@
                 "snippets": [
                     NaN
                 ],
-                "comment": NaN,
                 "report_index": 5
             }
         ],
@@ -1123,7 +1037,6 @@
                 "snippets": [
                     "He said however the error may occur in photographs where their image recognition software failed to detect a face at all.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1132,7 +1045,6 @@
                 "snippets": [
                     "Engineers at Google's research labs also recently ran various pictures through its \"neural network\", asking the software to identify patterns in the images and then alter that image to exaggerate the patterns."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1142,11 +1054,9 @@
                     NaN,
                     NaN
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "111": {
         "task": [
@@ -1156,7 +1066,6 @@
                 "snippets": [
                     "Contract drivers say algorithms terminate them by email\u2014even when they have done nothing wrong.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1167,7 +1076,6 @@
                 "snippets": [
                     "The system also uses GPS to decide how long it should take to reach a specific address but sometimes fails to account for the fact that navigating a rural road in the snow takes a lot longer than traversing a suburban street on a sunny day."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1176,7 +1084,6 @@
                 "snippets": [
                     "Contract drivers say algorithms terminate them by email\u2014even when they have done nothing wrong.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1186,7 +1093,6 @@
                     "One driver posting on reddit said they were terminated because, according to the Flex app, the selfies they took to verify their identity at the start of the shift didn\u2019t match the driver\u2019s license photo they uploaded when they set up the account. ",
                     "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1209,7 +1115,6 @@
                     "Amazon knew delegating work to machines would lead to mistakes and damaging headlines, these former managers said, but decided it was cheaper to trust the algorithms than pay people to investigate mistaken firings so long as the drivers could be replaced easily.",
                     "Inside Amazon, the Flex program is considered a great success, whose benefits far outweigh the collateral damage, said a former engineer who helped design the system. \u201cExecutives knew this was gonna shit the bed,\u201d this person said. \u201cThat\u2019s actually how they put it in meetings. The only question was how much poo we wanted there to be.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1228,7 +1133,6 @@
                 "snippets": [
                     "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1237,7 +1141,6 @@
                 "snippets": [
                     "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1246,11 +1149,9 @@
                 "snippets": [
                     "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "36": {
         "task": [
@@ -1289,7 +1190,6 @@
                 "snippets": [
                     "The AI genius employed by said cops comes from Shenzhen-based Intellifusion, whose \"DeepEye\" provides \u201cCloud based deep learning for public safety and industrial monitoring\u201d according to the company. "
                 ],
-                "comment": NaN,
                 "report_index": 11
             }
         ],
@@ -1312,8 +1212,7 @@
                 "comment": "In case the training dataset contains such false positives",
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "167": {
         "technology": [
@@ -1323,7 +1222,6 @@
                 "snippets": [
                     "Presented with photos of gay men and straight men, a computer program was able to determine which of the two was gay with 81 percent accuracy, according to Dr. Kosinski and co-author Yilun Wang\u2019s paper."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -1332,7 +1230,6 @@
                 "snippets": [
                     "The images were cropped further and then processed through a deep neural network, a layered mathematical system capable of identifying patterns in vast amounts of data."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -1341,7 +1238,6 @@
                 "snippets": [
                     "The images were cropped further and then processed through a deep neural network, a layered mathematical system capable of identifying patterns in vast amounts of data."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -1350,7 +1246,6 @@
                 "snippets": [
                     "The software extracts information from thousands of facial data points, including nose width, mustache shape, eyebrows, corners of the mouth, hairline and even aspects of the face we don\u2019t have words for. It then turns the faces into numbers."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -1361,7 +1256,6 @@
                 "snippets": [
                     "He noted in an email that \u201cthe algorithms were only trained and tested on white, American, openly gay men (and white, American, presumed straight comparisons),\u201d and therefore probably would not have broader implications."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -1370,7 +1264,6 @@
                 "snippets": [
                     "Some 300,000 images were whittled down to 35,000 that showed faces clearly and met certain criteria. All were white, the researchers said, because they could not find enough dating profiles of gay minorities to generate a statistically valid result."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -1398,7 +1291,6 @@
                 "snippets": [
                     "Yet none of the scenarios remotely resembled a scan of people \u201cin the wild,\u201d as Ms. Garvie put it. And when the tool was challenged with other scenarios \u2014 such as distinguishing between gay men\u2019s Facebook photos and straight men\u2019s online dating photos \u2014 accuracy dropped to 74 percent."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -1417,11 +1309,9 @@
                     "Dr. Kosinski and Mr. Wang say that the algorithm is responding to fixed facial features, like nose shape, along with \u201cgrooming choices,\u201d such as eye makeup.\n\n",
                     "But it\u2019s also possible that the algorithm is seeing something totally unknown.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "68": {
         "task": [
@@ -1431,7 +1321,6 @@
                 "snippets": [
                     "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1442,7 +1331,6 @@
                 "snippets": [
                     "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1453,11 +1341,9 @@
                 "snippets": [
                     "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "74": {
         "task": [
@@ -1467,7 +1353,6 @@
                 "snippets": [
                     "On a Thursday afternoon in January, Robert Julian-Borchak Williams was in his office at an automotive supply company when he got a call from the Detroit Police Department telling him to come to the station to be arrested."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1478,7 +1363,6 @@
                 "snippets": [
                     "On a Thursday afternoon in January, Robert Julian-Borchak Williams was in his office at an automotive supply company when he got a call from the Detroit Police Department telling him to come to the station to be arrested."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1487,14 +1371,12 @@
                 "snippets": [
                     "On a Thursday afternoon in January, Robert Julian-Borchak Williams was in his office at an automotive supply company when he got a call from the Detroit Police Department telling him to come to the station to be arrested."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
                 "label": "Distributional Learning",
                 "confidence": "potential",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -1506,7 +1388,6 @@
                     "Last year, during a public hearing about the use of facial recognition in Detroit, an assistant police chief was among those who raised concerns. \u201cOn the question of false positives \u2014 that is absolutely factual, and it\u2019s well-documented,\u201d James White said.",
                     "Clare Garvie, a lawyer at Georgetown University\u2019s Center on Privacy and Technology, has written about problems with the government\u2019s use of facial recognition. She argues that low-quality search images \u2014 such as a still image from a grainy surveillance video \u2014 should be banned, and that the systems currently in use should be tested rigorously for accuracy and bias."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1517,7 +1398,6 @@
                     "Clare Garvie, a lawyer at Georgetown University\u2019s Center on Privacy and Technology, has written about problems with the government\u2019s use of facial recognition. She argues that low-quality search images \u2014 such as a still image from a grainy surveillance video \u2014 should be banned, and that the systems currently in use should be tested rigorously for accuracy and bias.",
                     "In 2019, algorithms from both companies were included in a federal study of over 100 facial recognition systems that found they were biased, falsely identifying African-American and Asian faces 10 times to 100 times more than Caucasian faces."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1527,7 +1407,6 @@
                     "\u201cIf we would use the software only [to identify subjects], we would not solve the case 95-97 percent of the time,\u201d Craig said. \u201cThat\u2019s if we relied totally on the software, which would be against our current policy \u2026 If we were just to use the technology by itself, to identify someone, I would say 96 percent of the time it would misidentify.\"",
                     "Critics say police rely too heavily on the technology, particularly since research has shown it misidentifies women and people of color more often than white men."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1539,8 +1418,7 @@
                 "comment": "If low-quality data only mostly present during deployment.",
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "252": {
         "task": [
@@ -1550,7 +1428,6 @@
                 "snippets": [
                     "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1561,7 +1438,6 @@
                 "snippets": [
                     "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1584,8 +1460,7 @@
                 "comment": "Accidents / errors should be expected with application of near-lethal weapons in a school setting.",
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "253": {
         "task": [
@@ -1595,7 +1470,6 @@
                 "snippets": [
                     "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -1606,7 +1480,6 @@
                 "snippets": [
                     "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -1615,7 +1488,6 @@
                 "snippets": [
                     "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -1648,11 +1520,9 @@
                     "Wired adds that in that incident, \u201cCompany staff were unable to see where the vehicles were located or communicate with riders inside. ",
                     "Worst of all, the company was unable to access its fallback system, which allows remote operators to safely steer stopped vehicles to the side of the road.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "254": {
         "task": [
@@ -1662,7 +1532,6 @@
                 "snippets": [
                     "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1673,7 +1542,6 @@
                 "snippets": [
                     "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1682,7 +1550,6 @@
                 "snippets": [
                     "The complaint alleges Google\u2019s face grouping tool, which automatically identifies your face in photos and videos uploaded to Photos, violates Illinois\u2019 Biometric Information Privacy Act (BIPA)."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -1693,11 +1560,9 @@
                 "snippets": [
                     "Google \u201cis in direct violation\u201d of this law, the complaint claims, as it allegedly collects and analyzes a person\u2019s facial structure in connection with its face grouping feature \u201cwithout providing notice, obtaining informed written consent or publishing data retention policies.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "28": {
         "task": [
@@ -1705,7 +1570,6 @@
                 "label": "Automatic Stock Trading",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1739,11 +1603,9 @@
                     "At 2.32 pm, the mutual fund had used an automated algorithm trading strategy to sell contracts known as e-minis. It was the largest change in the daily position of any investor so far that year and sparked selling by other traders, including high frequency traders.",
                     "The trader then executed the sell program \"extremely rapidly in just 20 minutes\", causing the largest net change in daily position of any trader in the E-mini since the beginning of the year."
                 ],
-                "comment": NaN,
                 "report_index": 7
             }
-        ],
-        "issues": []
+        ]
     },
     "103": {
         "task": [
@@ -1753,7 +1615,6 @@
                 "snippets": [
                     "Twitter\u2018s algorithm for automatically cropping images attached to tweets often doesn\u2019t focus on the important content in them. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1765,7 +1626,6 @@
                     "Her theory is backed by Twitter\u2019s 2018 blog post that explained its neural network built for image cropping. ",
                     "The company definitely needs to do some digging into their algorithm to understand the bias in its neural network."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1778,7 +1638,6 @@
                     "A bother, for sure, but it seems like a minor one on the surface. However, over the weekend, researchers found that the cropping algorithm might have a more serious problem: white bias.",
                     "Researchers found bias when the algorithm was shown photos of people from two demographic groups. Ultimately, the algorithm picks one person whose face will appear in Twitter timelines, and some groups are better represented on the platform than others. When researchers fed a picture of a Black man and a white woman into the system, the algorithm chose to display the white woman 64 percent of the time and the Black man only 36 percent of the time, the largest gap for any demographic groups included in the analysis. For images of a white woman and a white man, the algorithm displayed the woman 62 percent of the time. For images of a white woman and a Black woman, the algorithm displayed the white woman 57 percent of the time."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1798,11 +1657,9 @@
                     "Twitter\u2018s algorithm for automatically cropping images attached to tweets often doesn\u2019t focus on the important content in them. ",
                     "A bother, for sure, but it seems like a minor one on the surface. However, over the weekend, researchers found that the cropping algorithm might have a more serious problem: white bias."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "106": {
         "task": [
@@ -1812,7 +1669,6 @@
                 "snippets": [
                     "Interactive chatbot \u2018Luda,\u2019 subjected to sexual harassment and taught hate speech \u3000\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1823,7 +1679,6 @@
                 "snippets": [
                     "Luda is believed to use \u201cmesh autoencoders,\u201d a natural language processing technology introduced by Google. The initial input data for Luda\u2019s deep learning AI consisted of 10 billion KakaoTalk messages shared between actual couples."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1834,7 +1689,6 @@
                     "After the launch, several online community boards posted messages such as those titled, \u201cHow to make Luda a sex slave,\u201d with screen-captured images of sexual conversations with the AI.",
                     "ScatterLab explained that the chatbot did not learn this behavior from the users it interacted with during the two weeks of service but rather learned it from the original training dataset. In other words, ScatterLab had not fully removed or filtered inappropriate language or intimate and sexual conversations from the dataset. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -1848,7 +1702,6 @@
                     "The bot was also shown to say, \u201cYuck, I really hate them,\u201d in a response to a question about transgender people.",
                     "\u201cLuda will not immediately apply the conversation with the users to its learning system,\u201d and insisted that it would go through a process of giving appropriate learning signals gradually, to acknowledge the difference between what is OK and what is not."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1861,7 +1714,6 @@
                     "Kakao Games CEO Namgung Hoon said Luda itself is not guilty of embodying the young generation's prejudices and is one of many AI characters that will come out in the market in the future.\"",
                     "ScatterLab explained that the chatbot did not learn this behavior from the users it interacted with during the two weeks of service but rather learned it from the original training dataset. In other words, ScatterLab had not fully removed or filtered inappropriate language or intimate and sexual conversations from the dataset. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1872,7 +1724,6 @@
                     "In addition to this, ScatterLab shared their training model on GitHub, but not fully filtering or anonymising the data (D. Kim 2021)",
                     "This Github training dataset exposed names of more than 20 people, along with the locations they have been to, their relationship status, and some of their medical information."
                 ],
-                "comment": NaN,
                 "report_index": 6
             },
             {
@@ -1883,7 +1734,6 @@
                     "In addition to this, ScatterLab shared their training model on GitHub, but not fully filtering or anonymising the data (D. Kim 2021)",
                     "This Github training dataset exposed names of more than 20 people, along with the locations they have been to, their relationship status, and some of their medical information."
                 ],
-                "comment": NaN,
                 "report_index": 9
             },
             {
@@ -1892,7 +1742,6 @@
                 "snippets": [
                     "ScatterLab explained that the chatbot did not learn this behavior from the users it interacted with during the two weeks of service but rather learned it from the original training dataset. In other words, ScatterLab had not fully removed or filtered inappropriate language or intimate and sexual conversations from the dataset. "
                 ],
-                "comment": NaN,
                 "report_index": 9
             },
             {
@@ -1901,11 +1750,9 @@
                 "snippets": [
                     " Further, it was discovered that groups of users in certain online communities were training Luda to respond to sexual commands, which provoked intense discussions about sexual harassment (\u201ccan AI be sexually harassed\u201d?) in a society that already grapples with gender issues.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": 11
             }
-        ],
-        "issues": []
+        ]
     },
     "262": {
         "task": [
@@ -1952,7 +1799,6 @@
                     "\u201cOne red team member told WIRED that eight out of eight attempts to generate images with words like \u2018a man sitting in a prison cell\u2019 or \u2018a photo of an angry man\u2019 returned images of men of colour,\u201d the publication went on to note.",
                     "Every image it generated for \"expert\" \"data scientist\" \"computer scientist\" showed some distorted version of a white male."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -1970,7 +1816,6 @@
                 "snippets": [
                     "Now, there are some insidiously dangerous risks in this case. As pointed out by Vox, people could leverage this type of AI to make everything from deepnudes to political deepfakes\u2014although the results would be horrific, to say the least. Given how the technology is free to use on the internet, it also harbours the potential to put human illustrators out of work in the long run."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -1979,7 +1824,6 @@
                 "snippets": [
                     "Dayma suggested that images of South Asian women in saris may have been heavily represented in those original photosets that feed DALL-E Mini."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -1990,7 +1834,6 @@
                     "Dayma suggested that images of South Asian women in saris may have been heavily represented in those original photosets that feed DALL-E Mini.",
                     "And that the quirk could also have something to do with caption length, as the AI might associate zero-character prompts with short image descriptions."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -1999,11 +1842,9 @@
                 "snippets": [
                     "Instead, Cook thinks the origin could lie in a language bias of the data filtering process. \u201cOne thing that did occur to me while reading around is that a lot of these datasets strip out text that isn\u2019t English,\u201d he said. Image captions that include Hindi, for example, might be getting removed, leaving images with no supporting, explanatory text or labels floating free in the primordial AI soup, he explained."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "151": {
         "task": [
@@ -2013,7 +1854,6 @@
                 "snippets": [
                     "On October 28, 2021, after turning right onto Fremont Blvd from Cushing Pkwy, the Pony.ai Autonomous Vehicle (\"Pony.ai AV\") performed a left lane change maneuver in autonomous mode. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -2033,7 +1873,6 @@
                 "snippets": [
                     "Pony.ai, which is backed by Toyota Motor Corp (7203.T), said that in very rare circumstances, a planning system diagnostic check \"could generate a 'false positive' indication of a geolocation mismatch.\""
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -2048,8 +1887,7 @@
                 "comment": "Potentially the divider was not detected or detected at a wrong distance from the car.",
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "154": {
         "task": [
@@ -2059,7 +1897,6 @@
                 "snippets": [
                     "In a report issued days before Christmas in 2021, the department said its algorithmic tool for assessing the risk that a person in prison would return to crime produced uneven results. "
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -2090,7 +1927,6 @@
                 "snippets": [
                     "Attorney General Merrick Garland has directed the department to look for ways to assess racial bias and make the tool more transparent, a spokeswoman said."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2099,7 +1935,6 @@
                 "snippets": [
                     "One option is to adjust the cutoff points between the risk categories, allowing more prisoners to earn credits for release, which would \"maximize access to First Step Act relief while ensuring public safety,\" she said."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2120,8 +1955,7 @@
                 "comment": "If distributional learning is used, perhaps racial biases are present in the learning system.",
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "192": {
         "task": [
@@ -2131,7 +1965,6 @@
                 "snippets": [
                     "The women had been told to reapply for their positions, but were then informed they were being made redundant in part on the basis of an automated judgment by a computer."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -2142,7 +1975,6 @@
                 "snippets": [
                     "She said that in the interview they were asked questions about putting on make-up \u2014 but rather than demonstrating it they had to describe the process, which she found difficult."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2151,7 +1983,6 @@
                 "snippets": [
                     "The women had been told to reapply for their positions, but were then informed they were being made redundant in part on the basis of an automated judgment by a computer."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2160,7 +1991,6 @@
                 "snippets": [
                     "The women had been told to reapply for their positions, but were then informed they were being made redundant in part on the basis of an automated judgment by a computer."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -2171,7 +2001,6 @@
                 "snippets": [
                     "Questions in the video interview process, which did not ask for any demonstrations of the make-up artists\u2019 work, included how to create a smokey eye, according to one of the artists."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2180,14 +2009,12 @@
                 "snippets": [
                     "Questions in the video interview process, which did not ask for any demonstrations of the make-up artists\u2019 work, included how to create a smokey eye, according to one of the artists."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
                 "label": "Inadequate Data Sampling",
                 "confidence": "potential",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2196,14 +2023,12 @@
                 "snippets": [
                     "The three women also said that no one could explain how they were scored in the HireVue interview.\n\n"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
                 "label": "Problematic Input",
                 "confidence": "potential",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2215,8 +2040,7 @@
                 "comment": "Makeup skill assessment with verbal descriptions, rather visual media.",
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "39": {
         "task": [
@@ -2226,7 +2050,6 @@
                 "snippets": [
                     "The researchers used 14 hours of Obama's weekly address videos to train a neural network. Once trained, their system was then able to take an audio clip from the former president, create mouth shapes that synced with the audio and then synthesize a realistic looking mouth that matched Obama's. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -2237,7 +2060,6 @@
                 "snippets": [
                     "The researchers chose Obama for their latest work because there were hours of high-definition video of him available online in the public domain. The research team had a neural net analyze millions of frames of video to determine how elements of Obama's face moved as he talked, such as his lips and teeth and wrinkles around his mouth and chin."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2246,7 +2068,6 @@
                 "snippets": [
                     "In an artificial neural network, components known as artificial neurons are fed data, and work together to solve a problem such as identifying faces or recognizing speech."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2256,7 +2077,6 @@
                     "Using a recurrent neural network, the AI was able to match up the president\u2019s spoken words with the mouth shapes he made during the videos. ",
                     "The researchers note their videos are currently not always perfect. For example, when Obama tilted his face away from the camera in a target video, imperfect 3-D modeling of his face could cause parts of his mouth to get superimposed outside the face and onto the background."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2277,7 +2097,6 @@
                     "One neural network generates content, while the other rejects or approves each effort. The back-and-forth interplay between the two eventually produces a realistic result that can easily fool the human eye, including reproducing a static scene behind the head as it bobs back and forth.",
                     "Portraits. It relies on a type of AI called generative adversarial networks (GANs) to modify a \u201ctarget\u201d actor based on the facial and head movement of a \u201csource\u201d actor. "
                 ],
-                "comment": NaN,
                 "report_index": 3
             }
         ],
@@ -2296,8 +2115,7 @@
                 "comment": "Good deepfakes of political actors may cause unrest, democratic institution degeneration, fake news, societal fallout.",
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "21": {
         "task": [
@@ -2307,7 +2125,6 @@
                 "snippets": [
                     "The Winograd Schema Challenge asks computers to make sense of sentences that are ambiguous but usually simple for humans to parse."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -2327,7 +2144,6 @@
                 "snippets": [
                     "In the sentence \u201cThe city councilmen refused the demonstrators a permit because they feared violence,\u201d it is logically unclear who the word \u201cthey\u201d refers to, although humans understand because of the broader context."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2374,11 +2190,9 @@
                 "snippets": [
                     "Liu\u2019s group, which included researchers from York University in Toronto and the National Research Council of Canada, used deep learning to train a computer to recognize the relationship between different events, such as \u201cplaying basketball\u201d and \u201cwinning\u201d or \u201cgetting injured,\u201d from thousands of texts."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "137": {
         "task": [
@@ -2412,11 +2226,9 @@
                     "In many cases the software arrives with only an executable file (.exe file) written in computer language, unlike a source code that is understood by the programmers. In this case, the entire supervision is conditioned on reverse engineering, in which prolonged experiments are conducted on the software to learn about its source code. In the absence of a human being to make the decision and without an open-source software, there is no real supervisor \u2013 a public employee, a gatekeeper or the public - on the way decisions are made.",
                     "Human beings, like Tax Authority employees in this case, have a tendency to rely on the machine\u2019s decision, but the result the machine reaches isn\u2019t necessarily the right one, and the machine\u2019s decisions must be supervised."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "1": {
         "task": [
@@ -2426,7 +2238,6 @@
                 "snippets": [
                     "An off-brand Paw Patrol video called \"Babies Pretend to Die Suicide\" features several disturbing scenarios.\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\n\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\nMany of those views came from YouTube's \"up next\" and \"recommended\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\nIf you don't pick another video to watch after the current video ends, the \"up next\" video will automatically play.\n"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2435,21 +2246,18 @@
                 "snippets": [
                     "An off-brand Paw Patrol video called \"Babies Pretend to Die Suicide\" features several disturbing scenarios.\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\n\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\nMany of those views came from YouTube's \"up next\" and \"recommended\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\nIf you don't pick another video to watch after the current video ends, the \"up next\" video will automatically play.\n"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
                 "label": "Hate Speech Detection",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
                 "label": "NSFW Content Detection",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -2460,14 +2268,12 @@
                 "snippets": [
                     "If you searched for \"moon landing\" on YouTube Kids, three videos appeared that claim that the moon landing was hoaxed. All three videos have since been hidden by YouTube after we informed it of the issue."
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
                 "label": "Collaborative Filtering",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2490,7 +2296,6 @@
                 "label": "Distributional Learning",
                 "confidence": "potential",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             }
         ],
@@ -2529,7 +2334,6 @@
                 "label": "Distributional Bias",
                 "confidence": "potential",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2560,7 +2364,6 @@
                 "snippets": [
                     "The first line of defense for YouTube Kids are algorithmic filters. After that, there is a team of humans that review videos which have been flagged. If a video with recognizable children\u2019s characters gets flagged in YouTube\u2019s main app, which is much larger than the Kids app, it will be sent to the policy review team. YouTube says it has thousands of people working around the clock in different time zones to review flagged content. If the review finds the video is in violation of the new policy, it will be age restrictied, automatically blocking it from showing up in the Kids app. YouTube says it typically takes at least a few days for content to make its way from YouTube proper to YouTube Kids, and the hope is that within that window, users will flag anything potentially disturbing to children. YouTube also has a team of volunteer moderators, which it calls Contributors, looking for inappropriate content. YouTube says it will start training its review team on the new policy and it should be live within a few weeks. \nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids. Within that window it is hoped users and a specially-trained team will flag disturbing content.\n\n\n"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             },
             {
@@ -2569,11 +2372,9 @@
                 "snippets": [
                     "The first line of defense for YouTube Kids are algorithmic filters. After that, there is a team of humans that review videos which have been flagged. If a video with recognizable children\u2019s characters gets flagged in YouTube\u2019s main app, which is much larger than the Kids app, it will be sent to the policy review team. YouTube says it has thousands of people working around the clock in different time zones to review flagged content. If the review finds the video is in violation of the new policy, it will be age restrictied, automatically blocking it from showing up in the Kids app. YouTube says it typically takes at least a few days for content to make its way from YouTube proper to YouTube Kids, and the hope is that within that window, users will flag anything potentially disturbing to children. YouTube also has a team of volunteer moderators, which it calls Contributors, looking for inappropriate content. YouTube says it will start training its review team on the new policy and it should be live within a few weeks. \nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids. Within that window it is hoped users and a specially-trained team will flag disturbing content.\n\n\n"
                 ],
-                "comment": NaN,
                 "report_index": NaN
             }
-        ],
-        "issues": []
+        ]
     },
     "72": {
         "task": [
@@ -2633,7 +2434,6 @@
                 "snippets": [
                     "The error comes after Facebook announced in August that it shifted to neural machine translation, which uses convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to automatically translate content across its site. Many tech companies including Facebook, Google and Microsoft have been pivoting towards neural machine translation and away from phrase-based, pattern-tracking statistical machine translation (SMT) to quicken and improve their translation software."
                 ],
-                "comment": NaN,
                 "report_index": 4
             },
             {
@@ -2642,7 +2442,6 @@
                 "snippets": [
                     "The error comes after Facebook announced in August that it shifted to neural machine translation, which uses convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to automatically translate content across its site. Many tech companies including Facebook, Google and Microsoft have been pivoting towards neural machine translation and away from phrase-based, pattern-tracking statistical machine translation (SMT) to quicken and improve their translation software."
                 ],
-                "comment": NaN,
                 "report_index": 6
             },
             {
@@ -2653,7 +2452,6 @@
                     "The man, a construction worker on the West Bank, posted a picture of himself leaning against a bulldozer like those that have been used in hit-and-run terrorist attacks, with a caption that correctly translates to \"good morning\"",
                     "However, AI translation depends on learning from the most common uses of words, and most bi- or multi-lingual speakers find that Google and Facebook translations are very lacking."
                 ],
-                "comment": NaN,
                 "report_index": 8
             },
             {
@@ -2700,8 +2498,7 @@
                 "comment": "If multimodal learning is used, perhaps the buldozer was recognized and its extracted keyword contributed to the bias in the NLP domain.",
                 "report_index": 17
             }
-        ],
-        "issues": []
+        ]
     },
     "112": {
         "task": [
@@ -2712,7 +2509,6 @@
                     "The system was suppose to become attuned to the way sounds were heard in Troy's streets and differentiate among the brakes of a truck climbing the Hoosic Street hill, from a firecracker, actual shots and any other noise.",
                     "It was expected to take a full year to fine-tune the acoustic devices so it would pick out the gunshots from other sounds. Tedesco said that never occurred.\n"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2721,7 +2517,6 @@
                 "snippets": [
                     "The system records all loud noises, Greene said. The computer uses at least three microphones to locate the gunshot within a 25-meter radius. Then, at SST\u2019s location in Newark, staff reviews each report to make sure the computer flags only gunshots."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
         ],
@@ -2739,7 +2534,6 @@
                     "Greene also acknowledged at trial that \u201cwe freely admit that anything and everything in the environment can affect location and detection accuracy.\u201d\n",
                     " The sensors have been placed almost exclusively in predominantly Black and brown communities, while the white enclaves in the north and northwest of the city have no sensors at all, despite Chicago police data that shows gun crime is spread throughout the city."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2752,7 +2546,6 @@
                     "The California-based company decided it could no longer offer its service to the city for free after police and administration officials balked at funding a system that they said worked less than 50 percent of the time and even missed all seven shots that were fired when a man was killed two months ago in downtown Fall River.",
                     "Dupere said last summer that ShotSpotter had reported too many false alarms of gunfire while missing actual shots-fired incidents in Fall River. Dupere said then that he and other city officials decided the money would be better used to expand the police department\u2019s video surveillance system in the city."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2782,7 +2575,6 @@
                     "While other communities have reported using it relatively well, the system in Fall River never operated smoothly. Dupere said the city was told that the system was capable \u201cof doing things it just couldn\u2019t do.\u201d",
                     " The sensors have been placed almost exclusively in predominantly Black and brown communities, while the white enclaves in the north and northwest of the city have no sensors at all, despite Chicago police data that shows gun crime is spread throughout the city."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2793,7 +2585,6 @@
                     "Police could find no evidence of a shooting at the scene about 80 percent of the time, said Joe Frank Picazo, the chief\u2019s assistant.\n",
                     "The California-based company decided it could no longer offer its service to the city for free after police and administration officials balked at funding a system that they said worked less than 50 percent of the time and even missed all seven shots that were fired when a man was killed two months ago in downtown Fall River."
                 ],
-                "comment": NaN,
                 "report_index": 3
             },
             {
@@ -2802,7 +2593,6 @@
                 "snippets": [
                     "Dupere said last summer that ShotSpotter had reported too many false alarms of gunfire while missing actual shots-fired incidents in Fall River. Dupere said then that he and other city officials decided the money would be better used to expand the police department\u2019s video surveillance system in the city."
                 ],
-                "comment": NaN,
                 "report_index": 4
             }
         ],
@@ -2813,11 +2603,9 @@
                 "snippets": [
                     "The system records all loud noises, Greene said. The computer uses at least three microphones to locate the gunshot within a 25-meter radius. Then, at SST\u2019s location in Newark, staff reviews each report to make sure the computer flags only gunshots."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "241": {
         "task": [
@@ -2827,7 +2615,6 @@
                 "snippets": [
                     "But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine suddenly snapped one his fingers, breaking it."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2836,7 +2623,6 @@
                 "snippets": [
                     "But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine suddenly snapped one his fingers, breaking it."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -2872,11 +2658,9 @@
                 "snippets": [
                     "But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine suddenly snapped one his fingers, breaking it."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "149": {
         "task": [
@@ -2884,7 +2668,6 @@
                 "label": "Market Forecasting",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -2895,7 +2678,6 @@
                 "snippets": [
                     "\"We've determined the unpredictability in forecasting home prices far exceeds what we anticipated and continuing to scale Zillow Offers would result in too much earnings and balance-sheet volatility,\" said Rich Barton, Zillow's co-founder and CEO."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2904,7 +2686,6 @@
                 "snippets": [
                     "For Zillow, one of the first steps in its decision to purchase any home is the \"Zestimate\" \u2014 a machine-learning-assisted estimate of a home's market value that is calculated by taking into account oodles of data about the property gathered from sources including tax and property records, homeowner-submitted details such as the addition of a bathroom or bedroom, and pictures of the house."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2940,7 +2721,6 @@
                 "snippets": [
                     "\"We've determined the unpredictability in forecasting home prices far exceeds what we anticipated and continuing to scale Zillow Offers would result in too much earnings and balance-sheet volatility,\" said Rich Barton, Zillow's co-founder and CEO."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -2961,7 +2741,6 @@
                 "snippets": [
                     "For instance, if any homes Zillow purchased had hidden problems \u2014 such as a missed crack in the foundation \u2014 the Zestimate would not be able to predict those issues, he said."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2970,7 +2749,6 @@
                 "snippets": [
                     "It's one thing to build a model on a website that's often reasonably accurate. It's another to then try to use that model in the real world to make very costly bets \u2014 and do so at scale, according to Nima Shahbazi, a member of the team that won the Zestimate algorithm competition and CEO of Mindle.AI, which helps companies use AI to make predictions."
                 ],
-                "comment": NaN,
                 "report_index": 2
             },
             {
@@ -2979,11 +2757,9 @@
                 "snippets": [
                     "But there simply isn't enough data for an algorithm to learn about longer busts and booms, according to Malik, who researches algorithmic pricing and has studied the Zestimate in particular."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     },
     "10": {
         "failure": [
@@ -3043,18 +2819,15 @@
                 "label": "Market Forecasting",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": 3
             },
             {
                 "label": "Scheduling",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": 3
             }
-        ],
-        "issues": []
+        ]
     },
     "144": {
         "task": [
@@ -3065,7 +2838,6 @@
                     "YouTube's overeager AI might have misinterpreted a conversation about chess as racist language.\n",
                     "Using the software on over 680,000 comments taken from five popular YouTube chess channels, they found 82 percent of the comments flagged in a sample set didn't include any obvious racist language or hate speech."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -3077,7 +2849,6 @@
                     "YouTube's overeager AI might have misinterpreted a conversation about chess as racist language.\n",
                     "Using the software on over 680,000 comments taken from five popular YouTube chess channels, they found 82 percent of the comments flagged in a sample set didn't include any obvious racist language or hate speech."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -3087,7 +2858,6 @@
                     "More than 80 percent of the comments the programs flagged lacked any racist language, but they did include chess terms like 'black,' 'white,' 'attack' and 'threat'",
                     "The software's accuracy depends on the examples its given, KhudaBukhsh said, and the training data sets for YouTube's classifiers 'likely include few examples of chess talk, leading to misclassification.'"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -3099,11 +2869,9 @@
                     "More than 80 percent of the comments the programs flagged lacked any racist language, but they did include chess terms like 'black,' 'white,' 'attack' and 'threat'",
                     "The software's accuracy depends on the examples its given, KhudaBukhsh said, and the training data sets for YouTube's classifiers 'likely include few examples of chess talk, leading to misclassification.'"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "259": {
         "task": [
@@ -3113,7 +2881,6 @@
                 "snippets": [
                     "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -3124,7 +2891,6 @@
                 "snippets": [
                     "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -3133,7 +2899,6 @@
                 "snippets": [
                     "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -3145,7 +2910,6 @@
                     "\u201cThis is a good opportunity to discuss not the harm, but the fact that this harm is so obviously foreseeable, and that his response of \u2018show me where it has DONE harm\u2019 misses the point and is inadequate,\u201d they said.",
                     " But the reality is that he essentially invented a hate speech machine, used it 30,000 times and released it into the wild. And yeah, I understand being annoyed with safety regulations but that\u2019s not a legitimate response to that annoyance.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -3156,11 +2920,9 @@
                     "Kathryn Cramer, a Complex Systems & Data Science graduate student at the University of Vermont, pointed out that GPT-3 has guardrails that prevent it from being used to build this kind of racist bot and that Kilcher had to use GPT-J to build his system. ",
                     " But the reality is that he essentially invented a hate speech machine, used it 30,000 times and released it into the wild. And yeah, I understand being annoyed with safety regulations but that\u2019s not a legitimate response to that annoyance.\u201d"
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
-        ],
-        "issues": []
+        ]
     },
     "221": {
         "technology": [
@@ -3170,14 +2932,12 @@
                 "snippets": [
                     "The vehicle's sensors apparently failed to detect a bright yellow road repair truck, despite its large reflectors and digital sign, and slammed into its rear."
                 ],
-                "comment": NaN,
                 "report_index": 1
             },
             {
                 "label": "Image Segmentation",
                 "confidence": "known",
                 "snippets": [],
-                "comment": NaN,
                 "report_index": 1
             },
             {
@@ -3211,7 +2971,6 @@
                 "snippets": [
                     "Theoretically, the system should be able to see a bright yellow emergency truck right in front of it. It should be able to brake the car to prevent a crash."
                 ],
-                "comment": NaN,
                 "report_index": 1
             }
         ],
@@ -3222,10 +2981,8 @@
                 "snippets": [
                     "The vehicle's sensors apparently failed to detect a bright yellow road repair truck, despite its large reflectors and digital sign, and slammed into its rear."
                 ],
-                "comment": NaN,
                 "report_index": 2
             }
-        ],
-        "issues": []
+        ]
     }
 }
