@@ -1,112 +1,112 @@
 {
-  "name": "System Tasks",
-  "description": "A taxonomy of high-level, domain-facing tasks and use cases that an AI / Machine system may tackle during its operation",
+  "name": "System Goals",
+  "description": "A taxonomy of high-level, domain-facing goals and use cases that an AI / Machine system may tackle during its operation",
   "children": [
     {
-      "name": "Financial and Market-related Tasks",
-      "description": "General computational processing tasks that do not necessarily involve the usage of AI and ML.",
+      "name": "Financial and Market-related Goals",
+      "description": "General computational processing goals that do not necessarily involve the usage of AI and ML.",
       "children": [
         {
           "name": "Financial Processing",
-          "description": "Tasks geared towards the estimation of financial quantities."
+          "description": "Goals geared towards the estimation of financial quantities."
         },
         {
           "name": "Market Forecasting",
-          "description": "The class of tasks that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)"
+          "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)"
         },
         {
           "name": "Automatic Stock Trading",
-          "description": "The task of automatically valuing and performing transactions in the stock market."
+          "description": "The goal of automatically valuing and performing transactions in the stock market."
         },
         {
           "name": "Scheduling",
-          "description": "The task of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints"
+          "description": "The goal of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints"
         },
         {
           "name": "Automatic Skill Assessment",
-          "description": "The task of estimating employee skills automatically."
+          "description": "The goal of estimating employee skills automatically."
         }
       ]
     },
     {
       "name": "Behavioral Modeling",
-      "description": "The task of modeling, estimating and tracking human behaviour in domains of interest.",
+      "description": "The goal of modeling, estimating and tracking human behaviour in domains of interest.",
       "children": [
         {
           "name": "Recidivism Prediction",
-          "description": "The task of producing recidivism risk estimates for incarcerated population."
+          "description": "The goal of producing recidivism risk estimates for incarcerated population."
         },
         {
           "name": "Activity Tracking",
-          "description": "The task of tracking and monitoring of human activities via smart equipment, wearables, etc."
+          "description": "The goal of tracking and monitoring of human activities via smart equipment, wearables, etc."
         }
       ]
     },
     {
       "name": "Object Detection",
-      "description": "The task of locating objects of interest in an input receptive field.",
+      "description": "The goal of locating objects of interest in an input receptive field.",
       "children": [
         {
           "name": "Visual Object Detection",
-          "description": "The task of locating objects of interest in a visual field."
+          "description": "The goal of locating objects of interest in a visual field."
         },
         {
           "name": "Audio Detection",
-          "description": "The task of detecting auditory concepts in an audio signal."
+          "description": "The goal of detecting auditory concepts in an audio signal."
         },
         {
           "name": "Audio Localization",
-          "description": "The task of determining the source location of audio signals."
+          "description": "The goal of determining the source location of audio signals."
         },
         {
           "name": "Substance Detection",
-          "description": "Tasks related to detecting chemical substances with the use of specialized sensors."
+          "description": "Goals related to detecting chemical substances with the use of specialized sensors."
         },
         {
           "name": "License Plate Recognition",
-          "description": "The task of automatically reading cat license plates."
+          "description": "The goal of automatically reading cat license plates."
         }
       ]
     },
     {
       "name": "Information Retrieval",
-      "description": "The task of selecting relevant instances from an available pool of candidates.",
+      "description": "The goal of selecting relevant instances from an available pool of candidates.",
       "children": [
         {
-          "name": "Recommendation",
-          "description": "Automatic retrieval and serving of data to a user based on their profile, activity and/or history."
+          "name": "Content Recommendation",
+          "description": "Automatic retrieval and serving of content to a user based on their profile, activity and/or history."
         },
         {
-          "name": "Search",
-          "description": "Automatic retrieval and serving of data to a user based on an explicitly supplied query."
+          "name": "Content Search",
+          "description": "Automatic retrieval and serving of content to a user based on an explicitly supplied query."
         },
         {
           "name": "Data Grouping",
-          "description": "The task of building groups of semantically contiguous elements."
+          "description": "The goal of building groups of semantically contiguous elements."
         }
       ]
     },
     {
-      "name": "Natural Language Processing / Understanding Tasks",
-      "description": "The task of intelligent processing, reasoning and manipulation of text",
+      "name": "Natural Language Processing / Understanding Goals",
+      "description": "Goals involving the intelligent processing, reasoning and manipulation of text",
       "children": [
         {
-          "name": "Machine Translation",
+          "name": "Translation",
           "description": "Automatic translation of text from a source to a target language."
         },
         {
           "name": "Question Answering",
-          "description": "The task of automatically providing relevant and accurate responses to questions."
+          "description": "The goal of automatically providing relevant and accurate responses to questions."
         },
         {
           "name": "Chatbot",
-          "description": "The task of an NLP / AI engaging in dialogue and conversation."
+          "description": "The goal of an NLP / AI engaging in dialogue and conversation."
         }
       ]
     },
     {
-      "name": "Computer Vision Tasks",
-      "description": "Tasks operating on visual modalities",
+      "name": "Computer Vision Goals",
+      "description": "System goals related to analysis and manipulation on the visual modalities",
       "children": [
         {
           "name": "Image Cropping",
@@ -114,21 +114,21 @@
         },
         {
           "name": "Image Tagging",
-          "description": "The task of attaching semantic label to an image based on its content.."
+          "description": "The goal of attaching semantic label to an image based on its content.."
         },
         {
           "name": "Face Recognition",
-          "description": "The task of automatically recognizing a human face in media content, out of a set of reference candidates."
+          "description": "The goal of automatically recognizing a human face in media content, out of a set of reference candidates."
         },
         {
-          "name": "Earth Observation",
-          "description": "Tasks dealing with visual inspection of the earth via satellite imaging."
+          "name": "Threat Detection",
+          "description": "Goals dealing with visual inspection of the earth via satellite imaging."
         }
       ]
     },
     {
       "name": "Smart Devices",
-      "description": "Tasks that include usage of AI technology for automation, interconnected devices, IoT, 'smart' living, etc..",
+      "description": "Goals that include usage of AI technology for automation, interconnected devices, IoT, 'smart' living, etc..",
       "children": [
         {
           "name": "AI Voice Assistant",
@@ -138,10 +138,15 @@
     },
     {
       "name": "Synthetic Content Generation",
-      "description": "Tasks that generate high-quality content via automatic means",
+      "description": "Goals that generate high-quality content via automatic means",
       "children": [
         {
-          "name": "Text Generation",
+          "name": "Code Generation",
+          "description": "The automatic generation and suggestion of large code snippets from current code context."
+
+        },
+        {
+          "name": "Social Media Content Generation",
           "description": "The automatic generation of text data from a seed prompt."
         },
         {
@@ -151,12 +156,16 @@
         {
           "name": "Deepfake Video Generation",
           "description": "The automatic generation of videos that imitate the face, voice and mannerisms of individuals."
+        },
+        {
+          "name": "Visual Art Generation",
+          "description": "The automatic generation of digital art images."
         }
       ]
     },
     {
       "name": "Automated Content Curation",
-      "description": "Tasks that estimate how suitable / appropriate content is for the target domain, audience or context",
+      "description": "Goals that estimate how suitable / appropriate content is for the target domain, audience or context",
       "children": [
         {
           "name": "Hate Speech Detection",
@@ -164,29 +173,29 @@
         },
         {
           "name": "NSFW Content Detection",
-          "description": "The task of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
+          "description": "The goal of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
         },
         {
           "name": "Copyrighted Content Detection",
-          "description": "The task of detecting / identifying the presence of copyrighted content elements in input data."
+          "description": "The goal of detecting / identifying the presence of copyrighted content elements in input data."
         }
       ]
     },
     {
       "name": "Robotics and Autonomous Systems",
-      "description": "Tasks involving robotic actuators and/or autonomous robots",
+      "description": "Goals involving robotic actuators and/or autonomous robots",
       "children": [
         {
           "name": "Robotic Manipulation",
-          "description": "The task of manipulating physical objects via robotic actuators (e.g. arms, industrial robots, etc.)"
+          "description": "The goal of manipulating physical objects via robotic actuators (e.g. arms, industrial robots, etc.)"
         },
         {
           "name": "Autonomous Drones",
-          "description": "Tasks involving autonomous drone robots (e.g. such as Boston Dynamics robots)"
+          "description": "Goals involving autonomous drone robots (e.g. such as Boston Dynamics robots)"
         },
         {
           "name": "Autonomous Driving",
-          "description": "The task of autonomous, driverless vehicle operation."
+          "description": "The goal of autonomous, driverless vehicle operation."
         }
       ]
     }

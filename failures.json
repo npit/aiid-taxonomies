@@ -55,7 +55,14 @@
         },
         {
           "name": "Overfitting",
-          "description": "The system has adopted an overly complicated solution to fit the training data, capturing noise, outliers and irrelevant input artifacts in its modeling."
+          "description": "The system has adopted an overly complicated solution to fit the training data, capturing noise, outliers and irrelevant input artifacts in its modeling.",
+          "children": [
+            {
+              "name": "Data Memorization",
+              "description": "The system overfits by memorizing training data, rather that generalizing to real world cases."
+            }
+
+          ]
         },
         {
           "name": "Underfitting",
@@ -113,7 +120,8 @@
         },
         {
           "name": "Ignored Expected Externalities",
-          "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers, owners or users of the system"
+          "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers, owners or users of the system",
+          "issues": "Undesirable class"
         },
         {
           "name": "Misinformation Hazard",

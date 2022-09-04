@@ -145,6 +145,10 @@
             {
               "name": "Distributional Learning",
               "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+            },
+            {
+            "name": "Diffusion Model",
+            "description": "A generation approach based on diffusion, which models and subsequenlty reverses noise in a fixed number of steps."
             }
           ]
         },
@@ -169,7 +173,7 @@
       "description": "Popular methods mostly relevant to specific domains",
       "children": [
         {
-          "name": "Geolocation",
+          "name": "Geolocation Data",
           "description": "Estimation and usage of the geographic coordinates for related tasks (e.g. navigation)."
         },
         {

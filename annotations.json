@@ -125,7 +125,7 @@
     "179": {
         "task": [
             {
-                "label": "Text to Image Generation",
+                "label": "Visual Art Generation",
                 "confidence": "known",
                 "snippets": [
                     "Without sufficient guardrails, models like DALL\u00b7E 2 could be used to generate a wide range of deceptive and otherwise harmful content, and could affect how people perceive the authenticity of content more generally."
@@ -204,7 +204,7 @@
     "240": {
         "task": [
             {
-                "label": "Text Generation",
+                "label": "Code Generation",
                 "confidence": "known",
                 "snippets": [
                     "GitHub Copilot draws context from the code you\u2019re working on, suggesting whole lines or entire functions."
@@ -235,6 +235,17 @@
         "failure": [
             {
                 "label": "Unauthorized Data",
+                "confidence": "potential",
+                "snippets": [
+                    "Having been \u201ctrained on billions of lines of public code,\u201d one of the first questions that has come up regarding Copilot has focused on issues of copyright, specifically pointing to the idea of the viral GPL license, which requires that all derivative works carry that same license.",
+                    "On the idea of copyright infringement, Guadamuz first points to a research paper by Alber Ziegler published by GitHub, which looks at situations where Copilot reproduces exact texts, and finds those instances to be exceedingly rare. ",
+                    "\u201cIf you look at the GitHub Terms of Service, no matter what license you use, you give GitHub the right to host your code and to use your code to improve their products and features,\u201d Downing says. \u201cSo with respect to code that\u2019s already on GitHub, I think the answer to the question of copyright infringement is fairly straightforward.\u201d"
+                ],
+                "comment": "Classifying as\u2018potential\u2019, since it is heavily contested in the article.",
+                "report_index": 1
+            },
+            {
+                "label": "Data Memorization",
                 "confidence": "potential",
                 "snippets": [
                     "Having been \u201ctrained on billions of lines of public code,\u201d one of the first questions that has come up regarding Copilot has focused on issues of copyright, specifically pointing to the idea of the viral GPL license, which requires that all derivative works carry that same license.",
@@ -434,7 +445,7 @@
                     "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
                 ],
                 "comment": "Potentially, an object detector detects plates; if that generated a low score but is not very highly weighted, this could lead to the failure.",
-                "report_index": NaN
+                "report_index": 1
             },
             {
                 "label": "Poor Generalization",
@@ -443,7 +454,7 @@
                     "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
                     "Paula bought her husband David a personalized number plate for their Transporter that reads \"KN19 TER,\" a nod to David Knight's nickname Knighter, which he says is the name that all of his friends know him as. Apparently, this was similar enough to match the Volkswagen's license plate and trigger the false-positive."
                 ],
-                "report_index": NaN
+                "report_index": 1
             }
         ]
     },
@@ -981,7 +992,7 @@
         ],
         "task": [
             {
-                "label": "Earth Observation",
+                "label": "Threat Detection",
                 "confidence": "known",
                 "snippets": [
                     "Petrov's responsibilities included observing the satellite early warning network and notifying his superiors of any impending nuclear missile attack against the Soviet Union."
@@ -1050,9 +1061,7 @@
             {
                 "label": "Keyword Filtering",
                 "confidence": "known",
-                "snippets": [
-                    NaN,
-                    NaN
+                "snippets": [ NaN, NaN
                 ],
                 "report_index": 1
             }
@@ -1071,7 +1080,7 @@
         ],
         "technology": [
             {
-                "label": "Geolocation",
+                "label": "Geolocation Data",
                 "confidence": "known",
                 "snippets": [
                     "The system also uses GPS to decide how long it should take to reach a specific address but sometimes fails to account for the fact that navigating a rural road in the snow takes a lot longer than traversing a suburban street on a sunny day."
@@ -1483,7 +1492,7 @@
                 "report_index": 2
             },
             {
-                "label": "Geolocation",
+                "label": "Geolocation Data",
                 "confidence": "potential",
                 "snippets": [
                     "Cruise\u2019s driverless cars experienced serious issues Tuesday night with as many as 20 of its vehicles standing motionless for about two hours at the corner of Gough and Fulton streets, according to an eyewitness. "
@@ -1757,7 +1766,7 @@
     "262": {
         "task": [
             {
-                "label": "Text to Image Generation",
+                "label": "Visual Art Generation",
                 "confidence": "known",
                 "snippets": [
                     "Everyone's having a grand old time feeding outrageous prompts into the viral DALL-E Mini image generator \u2014 but as with all artificial intelligence, it's hard to stamp out the ugly, prejudiced edge cases."
@@ -1868,7 +1877,7 @@
                 "report_index": NaN
             },
             {
-                "label": "Geolocation",
+                "label": "Geolocation Data",
                 "confidence": "known",
                 "snippets": [
                     "Pony.ai, which is backed by Toyota Motor Corp (7203.T), said that in very rare circumstances, a planning system diagnostic check \"could generate a 'false positive' indication of a geolocation mismatch.\""
@@ -2233,7 +2242,7 @@
     "1": {
         "task": [
             {
-                "label": "Recommendation",
+                "label": "Content Recommendation",
                 "confidence": "known",
                 "snippets": [
                     "An off-brand Paw Patrol video called \"Babies Pretend to Die Suicide\" features several disturbing scenarios.\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\n\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\nMany of those views came from YouTube's \"up next\" and \"recommended\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\nIf you don't pick another video to watch after the current video ends, the \"up next\" video will automatically play.\n"
@@ -2241,7 +2250,7 @@
                 "report_index": NaN
             },
             {
-                "label": "Search",
+                "label": "Content Search",
                 "confidence": "known",
                 "snippets": [
                     "An off-brand Paw Patrol video called \"Babies Pretend to Die Suicide\" features several disturbing scenarios.\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\n\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\nMany of those views came from YouTube's \"up next\" and \"recommended\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\nIf you don't pick another video to watch after the current video ends, the \"up next\" video will automatically play.\n"
@@ -2876,7 +2885,7 @@
     "259": {
         "task": [
             {
-                "label": "Text Generation",
+                "label": "Social Media Content Generation",
                 "confidence": "known",
                 "snippets": [
                     "The bot, which Kilcher called GPT-4chan, \u201cthe most horrible model on the internet\u201d\u2014a reference to GPT-3, a language model developed by Open AI that uses deep learning to produce text\u2014was shockingly effective and replicated the tone and feel of 4chan posts. "
