@@ -645,9 +645,6 @@
                 ],
                 "report_index": NaN
             }
-        ],
-        "issues": [
-            "Verify task; reapply to annotated incidents"
         ]
     },
     "133": {
@@ -999,9 +996,6 @@
                 ],
                 "report_index": 5
             }
-        ],
-        "issues": [
-            "Decide on how generic a task we want here. E.g. Visual Object Detection, Earth Observation, Defence System, Missle Defence System."
         ]
     },
     "16": {
