@@ -47,12 +47,14 @@
       "description": "The goal of locating objects of interest in an input receptive field.",
       "children": [
         {
-          "name": "Visual Object Detection",
-          "description": "The goal of locating objects of interest in a visual field."
-        },
-        {
           "name": "Audio Detection",
-          "description": "The goal of detecting auditory concepts in an audio signal."
+          "description": "Goals including detection of auditory concepts in an audio signal.",
+          "children": [
+            {
+              "name": "Gunshot Detection",
+              "description": "The goal of detecting gunshot sounds."
+            }
+          ]
         },
         {
           "name": "Audio Localization",
@@ -70,7 +72,7 @@
     },
     {
       "name": "Information Retrieval",
-      "description": "The goal of selecting relevant instances from an available pool of candidates.",
+      "description": "The goal of selecting relevant data instances from an available pool of candidates.",
       "children": [
         {
           "name": "Content Recommendation",
@@ -147,11 +149,7 @@
         },
         {
           "name": "Social Media Content Generation",
-          "description": "The automatic generation of text data from a seed prompt."
-        },
-        {
-          "name": "Text to Image Generation",
-          "description": "The automatic generation of images from descriptive textual prompts."
+          "description": "The automatic generation of social media text (e.g. posts, comments, etc.) from a seed prompt."
         },
         {
           "name": "Deepfake Video Generation",

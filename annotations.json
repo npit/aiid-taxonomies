@@ -3755,7 +3755,7 @@
     "taxonomies": {
       "task": [
         {
-          "label": "Audio Detection",
+          "label": "Gunshot Detection",
           "confidence": "known",
           "snippets": [
             "The system was suppose to become attuned to the way sounds were heard in Troy's streets and differentiate among the brakes of a truck climbing the Hoosic Street hill, from a firecracker, actual shots and any other noise.",
