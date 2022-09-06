@@ -20,7 +20,7 @@
         },
         {
           "name": "Inadequate Data Sampling",
-          "description": "Data sampling is misconfigured, in terms of resolution, selection, biases,  etc."
+          "description": "Data sampling is misconfigured, in terms of resolution, selection, biases, etc.; resulting instance pool may be insufficient for training / inference."
         },
         {
           "name": "Inappropriate Training Content",
@@ -32,13 +32,16 @@
         },
         {
           "name": "Unauthorized Data",
-          "description": "The system was built and/or uses data without proper authorization, consent or licensing permissions."
+          "description": "The system is built and/or uses data without proper authorization, consent or licensing."
+        },
+        {
+            "name": "Inadequate Anonymization",
+            "description": "The system uses data without proper anonymization / pseudonymization processing, resulting in sensitive information leaks."
         },
         {
           "name": "Problematic Input",
           "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs."
         }
-
       ]
     },
     {
@@ -61,7 +64,6 @@
               "name": "Data Memorization",
               "description": "The system overfits by memorizing training data, rather that generalizing to real world cases."
             }
-
           ]
         },
         {
@@ -72,16 +74,14 @@
           "name": "Distributional Bias",
           "description": "A trained model reflects biases that exist in its training data that are not representative to the real world or convey meaning that is context-specific and not generally applicable."
         },
-
         {
           "name": "Distributional Artifacts",
-          "description": "The model provides outputs that reflect its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be infered."
+          "description": "The model provides irrelevant outputs due to its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be infered."
         },
-      {
-        "name": "Context Misidentification",
-        "description": "Cases where the learner fails to detect the correct context and produces erroneous predictions as a result."
-      }
-
+        {
+          "name": "Context Misidentification",
+          "description": "Cases where the learner fails to detect the correct context and produces erroneous predictions as a result."
+        }
       ]
     },
     {
@@ -108,32 +108,23 @@
         },
         {
           "name": "Misaligned Objective",
-          "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective and/or a bad proxy being used instead."
+          "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective, with a bad proxy being used instead."
         },
         {
           "name": "Unsafe Exposure or Access",
-          "description": "The system lacks exposure / access limitations and safeguarding measures; as a result, its outputs become harmful."
+          "description": "The system lacks adequate exposure / access limitations and safeguarding measures; as a result, its outputs become harmful."
+        },
+        {
+            "name": "Misinformation Generation Hazard",
+            "description": "The system has the potential includes information / application routes / technologies that enable dangerous misinformation spread if used maliciously, with no countermeasures the latter."
         },
         {
           "name": "Incomplete Data Attribute Capture",
-          "description": "Information extraction from real-world instances omit attributes that are important and/or use attributes that are obviously incomplete, towards faithfully and holistically representing the instance in order to solve the learning problem effectively."
-        },
-        {
-          "name": "Ignored Expected Externalities",
-          "description": "A system's canonical application results in unsurprising harmful externalities that were not considered or ignored by the designers, owners or users of the system",
-          "issues": "Undesirable class"
-        },
-        {
-          "name": "Misinformation Hazard",
-          "description": "The system includes information / application routes / technologies that will enable misinformation spread if used maliciously."
-        },
-        {
-          "name": "Sensitive Information Leak",
-          "description": "The system utilizes sensitive information, but this information is being accidentally exposed during its deployment and/or distribution."
+          "description": "Information extraction from real-world instances omit attributes that are important; the resulting features used are obviously incomplete towards faithfully and holistically capture the instance and solve the learning problem effectively."
         },
         {
           "name": "Faulty Interface or Instructions",
-          "description": "The usage means of the system (e.g. user interface, instructions, physical controls etc.) is problematic, leading to failures."
+          "description": "The usage means of the system (e.g. user interface, physical controls etc.) or provided instructions are problematic, leading to failures."
         },
         {
           "name": "Limited User Access",
@@ -167,10 +158,10 @@
           "name": "Gaming Vulnerability",
           "description": "The system usually operates as expected, but malicous agents can game its function towards producing undesired results"
         },
-      {
-        "name": "Inadequate Sequential Memory",
-        "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps, leading to failures over dealing with longer data sequences."
-      },
+        {
+          "name": "Inadequate Sequential Memory",
+          "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps, leading to failures over dealing with longer data sequences."
+        },
         {
           "name": "Lack of Adversarial Robustness",
           "description": "The scenario where a model is sensitive to small changes to input data causing large, undesirable changes in its output."
@@ -180,8 +171,8 @@
           "description": "The system cannot recover from failure due to subsequent failings in deploying backup countermeasures and fall-backs."
         },
         {
-            "name": "Black Swan Event",
-            "description": "Incident is a result from highly improbable circumstances occuring that the system is not equipped to handle."
+          "name": "Black Swan Event",
+          "description": "Incident is a result from highly improbable circumstances occuring that the system is not equipped to handle."
         }
       ]
     },

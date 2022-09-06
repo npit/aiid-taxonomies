@@ -205,7 +205,16 @@
           ]
         },
         {
-          "label": "Misinformation Hazard",
+          "label": "Unsafe Exposure or Access",
+          "confidence": "known",
+          "snippets": [
+            "Without sufficient guardrails, models like DALL\u00b7E 2 could be used to generate a wide range of deceptive and otherwise harmful content, and could affect how people perceive the authenticity of content more generally.",
+            "In qualitative evaluations, we find that the system, even with current mitigations in place, can still be used to generate images that may be harmful in particular contexts and difficult for any reactive response team to identify and catch.",
+            "There are the obvious risks \u2014 that people could use this type of AI to make everything from pornography to political deepfakes, or the possibility that it\u2019ll eventually put some human illustrators out of work. But there is also the risk that DALL-E 2 \u2014 like so many other cutting-edge AI systems \u2014 will reinforce harmful stereotypes and biases, and in doing so, accentuate some of our social problems."
+          ]
+        },
+        {
+          "label": "Misinformation Generation Hazard",
           "confidence": "known",
           "snippets": [
             "Without sufficient guardrails, models like DALL\u00b7E 2 could be used to generate a wide range of deceptive and otherwise harmful content, and could affect how people perceive the authenticity of content more generally.",
@@ -505,11 +514,12 @@
             "The robots were too efficient. They could bring items so quickly that the productivity expectations for workers more than doubled, according to a former senior operations manager who saw the transformation. ",
             "The data back up the accounts of Amazon warehouse workers and former safety professionals who say the company has used the robots to ratchet up production quotas to the point that humans can\u2019t keep up without hurting themselves."
           ],
-          "comment": "Robots set up too fast of a pace."
+          "comment": "Robots set up too fast of a pace for the human 'colleagues' to handle."
         },
         {
-          "label": "Ignored Expected Externalities",
+          "label": "Tuning Issues",
           "confidence": "known",
+          "comment": "The automated system is not configured to work harmoniously with the other (human) components of the logistics chain.",
           "snippets": [
             "The robots were too efficient. They could bring items so quickly that the productivity expectations for workers more than doubled, according to a former senior operations manager who saw the transformation. ",
             "The data back up the accounts of Amazon warehouse workers and former safety professionals who say the company has used the robots to ratchet up production quotas to the point that humans can\u2019t keep up without hurting themselves."
@@ -1029,7 +1039,7 @@
           "comment": "This may apply on an ethical level: presumably the users sign an agreement consenting to passive voice capture."
         },
         {
-          "label": "Sensitive Information Leak",
+          "label": "Inadequate Anonymization",
           "confidence": "potential",
           "snippets": [
             "The device starts recording whenever it hears the wake word \u201cAlexa,\u201d recording sound for up to 60 seconds each time. (For this reason, authorities have recently tried to gain access to Alexa\u2019s data in a murder investigation.) While that\u2019s helpful, the feature arguably borders on invading privacy and has fanned overall security concerns that surround the rise of internet of things (IoT) devices."
@@ -1538,14 +1548,6 @@
           "comment": "Important information omitted?"
         },
         {
-          "label": "Ignored Expected Externalities",
-          "confidence": "potential",
-          "snippets": [
-            "Amazon knew delegating work to machines would lead to mistakes and damaging headlines, these former managers said, but decided it was cheaper to trust the algorithms than pay people to investigate mistaken firings so long as the drivers could be replaced easily.",
-            "Inside Amazon, the Flex program is considered a great success, whose benefits far outweigh the collateral damage, said a former engineer who helped design the system. \u201cExecutives knew this was gonna shit the bed,\u201d this person said. \u201cThat\u2019s actually how they put it in meetings. The only question was how much poo we wanted there to be.\u201d"
-          ]
-        },
-        {
           "label": "Misconfigured Threshold",
           "confidence": "potential",
           "snippets": [
@@ -1805,14 +1807,6 @@
           "snippets": [
             "Yet none of the scenarios remotely resembled a scan of people \u201cin the wild,\u201d as Ms. Garvie put it. And when the tool was challenged with other scenarios \u2014 such as distinguishing between gay men\u2019s Facebook photos and straight men\u2019s online dating photos \u2014 accuracy dropped to 74 percent."
           ]
-        },
-        {
-          "label": "Ignored Expected Externalities",
-          "confidence": "known",
-          "snippets": [
-            "Some argued that the study is just the latest example of a disturbing technology-fueled revival of physiognomy, the long discredited notion that personality traits can be revealed by measuring the size and shape of a person\u2019s eyes, nose and face."
-          ],
-          "comment": "Societal fallout was expected."
         },
         {
           "label": "Lack of Explainability",
@@ -2093,12 +2087,12 @@
           "comment": "Dangerous unreliable machines near children."
         },
         {
-          "label": "Ignored Expected Externalities",
+          "label": "Underspecification",
           "confidence": "potential",
           "snippets": [
             "The May 24 school shooting in Uvalde, Texas that killed 21 prompted an announcement by Axon last week that it was working on a drone that could be operated remotely by first responders to fire a taser at a target up to 12 metres away."
           ],
-          "comment": "Accidents / errors should be expected with application of near-lethal weapons in a school setting."
+            "comment": "Near-lethal weapons applied in a school setting is a extremely poor attempt at a solution, given the current performance of the technology and the applied environment; accidents / errors should be expected with tragic consequences."
         }
       ]
     },
@@ -2303,8 +2297,9 @@
           "comment": "This is valid only if prices were automatically suggested by the software: extreme / over-optimized solutions proposed by the price system. "
         },
         {
-          "label": "Ignored Expected Externalities",
+          "label": "Gaming Vulnerability",
           "confidence": "potential",
+            "comment": "Powerful 'optimization' (speed, in this case) plays by the rules with extreme, unforeseen results.",
           "snippets": [
             "He did this by, basically, putting in orders to sell thousands of contracts away from the best offer. Those orders were never executed, or intended to be executed, but they tricked people into thinking that there was a lot more selling interest than there actually was. That combined with a collapse in buying interest -- at one point Sarao's fake sell orders alone \"were almost equal to the entire buyside of the Order Book\" -- to create a collapse in prices. He profited from those collapsing prices by selling high and buying back lower. It's a pretty straightforward spoofing story.",
             "At 2.32 pm, the mutual fund had used an automated algorithm trading strategy to sell contracts known as e-minis. It was the largest change in the daily position of any investor so far that year and sparked selling by other traders, including high frequency traders.",
@@ -2534,7 +2529,7 @@
           ]
         },
         {
-          "label": "Sensitive Information Leak",
+          "label": "Inadequate Anonymization",
           "confidence": "known",
           "snippets": [
             "Scatter Lab said its developers erased real names with its filtering algorithms but failed to remove all of them depending on the context, saying all data used in training Luda has been unverifiable and that it removed sensitive personal information, including names, phone numbers and addresses.",
@@ -2682,7 +2677,7 @@
           "comment": "Potential, since it refers more to the overall lack of explainability of DL. In some sense, the failure is \u2018explained\u2019 in some level by identifying the source of bias."
         },
         {
-          "label": "Misinformation Hazard",
+          "label": "Misinformation Generation Hazard",
           "confidence": "potential",
           "snippets": [
             "Now, there are some insidiously dangerous risks in this case. As pointed out by Vox, people could leverage this type of AI to make everything from deepnudes to political deepfakes\u2014although the results would be horrific, to say the least. Given how the technology is free to use on the internet, it also harbours the potential to put human illustrators out of work in the long run."
@@ -3102,7 +3097,7 @@
       ],
       "failure": [
         {
-          "label": "Misinformation Hazard",
+          "label": "Misinformation Generation Hazard",
           "confidence": "potential",
           "snippets": [
             "The researchers used 14 hours of Obama's weekly address videos to train a neural network. Once trained, their system was then able to take an audio clip from the former president, create mouth shapes that synced with the audio and then synthesize a realistic looking mouth that matched Obama's. ",
@@ -4205,7 +4200,7 @@
     "taxonomies": {
       "failure": [
         {
-          "label": "Ignored Expected Externalities",
+          "label": "Underspecification",
           "confidence": "known",
           "snippets": [
             "\u201cYou\u2019re waiting on your job to control your life,\u201d she said, with the scheduling software used by her employer dictating everything from \u201chow much sleep Gavin will get to what groceries I\u2019ll be able to buy this month.\u201d",
@@ -4213,7 +4208,7 @@
             "Among other changes, the company said it would end the practice of \"clopening,\" when an employee responsible for closing a store late at night is also assigned to open it early in the morning.",
             "In a follow-up piece, the author, Jodi Kantor, points directly to Kronos' scheduling software as the root of the problem."
           ],
-          "comment": "System is applied with no consideration on human impact"
+          "comment": "System is not designed to operate harmoniously with employees."
         },
         {
           "label": "Tuning Issues",
@@ -4247,7 +4242,7 @@
           "snippets": [
             "In a follow-up piece, the author, Jodi Kantor, points directly to Kronos' scheduling software as the root of the problem."
           ],
-          "comment": "Diverse types of input data could involve high-level attributes / categories."
+          "comment": "Diverse types of input data could involve high-level attributes / categories / conceptual information on employees."
         }
       ],
       "task": [
@@ -4399,14 +4394,6 @@
       ],
       "failure": [
         {
-          "label": "Ignored Expected Externalities",
-          "confidence": "known",
-          "snippets": [
-            "\u201cThis is a good opportunity to discuss not the harm, but the fact that this harm is so obviously foreseeable, and that his response of \u2018show me where it has DONE harm\u2019 misses the point and is inadequate,\u201d they said.",
-            " But the reality is that he essentially invented a hate speech machine, used it 30,000 times and released it into the wild. And yeah, I understand being annoyed with safety regulations but that\u2019s not a legitimate response to that annoyance.\u201d"
-          ]
-        },
-        {
           "label": "Unsafe Exposure or Access",
           "confidence": "known",
           "snippets": [
@@ -4494,12 +4481,12 @@
       ],
       "failure": [
         {
-          "label": "Ignored Expected Externalities",
+          "label": "Misuse",
           "confidence": "known",
           "snippets": [
             "Above all, it should not allow a driver to feel so confident it will handle everything to the point this person confesses to the police that was exactly the case."
           ],
-          "comment": "Should not use autopilot without supervision."
+          "comment": "Driver should not use autopilot without supervision."
         },
         {
           "label": "Poor Generalization",
