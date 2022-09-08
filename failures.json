@@ -45,12 +45,12 @@
       ]
     },
     {
-      "name": "Poor Generalization",
+      "name": "Generalization Failure",
       "description": "A trained AI system fails to perform well once deployed in the real world, where conditions (e.g. statistical properties of input data due to noise, environment, etc.) are novel and  considerably different from the training environment.",
       "children": [
         {
           "name": "Concept Drift",
-          "description": "The phenomenon where statistical properties of input data and their relationship to the predicted quantity change with the passage of time. "
+          "description": "The system does not account for concepts of interest changing over time, reflected in statistical properties of input data and their relationship to predicted quantities. "
         },
         {
           "name": "Covariate Shift",
@@ -108,7 +108,7 @@
         },
         {
           "name": "Misaligned Objective",
-          "description": "Failure outcomes are directly and heavily correlated to the most important task / domain requirements being ignored by the training objective, with a bad proxy being used instead."
+          "description": "Failure outcomes are heavily correlated to crucial task / domain requirements being ignored by the training objective of the deployed model, with a bad proxy being used instead."
         },
         {
           "name": "Unsafe Exposure or Access",
@@ -143,7 +143,16 @@
         {
           "name": "Lack of Explainability",
           "description": "The system converts input data into outputs without its internal workings being explainable to users or even experts. "
+        },
+        {
+          "name": "Lack of Interruptability",
+          "description": "There considerable difficulty in safely interrupting system operation."
+        },
+        {
+          "name": "Lack of Corrigibility",
+          "description": "There considerable difficulty in safely applying corrections to goals and methods used by the system."
         }
+
       ]
     },
     {
@@ -151,12 +160,12 @@
       "description": "System failure arises due to the model being sensitive to handling specific scenarios (e.g. different, unexpected, edge cases).",
       "children": [
         {
-          "name": "Hardware Failure",
-          "description": "Scenarios where the material system component failures contribute to the emergence of the incident."
+          "name": "Gaming Vulnerability",
+          "description": "The system usually operates as expected, but malicous agents can game its function towards producing undesired results."
         },
         {
-          "name": "Gaming Vulnerability",
-          "description": "The system usually operates as expected, but malicous agents can game its function towards producing undesired results"
+          "name": "Reward Hacking",
+          "description": "The system games its own reward mechanism by exhibiting undesirable behaviour that happens to gain large rewards in unpredicted ways."
         },
         {
           "name": "Inadequate Sequential Memory",
@@ -167,12 +176,20 @@
           "description": "The scenario where a model is sensitive to small changes to input data causing large, undesirable changes in its output."
         },
         {
+          "name": "Trojan",
+          "description": "The system has been compromised via injection of hidden functionality / data."
+        },
+        {
           "name": "Backup Failure",
           "description": "The system cannot recover from failure due to subsequent failings in deploying backup countermeasures and fall-backs."
         },
         {
+          "name": "Inadequate Fault Tolerance",
+          "description": "The system fails to recover from errors / exceptions in a safe and controlled manner, but devolves to undefined behavior instead (e.g. crashes, nonsense outputs, etc.)."
+        },
+        {
           "name": "Black Swan Event",
-          "description": "Incident is a result from highly improbable circumstances occuring that the system is not equipped to handle."
+          "description": "Incident is a result from highly improbable circumstances occuring, which the system is not equipped to handle."
         }
       ]
     },
@@ -188,6 +205,21 @@
           "name": "Misuse",
           "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to incidents."
         }
+      ]
+    },
+    {
+      "name": "Hardware Issues",
+      "description": "Failures related to the system's hardware.",
+      "children": [
+          { 
+            "name": "Insufficient Compute",
+            "description":"The system requires more computational resources than it has access to, which contributes to the incident."
+          },
+        {
+          "name": "Hardware Failure",
+          "description": "Scenarios where the material system component failures contribute to the emergence of the incident."
+        }
+
       ]
     }
   ]

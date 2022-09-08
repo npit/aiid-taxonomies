@@ -53,12 +53,12 @@
             {
               "name": "Gunshot Detection",
               "description": "The goal of detecting gunshot sounds."
-            }
-          ]
-        },
+            },
         {
           "name": "Audio Localization",
           "description": "The goal of determining the source location of audio signals."
+        }
+          ]
         },
         {
           "name": "Substance Detection",
@@ -145,7 +145,6 @@
         {
           "name": "Code Generation",
           "description": "The automatic generation and suggestion of large code snippets from current code context."
-
         },
         {
           "name": "Social Media Content Generation",

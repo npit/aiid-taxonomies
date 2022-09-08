@@ -614,7 +614,7 @@
           "comment": "Potentially, an object detector detects plates; if that generated a low score but is not very highly weighted, this could lead to the failure."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "The traffic camera recognized her novelty shirt's text, \"KNITTER,\" which was partially obscured by the strap of her bag.",
@@ -855,7 +855,7 @@
           "comment": "We have both false positives and false negatives here."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "One user even reported the alarm stubbornly going off for 30 minutes in the middle of the night with no sign of smoke and ignoring prompts to dismiss the alarm after an apparent glitch in the device\u2026",
@@ -1149,7 +1149,7 @@
           ]
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "known",
           "snippets": [
             "\u201cCharacter-level models are much better able to understand misspellings and different fragments of words, but overall it\u2019s going to do much worse,\u201d Dixon told Quartz.",
@@ -1346,7 +1346,7 @@
           ]
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "It was subsequently determined that the false alarms were caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits,[13] an error later corrected by cross-referencing a geostationary satellite.",
@@ -1557,7 +1557,7 @@
           "comment": "In cases where expected quota / boundaries are manually set."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "The photos appear to be verified by image recognition algorithms. People who have lost weight or shaved their beards or gotten a haircut have run into problems, as have drivers attempting to start a shift at night, when low lighting can result in a poor-quality selfie."
@@ -1802,7 +1802,7 @@
           "comment": "Soudns like advertised performance is on the training set or on one specific domain."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "known",
           "snippets": [
             "Yet none of the scenarios remotely resembled a scan of people \u201cin the wild,\u201d as Ms. Garvie put it. And when the tool was challenged with other scenarios \u2014 such as distinguishing between gay men\u2019s Facebook photos and straight men\u2019s online dating photos \u2014 accuracy dropped to 74 percent."
@@ -1899,7 +1899,7 @@
       ],
       "failure": [
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "Don't read too much into this, but a security robot face-planted into an indoor fountain inside of a Washington, DC office building today."
@@ -1984,7 +1984,7 @@
           ]
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "Last year, during a public hearing about the use of facial recognition in Detroit, an assistant police chief was among those who raised concerns. \u201cOn the question of false positives \u2014 that is absolutely factual, and it\u2019s well-documented,\u201d James White said.",
@@ -2412,7 +2412,7 @@
           "comment": "Perhaps saliency / eye tracking is insufficient."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "known",
           "snippets": [
             "Twitter\u2018s algorithm for automatically cropping images attached to tweets often doesn\u2019t focus on the important content in them. ",
@@ -2813,7 +2813,7 @@
       ],
       "failure": [
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "Pony.ai, which is backed by Toyota Motor Corp (7203.T), said that in very rare circumstances, a planning system diagnostic check \"could generate a 'false positive' indication of a geolocation mismatch.\"",
@@ -3191,7 +3191,7 @@
       ],
       "failure": [
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "The best two entrants were correct 48 percent of the time, compared to 45 percent if the answers are chosen at random. "
@@ -3431,7 +3431,7 @@
           "comment": "Concept drift in cases where appropriateness evolves and changes with the passage of time and is culturally determined -- e.g. akin to old messed up disney cartoons."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "\u201cFrom a child standpoint, the problem is not fixable,\u201d Golin said. \u201cThe YouTube model has created something, which is so vast, but there are 400 hours of content are uploaded every minute. It\u2019s simply too big. ",
@@ -3598,7 +3598,7 @@
           "comment": "Biased language in Western / Israeli media texts about Arabs could build false associations and high priors to terrorism and violence."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [
             "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
@@ -3767,7 +3767,7 @@
       ],
       "failure": [
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "known",
           "snippets": [
             "It was expected to take a full year to fine-tune the acoustic devices so it would pick out the gunshots from other sounds. Tedesco said that never occurred.\n",
@@ -3943,7 +3943,7 @@
           "comment": "Force required to break a child's finger far exceeds force required to grip a chess piece."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "potential",
           "snippets": [],
           "comment": "If the robot applies perception and the child's finger was misidentified as a piece."
@@ -4489,7 +4489,7 @@
           "comment": "Driver should not use autopilot without supervision."
         },
         {
-          "label": "Poor Generalization",
+          "label": "Generalization Failure",
           "confidence": "known",
           "snippets": [
             "Theoretically, the system should be able to see a bright yellow emergency truck right in front of it. It should be able to brake the car to prevent a crash."
