@@ -63,6 +63,10 @@
         {
           "name": "Image Classification",
           "description": "The use of image representation and classification techniques to detect concepts in images."
+        },
+        {
+          "name": "Visual Object Detection",
+          "description": "Methods applying object detection methods on visual data."
         }
       ]
     },
@@ -119,7 +123,7 @@
           "description": "Approaches where outputs of multiple (distinct and individual) learners are collectively considered (e.g. via aggregation, fusion, voting, pooling ,etc.) to produce a final prediction."
         },
         {
-          "name": "Intermmediate modeling",
+          "name": "Intermediate modeling",
           "description": "The approach uses an attainable, intermmediate proxy modeling Y, to obtain desired outputs Z from inputs X due to existing limitations."
         },
         {

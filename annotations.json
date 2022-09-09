@@ -3565,7 +3565,7 @@
     "taxonomies": {
       "task": [
         {
-          "label": "Machine Translation",
+          "label": "Translation",
           "confidence": "known",
           "snippets": [
             "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
@@ -3634,7 +3634,7 @@
           ]
         },
         {
-          "label": "Intermmediate modeling",
+          "label": "Intermediate modeling",
           "confidence": "potential",
           "snippets": [
             "The large number of dialects in use around the world means that Arabic is particularly difficult for machine translation services to handle, and mistakes are a regular occurrence.",
