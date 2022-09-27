@@ -133,6 +133,15 @@
           ]
         }
       ],
+      "technology":
+      [
+        {
+          "label": "Other domain-specific approaches",
+          "confidence": "potential",
+          "snippets": [
+          ]
+        }
+      ],
       "failure": [
         {
           "label": "Hardware Failure",
@@ -1743,6 +1752,15 @@
   },
   "167": {
     "taxonomies": {
+      "task": [
+        {
+          "label": "Behavioral Modeling",
+          "confidence": "known",
+          "snippets": [
+            "Presented with photos of gay men and straight men, a computer program was able to determine which of the two was gay with 81 percent accuracy, according to Dr. Kosinski and co-author Yilun Wang\u2019s paper."
+          ]
+        }
+      ],
       "technology": [
         {
           "label": "Siamese Network",
