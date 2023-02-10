@@ -1454,7 +1454,9 @@
         {
           "label": "Context Misidentification",
           "confidence": "potential",
-          "snippets": [NaN]
+          "snippets": [
+ "A Google spokesperson confirmed that \u201cgorilla\u201d was censored from searches and image tags after the 2015 incident, and that \u201cchimp,\u201d \u201cchimpanzee,\u201d and \u201cmonkey\u201d are also blocked today."
+	  ]
         }
       ],
       "technology": [
@@ -1475,7 +1477,10 @@
         {
           "label": "Keyword Filtering",
           "confidence": "known",
-          "snippets": [NaN, NaN]
+          "snippets": [
+ "A Google spokesperson confirmed that \u201cgorilla\u201d was censored from searches and image tags after the 2015 incident, and that \u201cchimp,\u201d \u201cchimpanzee,\u201d and \u201cmonkey\u201d are also blocked today.",
+ "Searches for \u201cblack man\u201d and \u201cblack woman\u201d turned up photos of people of the chosen gender in black and white, rather than of a given race."
+	  ]
         }
       ]
     },
