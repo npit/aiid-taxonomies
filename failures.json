@@ -12,7 +12,7 @@
         },
         {
           "name": "Data or Labelling Noise",
-          "description": "The system is applied or learns from data that significant amounts of noise, errors, artefacts and critical outliers in its content and/or annotated labels, that impact performance."
+          "description": "The system is applied or learns from data that significant amounts of noise, errors, artifacts and critical outliers in its content and/or annotated labels, that impact performance."
         },
         {
           "name": "Adversarial Data",
@@ -54,7 +54,7 @@
         },
         {
           "name": "Covariate Shift",
-          "description": "The scenario where input data distribution changes between different model application scnenarios (e.g. between training and deployment)"
+          "description": "The scenario where input data distribution changes between different model application scenarios (e.g. between training and deployment)"
         },
         {
           "name": "Overfitting",
@@ -76,7 +76,7 @@
         },
         {
           "name": "Distributional Artifacts",
-          "description": "The model provides irrelevant outputs due to its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be infered."
+          "description": "The model provides irrelevant outputs due to its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be inferred."
         },
         {
           "name": "Context Misidentification",
@@ -161,11 +161,11 @@
       "children": [
         {
           "name": "Gaming Vulnerability",
-          "description": "The system usually operates as expected, but malicous agents can game its function towards producing undesired results."
+          "description": "The system usually operates as expected, but malicious agents can game its function towards producing undesired results."
         },
         {
           "name": "Reward Hacking",
-          "description": "The system games its own reward mechanism by exhibiting undesirable behaviour that happens to gain large rewards in unpredicted ways."
+          "description": "The system games its own reward mechanism by exhibiting undesirable behavior that happens to gain large rewards in unpredicted ways."
         },
         {
           "name": "Inadequate Sequential Memory",
@@ -189,7 +189,7 @@
         },
         {
           "name": "Black Swan Event",
-          "description": "Incident is a result from highly improbable circumstances occuring, which the system is not equipped to handle."
+          "description": "Incident is a result from highly improbable circumstances occurring, which the system is not equipped to handle."
         }
       ]
     },

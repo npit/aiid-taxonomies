@@ -8,7 +8,7 @@
       "children": [
         {
           "name": "Transformer",
-          "description": "A neural network that relies on attention mechanisms to build representations."
+          "description": "A neural network utilizing the attention mechanism and self-supervised learning."
         },
         {
           "name": "Convolutional Neural Network",
