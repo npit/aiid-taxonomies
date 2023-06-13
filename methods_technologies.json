@@ -37,6 +37,10 @@
       "description": "Methods and technologies used under the computer vision domain.",
       "children": [
         {
+          "name": "Pose Estimation",
+          "description": "Methods attempting to estimate the pose, position, orientation, etc. of a human body."
+        },
+        {
           "name": "Gesture Recognition",
           "description": "Techniques involving identifying specific hand movements and gestures for smart user control."
         },
