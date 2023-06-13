@@ -41,6 +41,10 @@
         {
           "name": "Problematic Input",
           "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs."
+        },
+        {
+          "name": "Inadequate Verification",
+          "description": "The AI system does not perform adequate verification on information it presents to the user, resulting in erroneous / misinformation."
         }
       ]
     },
@@ -211,7 +215,7 @@
       "name": "Hardware Issues",
       "description": "Failures related to the system's hardware.",
       "children": [
-          { 
+          {
             "name": "Insufficient Compute",
             "description":"The system requires more computational resources than it has access to, which contributes to the incident."
           },

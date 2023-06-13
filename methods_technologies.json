@@ -79,6 +79,10 @@
           "description": "The approach of using character-level ngrams to build text representations"
         },
         {
+          "name": "Word NGrams",
+          "description": "The approach of using word-level ngrams to build text representations"
+        },
+        {
           "name": "Language Modeling",
           "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context."
         },
