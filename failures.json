@@ -1,26 +1,26 @@
 {
   "name": "Technical Failures",
-  "description": "A taxonomy of technical failings in AI system training, design, performance and generalization.",
+  "description": "A taxonomy of technical causes of failure in AI system training, design, performance and generalization.",
   "children": [
     {
       "name": "Dataset Issues",
-      "description": "Failures related to the data used with the model (e.g. for training, evaluation, deployment, etc.)",
+      "description": "Failures related to the data used with the model in different stages (e.g. training, evaluation, deployment, etc.)",
       "children": [
         {
           "name": "Limited Dataset",
-          "description": "Training dataset size and/or distribution is limited, impacting generalization."
+          "description": "The case where the size and/or distribution of the training dataset is limited, impacting generalization."
         },
         {
           "name": "Data or Labelling Noise",
-          "description": "The system is applied or learns from data that significant amounts of noise, errors, artifacts and critical outliers in its content and/or annotated labels, that impact performance."
+          "description": "The system is applied or learns from data that has significant amounts of noise, errors, artifacts and critical outliers in its content and/or annotated labels, which impacts resulting performance and/or generalization."
         },
         {
           "name": "Adversarial Data",
-          "description": "The system uses data which includes instances that have unexpected content, labels or characteristics, willingly / maliciously misconfigured."
+          "description": "The system uses data which includes instances that have unexpected content, labels or characteristics, which have been willingly and maliciously inserted, misconfigured or supplied to the model."
         },
         {
           "name": "Inadequate Data Sampling",
-          "description": "Data sampling is misconfigured, in terms of resolution, selection, biases, etc.; resulting instance pool may be insufficient for training / inference."
+          "description": "The AI system uses data that has been sampled from a larger data pool. That sampling is misconfigured (e.g. in terms of resolution, selection, distribution of instance attributes of interest, biases), resulting in a dataset that may be insufficient for training / inference."
         },
         {
           "name": "Inappropriate Training Content",
@@ -28,7 +28,7 @@
         },
         {
           "name": "Dataset Imbalance",
-          "description": "An AI system is set to learn from a collection of data that does not provide enough instances for all desired predictions (e.g. classes)."
+          "description": "An AI system is set to learn from a collection of data that does not provide enough instances for all desired predictions (e.g. classes, range of regression values)."
         },
         {
           "name": "Unauthorized Data",
@@ -36,7 +36,7 @@
         },
         {
             "name": "Inadequate Anonymization",
-            "description": "The system uses data without proper anonymization / pseudonymization processing, resulting in sensitive information leaks."
+            "description": "The system uses data without proper anonymization / pseudonymization, resulting in leaks of sensitive information."
         },
         {
           "name": "Problematic Input",
@@ -44,13 +44,13 @@
         },
         {
           "name": "Inadequate Verification",
-          "description": "The AI system does not perform adequate verification on information it presents to the user, resulting in erroneous / misinformation."
+          "description": "The AI system does not perform adequate verification on information it presents to the user, resulting in erroneous outputs and/or misinformation."
         }
       ]
     },
     {
       "name": "Generalization Failure",
-      "description": "A trained AI system fails to perform well once deployed in the real world, where conditions (e.g. statistical properties of input data due to noise, environment, etc.) are novel and  considerably different from the training environment.",
+      "description": "A trained AI system fails to perform well once deployed in the real world, where conditions (e.g. statistical properties of input data due to noise, environment, etc.) are novel and considerably different from the training environment.",
       "children": [
         {
           "name": "Concept Drift",
@@ -72,19 +72,19 @@
         },
         {
           "name": "Underfitting",
-          "description": "The learning model uses assumptions under which it cannot capture complexity present in the data and generate accurate predictions."
+          "description": "The learning model uses weak assumptions, under which it cannot effectively capture the complexity present in the training data, resulting in the generation of inaccurate predictions."
         },
         {
           "name": "Distributional Bias",
-          "description": "A trained model reflects biases that exist in its training data that are not representative to the real world or convey meaning that is context-specific and not generally applicable."
+          "description": "A trained model reflects biases that exist in its training data that are not representative to the real world, convey meaning that is context-specific and not generally applicable, or perpetuate harful stereotypes."
         },
         {
           "name": "Distributional Artifacts",
-          "description": "The model provides irrelevant outputs due to its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be inferred."
+          "description": "The model provides irrelevant outputs due to its distributional training, appearing to 'hallucinate' facts that were not provided in their input and cannot be reasonably inferred."
         },
         {
           "name": "Context Misidentification",
-          "description": "Cases where the learner fails to detect the correct context and produces erroneous predictions as a result."
+          "description": "Cases where the learner fails to detect the correct context of its input data, and produces erroneous predictions as a result."
         }
       ]
     },
@@ -94,7 +94,7 @@
       "children": [
         {
           "name": "Misconfigured Aggregation",
-          "description": "The model's decision arises by considering multiple marginal predictions, the combination of which is skewed (e.g. under/overestimating contribution of a particular component) or otherwise problematic."
+          "description": "The model's decision arises by considering multiple marginal predictions, the combination of which is skewed (e.g. under/overestimating contribution of a particular component) or otherwise misconfigured."
         },
         {
           "name": "Misconfigured Threshold",
@@ -116,15 +116,15 @@
         },
         {
           "name": "Unsafe Exposure or Access",
-          "description": "The system lacks adequate exposure / access limitations and safeguarding measures; as a result, its outputs become harmful."
+          "description": "The system lacks adequate exposure / access limitations and safeguarding measures; as a result, its outputs may become harmful."
         },
         {
             "name": "Misinformation Generation Hazard",
-            "description": "The system has the potential includes information / application routes / technologies that enable dangerous misinformation spread if used maliciously, with no countermeasures the latter."
+            "description": "The system has the potential to produce outputs that may result in spreading dangerous misinformation if used maliciously, with no countermeasures for mitigating the latter."
         },
         {
           "name": "Incomplete Data Attribute Capture",
-          "description": "Information extraction from real-world instances omit attributes that are important; the resulting features used are obviously incomplete towards faithfully and holistically capture the instance and solve the learning problem effectively."
+          "description": "Information extraction from real-world instances omit attributes that are important; the resulting features used are incomplete towards faithfully and holistically capture the instance and solve the learning problem effectively."
         },
         {
           "name": "Faulty Interface or Instructions",
@@ -138,11 +138,11 @@
     },
     {
       "name": "Black Box",
-      "description": "Cases where causes of failure include a lack of visibility, understanding of how the AI system really operates.",
+      "description": "Cases where causes of failure include a lack of visibility, transparency or inspectability of how the AI system really operates under the hood, making its outputs unpredictable and difficult to understand.",
       "children": [
         {
           "name": "Lack of Transparency",
-          "description": "The system converts input data into outputs without clearly exposing internal computational steps and procedures to outside observers. "
+          "description": "The system converts input data into outputs without clearly communicating internal computational stages, progress and procedures to outside users."
         },
         {
           "name": "Lack of Explainability",
@@ -150,56 +150,56 @@
         },
         {
           "name": "Lack of Interruptability",
-          "description": "There considerable difficulty in safely interrupting system operation."
+          "description": "The system functions in a way that there is considerable difficulty in easily and safely interrupting its operation once it has started."
         },
         {
           "name": "Lack of Corrigibility",
-          "description": "There considerable difficulty in safely applying corrections to goals and methods used by the system."
+          "description": "There is considerable difficulty in easily and safely applying corrections to goals and methods used by the system."
         }
 
       ]
     },
     {
       "name": "Robustness Failure",
-      "description": "System failure arises due to the model being sensitive to handling specific scenarios (e.g. different, unexpected, edge cases).",
+      "description": "System failure arises due to the model being sensitive to handling specific scenarios (e.g. different, unexpected, edge cases) of its domain of operation.",
       "children": [
         {
           "name": "Gaming Vulnerability",
-          "description": "The system usually operates as expected, but malicious agents can game its function towards producing undesired results."
+          "description": "The system usually operates as expected, but malicious external agents can game its function towards producing undesired results."
         },
         {
           "name": "Reward Hacking",
-          "description": "The system games its own reward mechanism by exhibiting undesirable behavior that happens to gain large rewards in unpredicted ways."
+          "description": "The system games its own reward mechanism by exhibiting undesirable behavior that happens to gain large rewards in ways not expected by the system's designers."
         },
         {
           "name": "Inadequate Sequential Memory",
-          "description": "The model does not adequately retain a representation of recent history for memoryfull operation over multiple steps, leading to failures over dealing with longer data sequences."
+          "description": "The model does not adequately retain a representation of recent history for memoryful operation over multiple steps, leading to failures over dealing with long data sequences."
         },
         {
           "name": "Lack of Adversarial Robustness",
-          "description": "The scenario where a model is sensitive to small changes to input data causing large, undesirable changes in its output."
+          "description": "The scenario where a model is sensitive to small changes to input data causing large, undesirable changes in its output, resulting in reduced smoothness and stability."
         },
         {
           "name": "Trojan",
-          "description": "The system has been compromised via injection of hidden functionality / data."
+          "description": "The system has been compromised via extenral injection of hidden functionality / data."
         },
         {
           "name": "Backup Failure",
-          "description": "The system cannot recover from failure due to subsequent failings in deploying backup countermeasures and fall-backs."
+          "description": "The system cannot recover from failure due to subsequent failings in the deployment of backups, countermeasures and fallbacks."
         },
         {
           "name": "Inadequate Fault Tolerance",
-          "description": "The system fails to recover from errors / exceptions in a safe and controlled manner, but devolves to undefined behavior instead (e.g. crashes, nonsense outputs, etc.)."
+          "description": "The system fails to recover from errors / exceptions in a safe and controlled manner, devolving to undefined behavior instead (e.g. crashes, nonsensical / junk outputs, etc.)."
         },
         {
           "name": "Black Swan Event",
-          "description": "Incident is a result from highly improbable circumstances occurring, which the system is not equipped to handle."
+          "description": "The AI system fails because highly improbable events / circumstances occur, which the system is not equipped to handle."
         }
       ]
     },
     {
       "name": "Human Error",
-      "description": "Cases where failure arises by simple cases of mistakes",
+      "description": "Cases where failure arises due to cases of mistakes by humans.",
       "children": [
         {
           "name": "Software Bug",
@@ -207,7 +207,7 @@
         },
         {
           "name": "Misuse",
-          "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to incidents."
+          "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to failure."
         }
       ]
     },

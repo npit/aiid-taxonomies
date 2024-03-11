@@ -1,6 +1,6 @@
 {
   "name": "System Goals",
-  "description": "A taxonomy of high-level, domain-facing goals and use cases that an AI / Machine system may tackle during its operation",
+  "description": "A taxonomy of high-level, domain-facing goals and use cases that an AI / Machine system may tackle during its operation.",
   "children": [
     {
       "name": "Financial and Market-related Goals",
@@ -12,7 +12,7 @@
         },
         {
           "name": "Market Forecasting",
-          "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)"
+          "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)."
         },
         {
           "name": "Automatic Stock Trading",
@@ -20,7 +20,7 @@
         },
         {
           "name": "Scheduling",
-          "description": "The goal of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints"
+          "description": "The goal of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints."
         },
         {
           "name": "Automatic Skill Assessment",
@@ -30,7 +30,6 @@
           "name": "Cashierless Shopping",
           "description": "The goal of facilitating automated shopping with limited to no in-store personnel."
         }
-
       ]
     },
     {
@@ -59,10 +58,10 @@
               "name": "Gunshot Detection",
               "description": "The goal of detecting gunshot sounds."
             },
-        {
-          "name": "Audio Localization",
-          "description": "The goal of determining the source location of audio signals."
-        }
+            {
+              "name": "Audio Localization",
+              "description": "The goal of determining the source location of audio signals."
+            }
           ]
         },
         {
@@ -71,17 +70,17 @@
         },
         {
           "name": "License Plate Recognition",
-          "description": "The goal of automatically reading cat license plates."
+          "description": "The goal of automatically reading car license plates."
         }
       ]
     },
     {
       "name": "Information Retrieval",
-      "description": "The goal of selecting relevant data instances from an available pool of candidates.",
+      "description": "The goal of selecting data instances relevant to an input query, from an available pool of candidates.",
       "children": [
         {
           "name": "Content Recommendation",
-          "description": "Automatic retrieval and serving of content to a user based on their profile, activity and/or history."
+          "description": "Automatic retrieval and serving of content to a user based on their profile, preferences, activity and/or history."
         },
         {
           "name": "Content Search",
@@ -95,7 +94,7 @@
     },
     {
       "name": "Natural Language Processing / Understanding Goals",
-      "description": "Goals involving the intelligent processing, reasoning and manipulation of text",
+      "description": "Goals involving the intelligent processing, reasoning and manipulation of text.",
       "children": [
         {
           "name": "Translation",
@@ -107,21 +106,21 @@
         },
         {
           "name": "Chatbot",
-          "description": "The goal of an NLP / AI engaging in dialogue and conversation."
+          "description": "The goal of deploying an AI NLP system to engage in sequential dialogue and conversation."
         }
       ]
     },
     {
       "name": "Computer Vision Goals",
-      "description": "System goals related to analysis and manipulation on the visual modalities",
+      "description": "System goals related to analysis and manipulation of visual modalities",
       "children": [
         {
           "name": "Image Cropping",
-          "description": "The selection of an image subset that contains the most salient content."
+          "description": "The automatic selection of an image subset that contains the most salient content of the entire image."
         },
         {
           "name": "Image Tagging",
-          "description": "The goal of attaching semantic label to an image based on its content.."
+          "description": "The goal of attaching semantic labels to an image based on its semantic contents."
         },
         {
           "name": "Face Recognition",
@@ -139,17 +138,17 @@
       "children": [
         {
           "name": "AI Voice Assistant",
-          "description": "The usage of AI for automated voice assistance functionality."
+          "description": "The joint usage of multiple AI technologies (audio recognition and transcription, text generation, speech synthesis, text to speech, etc.) for automated voice assistance functionality."
         }
       ]
     },
     {
       "name": "Synthetic Content Generation",
-      "description": "Goals that generate high-quality content via automatic means",
+      "description": "Goals that generate high-quality content via automatic means.",
       "children": [
         {
           "name": "Code Generation",
-          "description": "The automatic generation and suggestion of large code snippets from current code context."
+          "description": "The automatic generation and suggestion of code snippets from a current code context."
         },
         {
           "name": "Social Media Content Generation",
@@ -167,7 +166,7 @@
     },
     {
       "name": "Automated Content Curation",
-      "description": "Goals that estimate how suitable / appropriate content is for the target domain, audience or context",
+      "description": "Goals that estimate how suitable / appropriate content is for the target domain, audience or context.",
       "children": [
         {
           "name": "Hate Speech Detection",
@@ -175,7 +174,7 @@
         },
         {
           "name": "NSFW Content Detection",
-          "description": "The goal of gauging whether text or multimedia content is safe for work or not (e.g. graphic, violent, adult content)"
+          "description": "The goal of gauging whether text or multimedia content is safe for work or not (e.g. whether it contains graphic, violent, adult content)."
         },
         {
           "name": "Copyrighted Content Detection",
@@ -189,11 +188,11 @@
       "children": [
         {
           "name": "Robotic Manipulation",
-          "description": "The goal of manipulating physical objects via robotic actuators (e.g. arms, industrial robots, etc.)"
+          "description": "The goal of manipulating physical objects via robotic actuators (e.g. robotic arms, industrial manipulators, highly autonomous assembly lines, etc.)."
         },
         {
           "name": "Autonomous Drones",
-          "description": "Goals involving autonomous drone robots (e.g. such as Boston Dynamics robots)"
+          "description": "Goals involving autonomous drone robots (e.g. such as Boston Dynamics robots)."
         },
         {
           "name": "Autonomous Driving",

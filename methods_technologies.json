@@ -4,7 +4,7 @@
   "children": [
     {
       "name": "Neural Network",
-      "description": "A learning model composed of artificial neurons organized into nonlinear computational circuits",
+      "description": "A learning model composed of artificial neurons organized into nonlinear computational circuits.",
       "children": [
         {
           "name": "Transformer",
@@ -24,7 +24,7 @@
         },
         {
           "name": "Siamese Network",
-          "description": "A neural network that uses shared weights on dual inputs, to produce output representations that optimize a distance / similarity relation."
+          "description": "A neural network that uses shared weights on dual inputs, to produce output representations that optimize a pairwise distance / similarity relation."
         },
         {
           "name": "Autoencoder",
@@ -38,7 +38,7 @@
       "children": [
         {
           "name": "Pose Estimation",
-          "description": "Methods attempting to estimate the pose, position, orientation, etc. of a human body."
+          "description": "Methods attempting to estimate the pose, position, orientation, etc., of a human body."
         },
         {
           "name": "Gesture Recognition",
@@ -46,7 +46,7 @@
         },
         {
           "name": "Image Segmentation",
-          "description": "The approach of partitioning an image to semantically contiguous regions"
+          "description": "The approach of partitioning an image to semantically contiguous regions."
         },
         {
           "name": "3D reconstruction",
@@ -54,11 +54,11 @@
         },
         {
           "name": "Face Detection",
-          "description": "The detection of human faces in visual content."
+          "description": "The detection of human faces in visual media."
         },
         {
           "name": "Optical Character Recognition",
-          "description": "The use of image processing and computer vision techniques in order to extract text from images, document pdfs and other visual media."
+          "description": "The use of image processing and computer vision techniques to extract text from images, documents, and other visual media."
         },
         {
           "name": "Satellite Imaging",
@@ -80,11 +80,11 @@
       "children": [
         {
           "name": "Character NGrams",
-          "description": "The approach of using character-level ngrams to build text representations"
+          "description": "The approach of using character-level ngrams to build text representations."
         },
         {
           "name": "Word NGrams",
-          "description": "The approach of using word-level ngrams to build text representations"
+          "description": "The approach of using word-level ngrams to build text representations."
         },
         {
           "name": "Language Modeling",
@@ -106,7 +106,7 @@
         },
         {
           "name": "Speaker Diarization",
-          "description": "The approach of identifying separate speakers from conversations in input audio."
+          "description": "The approach of identifying separate speakers from conversations in an input audio signal."
         },
         {
           "name": "Acoustic Fingerprint",
@@ -132,11 +132,11 @@
         },
         {
           "name": "Intermediate modeling",
-          "description": "The approach uses an attainable, intermmediate proxy modeling Y, to obtain desired outputs Z from inputs X due to existing limitations."
+          "description": "The approach of using an attainable, intermmediate proxy modeling Y, to obtain desired outputs Z from inputs X due to existing limitations of directly generating Z from X."
         },
         {
           "name": "Multimodal Learning",
-          "description": "The paradigm where multiple data modalities (e.g. text, audio, images) are utilized for learning and problem-solving."
+          "description": "The paradigm where multiple data modalities (e.g. text, audio, images) are jointly utilized in input representation and/or learning."
         },
         {
           "name": "Unsupervised Learning",
@@ -144,7 +144,7 @@
           "children": [
             {
               "name": "Clustering",
-              "description": "The unsupervised task of grouping data instances into groups with high internal similarity and low similarity across different groups."
+              "description": "The approach of organizing data instances into groups with high internal similarity and low similarity between different groups."
             },
             {
               "name": "Collaborative Filtering",
@@ -156,7 +156,7 @@
             },
             {
               "name": "Distributional Learning",
-              "description": "An approach of arriving at representations (usually vectorial embeddings) of objects from unlabelled data via analyzing its co-occurence distributions."
+              "description": "An approach of arriving at representations (e.g. vector embeddings) of objects from unlabelled data by analyzing co-occurence distributions of their component parts."
             },
             {
             "name": "Diffusion Model",
@@ -170,11 +170,11 @@
           "children": [
             {
               "name": "Regression",
-              "description": "The task of annotating data with real-valued predictions."
+              "description": "A learning approach that models the relationship of object representations to real-valued target quantities."
             },
             {
               "name": "Classification",
-              "description": "The task of annotating data to one or more semantic labels from a given labelset."
+              "description": "A learning approach that models the relationship of object representations to discrete semantic labels."
             }
           ]
         }
@@ -182,7 +182,7 @@
     },
     {
       "name": "Other domain-specific approaches",
-      "description": "Popular methods mostly relevant to specific domains",
+      "description": "Popular methods mostly relevant to specific domains.",
       "children": [
         {
           "name": "Geolocation Data",
