@@ -116,7 +116,7 @@
         },
         {
           "name": "Unsafe Exposure or Access",
-          "description": "The system lacks adequate exposure / access limitations and safeguarding measures; as a result, its outputs may become harmful."
+          "description": "The system lacks adequate exposure / access limitations, input / result filtering and general safeguarding measures; as a result, it may produce outputs harmful to end users."
         },
         {
             "name": "Misinformation Generation Hazard",
@@ -164,6 +164,10 @@
       "description": "System failure arises due to the model being sensitive to handling specific scenarios (e.g. different, unexpected, edge cases) of its domain of operation.",
       "children": [
         {
+          "name": "Prompt Injection",
+          "description": "A case of gaming vulnerability to prompt-based language models, where the default model instructions can be overriden by carefully crafted prompts in the user's input."
+        },
+        {
           "name": "Gaming Vulnerability",
           "description": "The system usually operates as expected, but malicious external agents can game its function towards producing undesired results."
         },
@@ -194,6 +198,11 @@
         {
           "name": "Black Swan Event",
           "description": "The AI system fails because highly improbable events / circumstances occur, which the system is not equipped to handle."
+        },
+        {
+          "name": "Security Vulnerability",
+          "description": "The system lacks adequate measures to protect the privacy, security or integrity of the information and data of its end users."
+
         }
       ]
     },
@@ -208,7 +217,10 @@
         {
           "name": "Misuse",
           "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to failure."
-        }
+        },
+        {
+          "name": "Malicious Marketing",
+          "description": "The AI system is clearly falsely advertised to operate and/or produce results different than its actual deployment shows."
       ]
     },
     {

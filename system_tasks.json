@@ -11,6 +11,10 @@
           "description": "Goals geared towards the estimation of financial quantities."
         },
         {
+          "name": "Product Naming and Description",
+          "description": "The task of coming up with marketable product names, titles and descriptions, e.g. in an e-shop."
+        },
+        {
           "name": "Market Forecasting",
           "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)."
         },
@@ -147,12 +151,20 @@
       "description": "Goals that generate high-quality content via automatic means.",
       "children": [
         {
+          "name": "Voice Generation",
+          "description": "The automatic generation of synthetic human voices."
+        },
+        {
+          "name": "Text Style Replication",
+          "description": "The automatic generation of text, tuned to mimic the content and/or writing style of a specific creator or a specific use case."
+        },
+        {
           "name": "Code Generation",
           "description": "The automatic generation and suggestion of code snippets from a current code context."
         },
         {
           "name": "Social Media Content Generation",
-          "description": "The automatic generation of social media text (e.g. posts, comments, etc.) from a seed prompt."
+          "description": "The automatic generation of social media text (e.g. posts, comments, etc.) from a seed prompt, tailored for user engagement."
         },
         {
           "name": "Deepfake Video Generation",
@@ -161,6 +173,10 @@
         {
           "name": "Visual Art Generation",
           "description": "The automatic generation of digital art images."
+        },
+        {
+          "name": "Image Retouching",
+          "description": "The task of automatic image processing to enhance its aesthetics by the application of high-level filters (e.g. color filters) and transformations (e.g. 'beautify' filters)."
         }
       ]
     },
