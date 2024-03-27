@@ -41,10 +41,6 @@
         {
           "name": "Problematic Input",
           "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs."
-        },
-        {
-          "name": "Inadequate Verification",
-          "description": "The AI system does not perform adequate verification on information it presents to the user, resulting in erroneous outputs and/or misinformation."
         }
       ]
     },
@@ -99,8 +95,28 @@
         {
           "name": "Misconfigured Threshold",
           "description": "The model's decision threshold is configured to favor a subset of classes, leading in large performance differences in, e.g. precision and recall."
+        },
+        {
+          "name": "Inadequate Verification",
+          "description": "The AI system does not perform adequate verification on information it presents to the user, resulting in erroneous outputs and/or misinformation."
         }
       ]
+    },
+    {
+      "name": "Multiagent Issues",
+      "description": "Failures emanating from having multiple agents working on similar tasks and/or interacting with each other.",
+      "children":[
+        {
+          "name": "Multiagent Goal Divergence",
+          "description": "Cases where failure stems from the goals of multiple AI agents clashing / interfering with each other."
+        },
+        {
+          "name": "Miscoordination",
+          "description": "Cases where failure arises from faulty coordination of multiple AI systems acting on shared data."
+        }
+
+      ]
+
     },
     {
       "name": "Underspecification",
@@ -208,7 +224,7 @@
     },
     {
       "name": "Human Error",
-      "description": "Cases where failure arises due to cases of mistakes by humans.",
+      "description": "Cases where failure arises mostly due to mistakes by humans.",
       "children": [
         {
           "name": "Software Bug",
@@ -221,6 +237,13 @@
         {
           "name": "Malicious Marketing",
           "description": "The AI system is clearly falsely advertised to operate and/or produce results different than its actual deployment shows."
+        },
+        {
+          "name": "Deployment Misconfiguration",
+          "description": "General cases where simple corrections to deployment configuration could prevent the observed failure."
+        }
+
+
       ]
     },
     {

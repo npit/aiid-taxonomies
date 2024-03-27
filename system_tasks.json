@@ -195,6 +195,10 @@
         {
           "name": "Copyrighted Content Detection",
           "description": "The goal of detecting / identifying the presence of copyrighted content elements in input data."
+        },
+        {
+          "name": "Automatic Copy-Editing",
+          "description": "The goal of maintenance, quality assurance and copy-editing of digital text via the use of automated systems."
         }
       ]
     },

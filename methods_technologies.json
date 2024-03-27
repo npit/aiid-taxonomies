@@ -93,6 +93,10 @@
         {
           "name": "Keyword Filtering",
           "description": "Methods of statically restricting keywords from participating in input / output sets of a task."
+        },
+        {
+          "name": "Named Entity Recognition",
+          "description": "The approach of detecting words or passages with special meaning with respect to the real world and/or target domains, such as locations, individuals, companies, etc."
         }
       ]
     },
