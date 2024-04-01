@@ -149,6 +149,10 @@
         {
           "name": "Limited User Access",
           "description": "The system restricts user access / tampering excessively and/or in a way that leads to failure."
+        },
+        {
+          "name": "Domain Adaptation Deficit",
+          "description": "The model is unable to adapt its general knowledge to a more specific domain."
         }
       ]
     },
@@ -232,17 +236,25 @@
         },
         {
           "name": "Misuse",
-          "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to failure."
-        },
-        {
-          "name": "Malicious Marketing",
-          "description": "The AI system is clearly falsely advertised to operate and/or produce results different than its actual deployment shows."
-        },
-        {
-          "name": "Deployment Misconfiguration",
-          "description": "General cases where simple corrections to deployment configuration could prevent the observed failure."
-        }
+          "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to failure.",
+          "children":[
 
+              {
+                "name": "Deployment Misconfiguration",
+                "description": "General cases where simple corrections to the deployment configuration could prevent the observed failure."
+              },
+              {
+                "name": "Task Mismatch",
+                "description": "Cases where the AI system fails at a task which is not reasonably expected to be able to solve, given its design and specifications."
+              },
+              {
+                "name": "Malicious Marketing",
+                "description": "The AI system is clearly falsely advertised to operate and/or produce results different than its actual deployment shows."
+              }
+
+
+          ]
+        }
 
       ]
     },

@@ -159,6 +159,10 @@
           "description": "The automatic generation of text, tuned to mimic the content and/or writing style of a specific creator or a specific use case."
         },
         {
+          "name": "Technical Text Generation",
+          "description": "The automatic generation of text for technical use cases, aimed for accuracy, clarity and high-quality informative content."
+        },
+        {
           "name": "Code Generation",
           "description": "The automatic generation and suggestion of code snippets from a current code context."
         },

@@ -71,6 +71,10 @@
         {
           "name": "Visual Object Detection",
           "description": "Methods applying object detection methods on visual data."
+        },
+        {
+          "name": "Color Histograms",
+          "description": "The approach of collecting color statistics as an image representation."
         }
       ]
     },
