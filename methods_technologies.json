@@ -41,6 +41,10 @@
           "description": "Methods attempting to estimate the pose, position, orientation, etc., of a human body."
         },
         {
+          "name": "Image Retrieval",
+          "description": "The approach of using an image query to retrieve similar instances from an image database."
+        },
+        {
           "name": "Gesture Recognition",
           "description": "Techniques involving identifying specific hand movements and gestures for smart user control."
         },

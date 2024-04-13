@@ -11,6 +11,10 @@
           "description": "Goals geared towards the estimation of financial quantities."
         },
         {
+          "name": "Underwriting",
+          "description": "The task of risk assessment, analysis and evaluation in the context of financial transactions."
+        },
+        {
           "name": "Product Naming and Description",
           "description": "The task of coming up with marketable product names, titles and descriptions, e.g. in an e-shop."
         },

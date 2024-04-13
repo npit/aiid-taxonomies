@@ -132,7 +132,7 @@
         },
         {
           "name": "Unsafe Exposure or Access",
-          "description": "The system lacks adequate exposure / access limitations, input / result filtering and general safeguarding measures; as a result, it may produce outputs harmful to end users."
+          "description": "The AI system is usable to its intended user base without adequate exposure / access limitations, input / result filtering and general safeguarding measures; as a result, it may produce outputs harmful to end users."
         },
         {
             "name": "Misinformation Generation Hazard",
@@ -240,7 +240,7 @@
         },
         {
           "name": "Misuse",
-          "description": "The system is used, configured or deployed without properly following official instructions, guidelines and safety measures, leading to failure.",
+          "description": "The system is used with limited regard to official instructions, guidelines, safety measures, or societal impact of its outputs.",
           "children":[
 
               {
@@ -254,7 +254,11 @@
               {
                 "name": "Malicious Marketing",
                 "description": "The AI system is clearly falsely advertised to operate and/or produce results different than its actual deployment shows."
-              }
+              },
+	      {
+  	        "name": "Harmful Application",
+  	        "description": "Cases where an AI system is deployed and used as intended, but within a context or use case that results in adverse effects or negative consequences for individuals, communities, or society at large."
+	      }
 
 
           ]
