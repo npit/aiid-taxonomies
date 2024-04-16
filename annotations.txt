@@ -1,0 +1,128 @@
+618
+
+goals:
+Underwriting (new):
+
+- The decision to approve or deny a mortgage application is largely made by automated underwriting systems, and advocates have been pushing lenders like Navy Federal to improve those systems to reduce racial disparities.
+
+known methods
+Classification
+
+potential methods:
+Regression
+
+
+
+
+potential failures
+Distributional Bias
+
+- A CNN investigation last month found that Navy Federal approved more than 75% of the White borrowers who applied for a new conventional home purchase mortgage in 2022 while approving less than 50% of Black borrowers who applied for the same type of loan, according to the most recent federal data available.
+- That analysis found the credit union denied conventional mortgage applications from Black and Latino applicants at substantially higher rates than the national average.
+
+Misconfigured Aggregation
+
+- In recent years, some banks have changed their underwriting systems to take into account additional data that can reduce those racial disparities – such as including an applicant’s history of paying rent in a calculation of their creditworthiness. Pearson, the Navy Federal spokesperson, said rental history was “incorporated” into the credit union’s underwriting process, but did not provide additional details.
+- discussion: If credit worthiness is a distinct sub-decision, it's perhaps aggregated with too large a weight
+
+Incomplete Data Attribute Capture
+- Some experts pointed out that Navy Federal’s member base of servicemembers, veterans, and their families may have a different financial picture than the general public that large banks serve, which could explain some of the racial disparities.
+
+
+-------------------------------------------
+
+659
+
+goals:
+Face Recognition
+- It turned out Mr. Abu Toha had walked into the range of cameras embedded with facial recognition technology, according to three Israeli intelligence officials who spoke on the condition of anonymity. After his face was scanned and he was identified, an artificial intelligence program found that the poet was on an Israeli list of wanted persons, they said.
+
+known methods
+Face detection, Image Retrieval
+- It turned out Mr. Abu Toha had walked into the range of cameras embedded with facial recognition technology, according to three Israeli intelligence officials who spoke on the condition of anonymity. After his face was scanned and he was identified, an artificial intelligence program found that the poet was on an Israeli list of wanted persons, they said.
+
+potential methods
+- CNN
+
+known failures
+Unauthorized Data
+- Mr. Abu Toha is one of hundreds of Palestinians who have been picked out by a previously undisclosed Israeli facial recognition program that was started in Gaza late last year. The expansive and experimental effort is being used to conduct mass surveillance there, collecting and cataloging the faces of Palestinians without their knowledge or consent, according to Israeli intelligence officers, military officials and soldiers.
+- It also uses Google Photos, they said.
+- Three of the people with knowledge of the program said they were speaking out because of concerns that it was a misuse of time and resources by Israel.
+
+Harmful Application
+- At times, the technology wrongly flagged civilians as wanted Hamas militants, one officer said.
+- After Israel embarked on a ground offensive in Gaza, it increasingly turned to the program to root out anyone with ties to Hamas or other militant groups. 
+
+
+---------------------------------------------
+
+664
+
+goals:
+Deepfake Video Generation
+- Now, the Lincoln Project, an anti-Trump political action committee that Trump claimed — wrongly — had used AI to generate unflattering clips of him, is flipping the script by using AI to summon up footage of Trump's long-deceased dad to excoriate his son in a vicious attack ad.
+
+potential methods:
+CNN, RNN, Transformer, GAN
+- Now, the Lincoln Project, an anti-Trump political action committee that Trump claimed — wrongly — had used AI to generate unflattering clips of him, is flipping the script by using AI to summon up footage of Trump's long-deceased dad to excoriate his son in a vicious attack ad.
+
+known failures:
+Unsafe Exposure or Access, Misinfo Generation Hazard
+- Now, the Lincoln Project, an anti-Trump political action committee that Trump claimed — wrongly — had used AI to generate unflattering clips of him, is flipping the script by using AI to summon up footage of Trump's long-deceased dad to excoriate his son in a vicious attack ad.
+
+
+--------------------
+
+50
+
+goals:
+
+known goal:
+Smart Contract
+- We just lived through the nightmare scenario we were worried about as we called for a moratorium on The DAO: someone exploited a weakness in the code of The DAO to empty out more than 2M ($40M USD) ether.
+
+
+potential methods:
+Conditional Logic
+- We just lived through the nightmare scenario we were worried about as we called for a moratorium on The DAO: someone exploited a weakness in the code of The DAO to empty out more than 2M ($40M USD) ether.
+
+known failures:
+Security Vulnerability
+- The DAO hacker was probably able to run a transaction that automatically repeated itself over and over again before the system checked the balance, Miller says. That would allow anyone to pull far more money out of the fund than they put in.
+
+
+---------------------------
+
+49
+
+goal
+
+
+known methods
+Image Classification
+- They let a set of three algorithms judge them based on their face's symmetry, their wrinkles, and how young or old they looked for their age. 
+CNN
+- The first thing to know is that all three algorithms used a style of machine learning called "deep learning."
+
+potential methods
+Regression
+
+known failures
+
+Distributional Bias, Limited Dataset, Dataset Imbalance
+- Out of the 44 people that the algorithms judged to be the most "attractive," all of the finalists were white except for six who were Asian. Only one finalist had visibly dark skin.
+- The problem here is with the lack of diversity of people and opinions in the databases used to train AI, which are created by humans.
+- "We had this problem with our database for wrinkle estimation, for example," said Konstantin Kiselev, chief technology officer of Youth Laboratories, in an interview. "Our database had a lot more white people than, say, Indian people. Because of that, it's possible that our algorithm was biased."
+- The simplest explanation for biased algorithms is that the humans who create them have their own deeply entrenched biases. That means that despite perceptions that algorithms are somehow neutral and uniquely objective, they can often reproduce and amplify existing prejudices.
+
+Misuse, Problematic Input
+- The other problem for the Beauty.ai content in particular, Kiselev said, is that the large majority (75 percent) of contest entrants were European and white.
+-- discussion: Perhaps the skewed results are a problem of the input data (too few dark-skinned people => far fewer pretty ones)
+
+Incomplete Data Attribute Capture, Generalization Failure
+- Indeed, Zhavoronkov told me that the Beauty.ai algorithms sometimes discarded selfies of dark-skinned people if the lighting was too dim.
+
+potential failure
+Inadequate Preprocessing
+- Indeed, Zhavoronkov told me that the Beauty.ai algorithms sometimes discarded selfies of dark-skinned people if the lighting was too dim.
