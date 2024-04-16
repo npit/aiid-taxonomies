@@ -99,6 +99,10 @@
           "description": "The approach of building a statistical model of word co-occurence associations via predicting missing words in a context."
         },
         {
+          "name": "Query Expansion",
+          "description": "Techniques of expanding user queries to improve retrieval results."
+        },
+        {
           "name": "Keyword Filtering",
           "description": "Methods of statically restricting keywords from participating in input / output sets of a task."
         },
@@ -164,7 +168,7 @@
             },
             {
               "name": "Content-based Filtering",
-              "description": "Approaches that generate recommendations by focusing on data item content, properties and metadata rather than user-oriented attributes."
+              "description": "Approaches that generate recommendations by focusing on content, properties and metadata of content instances, rather than user-oriented attributes."
             },
             {
               "name": "Distributional Learning",

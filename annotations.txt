@@ -124,5 +124,89 @@ Incomplete Data Attribute Capture, Generalization Failure
 - Indeed, Zhavoronkov told me that the Beauty.ai algorithms sometimes discarded selfies of dark-skinned people if the lighting was too dim.
 
 potential failure
-Inadequate Preprocessing
+Faulty or Inadequate Preprocessing
 - Indeed, Zhavoronkov told me that the Beauty.ai algorithms sometimes discarded selfies of dark-skinned people if the lighting was too dim.
+
+---------------------------
+
+48 
+
+goals
+
+Image Verification
+- A man of Asian descent in New Zealand had his passport application rejected after the software that approves photos claimed his eyes were closed.
+
+methods:
+Imafe Classification, Face Detection
+- A man of Asian descent in New Zealand had his passport application rejected after the software that approves photos claimed his eyes were closed.
+
+potential methods
+CNN, Face Detection
+- A man of Asian descent in New Zealand had his passport application rejected after the software that approves photos claimed his eyes were closed.
+
+failures
+Generalization Failure, Limited Dataset
+- Despite submitting a front-facing photo with his eyes clearly open, the website said Mr Lee's picture did not meet requirements because the "subject eyes are closed". 
+
+Lack of Transparency, Faulty Interface or Instructions
+- An Internal Affairs spokesperson told Newshub around 20 percent of photos are rejected for a variety of reasons, and the error Mr Lee received - that his eyes were closed - is just a generic error message.
+
+Inadequate Data Augmentation
+- When Mr Lee called, he was told it was rejected due to the shadow in his eyes and "uneven lighting".
+- “So I rang up the passport office and they told me there was shadowing in my eyes and also uneven lighting on the face, which makes it hard for the software to process.”
+
+-------------------------------------------
+
+47
+
+goals
+Content Search
+
+- LinkedIn says its suggested results are generated automatically by an analysis of the tendencies of past searchers.
+
+methods
+Collaborative Filtering
+- LinkedIn says its suggested results are generated automatically by an analysis of the tendencies of past searchers. "It's all based on how people are using the platform," spokeswoman Suzi Owens said.
+
+pot. methods:
+
+Content-based filtering
+- Search for a female contact on LinkedIn, and you may get a curious result. The professional networking website asks if you meant to search for a similar-looking man's name.
+
+failures
+
+Distributional Bias
+- Search for a female contact on LinkedIn, and you may get a curious result. The professional networking website asks if you meant to search for a similar-looking man's name.
+- Searches for the 100 most common male names, on the other hand, bring up no prompts asking if users meant predominantly female names.
+- "The search algorithm is guided by relative frequencies of words appearing in past queries and member profiles, it is not anything to do [with] gender."
+
+
+Faulty or Inadequate Preprocessing
+- A search for "Stephanie Williams," for example, brings up a prompt asking if the searcher meant to type ­"Stephen Williams" instead.
+
+Overpersonalization
+- LinkedIn said its suggested results are generated automatically by an analysis of the tendencies of past searchers. "It's all based on how ­people are using the platform," spokeswoman Suzi Owens said.
+
+pot. failures:
+Incomplete Data Attribute Capture
+- The company, which Microsoft is buying in a US$26.2 billion deal, doesn't ask users their gender at registration, and doesn't try to tag users by assumed gender or group results that way, Owens said. 
+
+-----------------------------------------
+
+45
+
+
+goals
+Content Search
+- People searching via Google for Piana's client, who remains publicly unnamed, were apparently presented with autocomplete suggestions including truffatore ("con man") and truffa ("fraud").
+
+methods
+Collaborative Filtering, Query Expansion
+- Google is not "creating" this content. It'ssuggesting results based on what users are searching.
+- Google was disappointed by the court's decision because it failed to take account of the fact that Autocomplete was based on the search behaviors of prior users, the company said in a written statement. 
+
+potential methods:
+Language Modeling
+
+failures
+Inadequate Verification, Misinformation Generation Hazard

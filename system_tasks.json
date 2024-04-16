@@ -123,6 +123,10 @@
       "description": "System goals related to analysis and manipulation of visual modalities",
       "children": [
         {
+          "name": "Image Verification",
+          "description": "The task of automatically rejecting or accepting an image for a domain-specific task."
+        },
+        {
           "name": "Image Cropping",
           "description": "The automatic selection of an image subset that contains the most salient content of the entire image."
         },
