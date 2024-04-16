@@ -156,7 +156,7 @@
       "children": [
         {
           "name": "Voice Generation",
-          "description": "The automatic generation of synthetic human voices."
+          "description": "The automatic generation of synthetic but realistic human voices."
         },
         {
           "name": "Text Style Replication",

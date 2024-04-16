@@ -193,6 +193,20 @@
       ]
     },
     {
+	    "name": "Symbolic Methods",
+	    "description": "Methods that rely on handcrafted rule-based logic for problem-solving, rather than data-driven models.",
+	    "children":[
+		    {
+			    "name": "Conditional Logic",
+			    "description": "The AI system mainly relies on if-then-else statements for decision-making."
+		    }
+
+
+	    ]
+
+    },
+
+    {
       "name": "Other domain-specific approaches",
       "description": "Popular methods mostly relevant to specific domains.",
       "children": [
