@@ -51,6 +51,10 @@
         {
           "name": "Activity Tracking",
           "description": "The goal of tracking and monitoring of human activities via smart equipment, wearables, etc."
+        },
+        {
+          "name": "Team Coordination",
+          "description": "The goal coordinating, planning, scheduling and overseeing team activities and tasks."
         }
       ]
     },

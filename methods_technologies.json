@@ -143,6 +143,10 @@
       "description": "Broad methods and techniques used for ML model building",
       "children": [
         {
+          "name": "Tree-based Learning",
+          "description": "Methods that utilize learning and decision making with tree-based models."
+        },
+        {
           "name": "Ensemble Aggregation",
           "description": "Approaches where outputs of multiple (distinct and individual) learners are collectively considered (e.g. via aggregation, fusion, voting, pooling ,etc.) to produce a final prediction."
         },
@@ -202,7 +206,7 @@
 	    "children":[
 		    {
 			    "name": "Conditional Logic",
-			    "description": "The AI system mainly relies on if-then-else statements for decision-making."
+			    "description": "The AI system mainly relies on hardcoded if-then-else statements for decision-making."
 		    }
 
 

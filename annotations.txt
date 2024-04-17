@@ -210,3 +210,29 @@ Language Modeling
 
 failures
 Inadequate Verification, Misinformation Generation Hazard
+
+----------------------------------------
+44 
+
+goals
+Team Coordination
+- This article outlines some of the important lessons learned from a successfully deployed team of personal assistant agents (Electric Elves) in an office environment.
+
+methods
+Tree-based Learning
+- (discussion): The source paper clarifies their function
+
+pot. methods
+Automatic Speech Recognition
+- This article outlines some of the important lessons learned from a successfully deployed team of personal assistant agents (Electric Elves) in an office environment.
+- (discussion): The source paper clarifies says the devices are also linked to 'voice machines'.
+
+failures
+Security Vulnerability 
+- (discussion): Following up on the paper, it describes various privacy issues.
+potential failures
+
+Lack of Capability Control, Context Misidentification
+- Among these new issues were adjustable autonomy (agents dynamically adjusting their own level of autonomy), as well as privacy and social norms in office environments.
+Miscoordination
+- However, while team coordination remained an interesting challenge, several other unanticipated research issues came to the fore.
