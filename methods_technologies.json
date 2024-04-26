@@ -87,6 +87,10 @@
       "description": "Methods and technologies commonly utilized for text analysis",
       "children": [
         {
+          "name": "Document Classification",
+          "description": "The general approach of using classification pipelines on representations of text documents."
+        },
+        {
           "name": "Character NGrams",
           "description": "The approach of using character-level ngrams to build text representations."
         },
@@ -144,7 +148,7 @@
       "children": [
         {
           "name": "Tree-based Learning",
-          "description": "Methods that utilize learning and decision making with tree-based models."
+          "description": "Methods that utilize learning and decision making with data-driven, tree-based models."
         },
         {
           "name": "Ensemble Aggregation",
@@ -204,14 +208,15 @@
 	    "name": "Symbolic Methods",
 	    "description": "Methods that rely on handcrafted rule-based logic for problem-solving, rather than data-driven models.",
 	    "children":[
-		    {
-			    "name": "Conditional Logic",
-			    "description": "The AI system mainly relies on hardcoded if-then-else statements for decision-making."
-		    }
-
-
+	        {
+	            "name": "Conditional Logic",
+	            "description": "The AI system mainly relies on hardcoded if-then-else statements for decision-making."
+	        },
+	        {
+	            "name": "Behavior Trees", 
+	            "description": "Approaches that use hierarchical tree structures to model complex behavior of artificial agents."
+	        }
 	    ]
-
     },
 
     {

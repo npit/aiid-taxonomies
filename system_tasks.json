@@ -31,6 +31,10 @@
           "description": "The goal of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints."
         },
         {
+          "name": "Application Evaluation",
+          "description": "The goal of evaluating an application for a position (e.g. for employment, study, etc.) via automatic means."
+        },
+        {
           "name": "Automatic Skill Assessment",
           "description": "The goal of estimating employee skills automatically."
         },
@@ -130,9 +134,17 @@
           "name": "Image Verification",
           "description": "The task of automatically rejecting or accepting an image for a domain-specific task."
         },
+	{
+	  "name": "Image Description",
+          "description": "The task of generating a textual description of the visual content of an image."
+	},
         {
           "name": "Image Cropping",
           "description": "The automatic selection of an image subset that contains the most salient content of the entire image."
+        },
+        {
+          "name": "Image Scoring",
+          "description": "The goal of associating images with some numerical value, corresponding to domain-specific quanitities of interest."
         },
         {
           "name": "Image Tagging",
@@ -233,7 +245,11 @@
         {
           "name": "Autonomous Driving",
           "description": "The goal of autonomous, driverless vehicle operation."
-        }
+        },
+	{
+          "name": "Game AI",
+          "description": "Goals that include systems that play games autonomously."
+	}
       ]
     }
   ]
