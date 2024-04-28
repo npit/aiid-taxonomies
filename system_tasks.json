@@ -36,11 +36,15 @@
         },
         {
           "name": "Automatic Skill Assessment",
-          "description": "The goal of estimating employee skills automatically."
+          "description": "The goal of automatically estimating employee skills."
         },
         {
           "name": "Cashierless Shopping",
           "description": "The goal of facilitating automated shopping with limited to no in-store personnel."
+        },
+        {
+          "name": "Workforce Administration",
+          "description": "The goal of automatically managing employee-related tasks, issues and operations."
         }
       ]
     },
