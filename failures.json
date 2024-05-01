@@ -241,6 +241,10 @@
         {
           "name": "Security Vulnerability",
           "description": "The system lacks adequate measures to protect the privacy, security or integrity of the information and data of its end users."
+        },
+        {
+          "name": "Lack of Safety Protocols",
+          "description": "System deployment, usage or interaction lacks critical checks, measures and barriers that prevent predictable cases of harm."
         }
       ]
     },
