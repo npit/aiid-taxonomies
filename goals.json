@@ -49,6 +49,10 @@
         {
           "name": "Workforce Administration",
           "description": "The goal of automatically managing employee-related tasks, issues and operations."
+        },
+        {
+          "name": "Product Recommendation",
+          "description": "The goal of automatically recommending e-shop products to users."
         }
       ]
     },
@@ -120,6 +124,10 @@
       "name": "Natural Language Processing / Understanding Goals",
       "description": "Goals involving the intelligent processing, reasoning and manipulation of text.",
       "children": [
+        {
+          "name": "Sentiment Analysis",
+          "description": "Automatic assignment of sentiment scores to text."
+        },
         {
           "name": "Translation",
           "description": "Automatic translation of text from a source to a target language."
