@@ -19,6 +19,10 @@
           "description": "The task of coming up with marketable product names, titles and descriptions, e.g. in an e-shop."
         },
         {
+          "name": "Ad Delivery",
+          "description": "The effective selection and delivery of advertisements."
+        },
+        {
           "name": "Market Forecasting",
           "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)."
         },
@@ -171,7 +175,13 @@
         {
           "name": "AI Voice Assistant",
           "description": "The joint usage of multiple AI technologies (audio recognition and transcription, text generation, speech synthesis, text to speech, etc.) for automated voice assistance functionality."
+        },
+        {
+          "name": "Navigation Assistant",
+          "description": "The goal of plotting routes from a starting point to a destination and assisting navigation."
+
         }
+
       ]
     },
     {
@@ -181,6 +191,10 @@
         {
           "name": "Voice Generation",
           "description": "The automatic generation of synthetic but realistic human voices."
+        },
+        {
+          "name": "Predictive Typing",
+          "description": "The generation of appropriate words, sentences or text snippets, given an existing context."
         },
         {
           "name": "Text Style Replication",

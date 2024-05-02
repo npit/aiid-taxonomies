@@ -147,6 +147,10 @@
       "description": "Broad methods and techniques used for ML model building",
       "children": [
         {
+          "name": "Vector Search",
+          "description": "Methods utilizing vector similarity techniques to perform look-up and comparison operations."
+        },
+        {
           "name": "Tree-based Learning",
           "description": "Methods that utilize learning and decision making with data-driven, tree-based models."
         },
