@@ -67,7 +67,12 @@
             {
               "name": "Data Memorization",
               "description": "The system overfits by memorizing training data, rather that generalizing to real world cases."
+            },
+            {
+              "name": "Input Sensitivity",
+              "description": "The system is sensitive to small changes in its input, thereby generating large changes in its output."
             }
+
           ]
         },
         {
