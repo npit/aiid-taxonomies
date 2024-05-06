@@ -187,9 +187,11 @@
         {
           "name": "Navigation Assistant",
           "description": "The goal of plotting routes from a starting point to a destination and assisting navigation."
-
+        },
+        {
+          "name": "Flight Assistance",
+          "description": "The goal of assisting pilots to navigate and manage aircraft via instructional feedback, and sensor data, etc.."
         }
-
       ]
     },
     {
@@ -272,10 +274,11 @@
           "name": "Autonomous Driving",
           "description": "The goal of autonomous, driverless vehicle operation."
         },
-	{
+        {
           "name": "Game AI",
           "description": "Goals that include systems that play games autonomously."
-	}
+        }
+
       ]
     }
   ]
