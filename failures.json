@@ -172,7 +172,7 @@
         },
         {
           "name": "Domain Adaptation Deficit",
-          "description": "The model is unable to adapt its general knowledge to a more specific domain."
+          "description": "The model is unable to adapt its general knowledge to a specific domain."
         }
       ]
     },
