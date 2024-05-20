@@ -71,7 +71,11 @@
             {
               "name": "Input Sensitivity",
               "description": "The system is sensitive to small changes in its input, thereby generating large changes in its output."
-            }
+            },
+	    {
+	      "name": "Domain Adaptation Deficit",
+	      "description": "The model is unable to adapt its general knowledge to a specific domain."
+	    }
 
           ]
         },
@@ -143,6 +147,10 @@
       "description": "The system lacks fundamental and/or necessary components / functionalities to safely and effectively deal with the real-world task it is assigned to, as a result of bad design and system specification.",
       "children": [
         {
+          "name": "Algorithmic Bias",
+          "description": "The AI system implements an algorithm that encapsulates societal biases in its internal logic."
+        },
+        {
           "name": "Lack of Capability Control",
           "description": "The system is allowed to act in the real world with a impact / capability levels far beyond what its task reasonably requires."
         },
@@ -169,10 +177,6 @@
         {
           "name": "Limited User Access",
           "description": "The system restricts user access / tampering excessively and/or in a way that leads to failure."
-        },
-        {
-          "name": "Domain Adaptation Deficit",
-          "description": "The model is unable to adapt its general knowledge to a specific domain."
         }
       ]
     },

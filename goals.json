@@ -71,6 +71,10 @@
         {
           "name": "Team Coordination",
           "description": "The goal coordinating, planning, scheduling and overseeing team activities and tasks."
+        },
+        {
+          "name": "Predictive Policing",
+          "description": "The management and allocation of police resources based on crime-related predictions and forecasing."
         }
       ]
     },
