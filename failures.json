@@ -118,7 +118,7 @@
         },
         {
           "name": "Inadequate Verification",
-          "description": "The AI system does not perform adequate verification on information it presents to the user, resulting in erroneous outputs and/or misinformation."
+          "description": "The AI system does not perform adequate verification / quality control on information it presents to the user, resulting in erroneous outputs and/or misinformation."
         },
 	{
 	"name": "Faulty or Indadequate Preprocessing",

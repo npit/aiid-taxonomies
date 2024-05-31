@@ -3,9 +3,13 @@
   "description": "A taxonomy of high-level, domain-facing goals and use cases that an AI / Machine system may tackle during its operation.",
   "children": [
     {
-      "name": "Financial and Market-related Goals",
+      "name": "Administrative, Financial and Market-related Goals",
       "description": "General computational processing goals that do not necessarily involve the usage of AI and ML.",
       "children": [
+        {
+          "name": "Regulatory Monitoring",
+          "description": "The task of checking and/or verifying compliance."
+        },
         {
           "name": "Financial Processing",
           "description": "Goals geared towards the estimation of financial quantities."
