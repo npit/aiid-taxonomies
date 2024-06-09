@@ -44,7 +44,13 @@
         },
         {
           "name": "Problematic Input",
-          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs."
+          "description": "Observed failures derive from the system being supplied with an incomplete / erroneous inputs, leading to unexpected / erroneous outputs.",
+            "children": [
+                {
+                    "name": "Problematic Features",
+                    "description": "The system uses a feature set that is misleading, uncorrelated to the outputs or otherwise problematic, in order to complete its predictive task(s)."
+                }
+            ]
         }
       ]
     },
@@ -104,12 +110,12 @@
         {
           "name": "Misconfigured Aggregation",
           "description": "The model's decision arises by considering multiple marginal predictions, the combination of which is skewed (e.g. under/overestimating contribution of a particular component) or otherwise misconfigured.",
-	  "children": [
-		{
-			"name": "Overpersonalization",
-			"description": "Cases in recommendation / search systems where results are dominated by the personalizattion component, rather than query contents."
-		}
-	      ]
+          "children": [
+            {
+            "name": "Overpersonalization",
+            "description": "Cases in recommendation / search systems where results are dominated by the personalizattion component, rather than query contents."
+            }
+            ]
 
         },
         {
@@ -120,10 +126,10 @@
           "name": "Inadequate Verification",
           "description": "The AI system does not perform adequate verification / quality control on information it presents to the user, resulting in erroneous outputs and/or misinformation."
         },
-	{
-	"name": "Faulty or Indadequate Preprocessing",
-	"description": "Cases where failure could be prevented if additional or better data preprocessing was applied to the system's input data."
-	}
+        {
+        "name": "Faulty or Indadequate Preprocessing",
+        "description": "Cases where failure could be prevented if additional or better data preprocessing was applied to the system's input data."
+        }
       ]
     },
     {
