@@ -213,10 +213,10 @@
       "name": "Robustness Failure",
       "description": "System failure arises due to the model being sensitive to handling specific scenarios (e.g. different, unexpected, edge cases) of its domain of operation.",
       "children": [
-      {
-      "name": "Latency Issues",
-      "description": "Failure arises because the system is to slow to respond or act, rather than the content of the response or action."
-      },
+        {
+          "name": "Latency Issues",
+          "description": "Failure arises because the system is to slow to respond or act, rather than the content of the response or action."
+        },
         {
           "name": "Prompt Injection",
           "description": "A case of gaming vulnerability to prompt-based language models, where the default model instructions can be overriden by carefully crafted prompts in the user's input."
@@ -260,6 +260,11 @@
         {
           "name": "Lack of Safety Protocols",
           "description": "System deployment, usage or interaction lacks critical checks, measures and barriers that prevent predictable cases of harm."
+        },
+
+        {
+          "name": "Hardcoding",
+          "description": "Failure arises significantly due to some hard-coded (as opposed to data-driven) information, which is used in the AI model leading to harmful outputs."
         }
       ]
     },

@@ -223,7 +223,11 @@
 	        {
 	            "name": "Behavior Trees",
 	            "description": "Approaches that use hierarchical tree structures to model complex behavior of artificial agents."
-	        }
+	        },
+          {
+            "name": "Combinatorial Optimization",
+            "description": "Methods using a set of formal constraints and cost functions to discover solutions via optimization methods."
+          }
 	    ]
     },
     {

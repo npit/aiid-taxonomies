@@ -7,6 +7,10 @@
       "description": "General computational processing goals that do not necessarily involve the usage of AI and ML.",
       "children": [
         {
+          "name": "Resource Allocation",
+          "description": "The task of deciding the distribution of a limited resource to multiple recipients."
+        },
+        {
           "name": "Regulatory Monitoring",
           "description": "The task of checking and/or verifying compliance."
         },
