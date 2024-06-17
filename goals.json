@@ -137,6 +137,14 @@
       "description": "Goals involving the intelligent processing, reasoning and manipulation of text.",
       "children": [
         {
+          "name": "Spam Filtering",
+          "description": "The task of automatically tagging and filtering out spam content."
+        },
+        {
+          "name": "Fact Checking",
+          "description": "The goal of determining the veracity of a statement laid out in text."
+        },
+        {
           "name": "Sentiment Analysis",
           "description": "Automatic assignment of sentiment scores to text."
         },
@@ -162,10 +170,14 @@
           "name": "Image Verification",
           "description": "The task of automatically rejecting or accepting an image for a domain-specific task."
         },
-	{
-	  "name": "Image Description",
+        {
+          "name": "Camera Tracking",
+          "description": "The task of automatically moving the camera view in order to follow points of interest in a live video feed."
+        },
+        {
+          "name": "Image Description",
           "description": "The task of generating a textual description of the visual content of an image."
-	},
+        },
         {
           "name": "Image Cropping",
           "description": "The automatic selection of an image subset that contains the most salient content of the entire image."
@@ -289,6 +301,16 @@
         {
           "name": "Game AI",
           "description": "Goals that include systems that play games autonomously."
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous Goals",
+      "description": "Goals not included in any category above.",
+      "children": [
+        {
+          "name": "Medical Diagnosis Support",
+          "description": "Goals including the use of AI for assisting medical diagnosis."
         }
       ]
     }
