@@ -223,6 +223,10 @@
       "description": "Goals that generate high-quality content via automatic means.",
       "children": [
         {
+          "name": "Game Content Generation",
+          "description": "The task of automatic content generation for video games."
+        },
+        {
           "name": "Voice Generation",
           "description": "The automatic generation of synthetic but realistic human voices."
         },

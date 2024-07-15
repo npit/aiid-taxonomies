@@ -83,6 +83,10 @@
         {
           "name": "Color Histograms",
           "description": "The approach of collecting color statistics as an image representation."
+        },
+        {
+          "name": "Visual Descriptors",
+          "description": "Visual feature extraction approaches relying on robust handcrafted vector features."
         }
       ]
     },
