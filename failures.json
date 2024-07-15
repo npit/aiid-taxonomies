@@ -255,7 +255,7 @@
         },
         {
           "name": "Security Vulnerability",
-          "description": "The system lacks adequate measures to protect the privacy, security or integrity of the information and data of its end users."
+          "description": "The system lacks adequate measures to protect the security or integrity of the information and data of its end users."
         },
         {
           "name": "Lack of Safety Protocols",

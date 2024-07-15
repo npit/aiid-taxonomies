@@ -12,7 +12,7 @@
         },
         {
           "name": "Regulatory Monitoring",
-          "description": "The task of checking and/or verifying compliance."
+          "description": "The task of checking and/or verifying compliance to specified rules and regulations by automatically examining relevant records."
         },
         {
           "name": "Financial Processing",
@@ -55,12 +55,20 @@
           "description": "The goal of facilitating automated shopping with limited to no in-store personnel."
         },
         {
+          "name": "Workforce Monitoring and Evaluation",
+          "description": "The goal of monitoring and tracking the behaviour and performance employees."
+        },
+        {
           "name": "Workforce Administration",
           "description": "The goal of automatically managing employee-related tasks, issues and operations."
         },
         {
           "name": "Product Recommendation",
           "description": "The goal of automatically recommending e-shop products to users."
+        },
+        {
+          "name": "Marketing Analytics Generation",
+          "description": "The goal of generating data-driven insights for marketing purposes."
         }
       ]
     },
@@ -166,6 +174,10 @@
       "name": "Computer Vision Goals",
       "description": "System goals related to analysis and manipulation of visual modalities",
       "children": [
+        {
+          "name": "Video Tagging",
+          "description": "The task of automatically assigning semantic labels to a video."
+        },
         {
           "name": "Image Verification",
           "description": "The task of automatically rejecting or accepting an image for a domain-specific task."
