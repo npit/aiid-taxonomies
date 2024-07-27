@@ -87,6 +87,11 @@
         {
           "name": "Visual Descriptors",
           "description": "Visual feature extraction approaches relying on robust handcrafted vector features."
+        },
+
+        {
+          "name": "Video Classification",
+          "description": "The use of video representation and classification techniques to detect semantic concepts."
         }
       ]
     },
