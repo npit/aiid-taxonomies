@@ -109,6 +109,10 @@
             {
               "name": "Audio Localization",
               "description": "The goal of determining the source location of audio signals."
+            },
+            {
+              "name": "Cheating Detection",
+              "description": "The goal of monitoring human activity to detect cheating behaviour."
             }
           ]
         },

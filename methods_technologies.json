@@ -50,7 +50,7 @@
         },
         {
           "name": "Gesture Recognition",
-          "description": "Techniques involving identifying specific hand movements and gestures for smart user control."
+          "description": "Techniques involving identifying specific hand movements and gestures."
         },
         {
           "name": "Image Segmentation",
