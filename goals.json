@@ -331,7 +331,16 @@
         {
           "name": "Medical Diagnosis Support",
           "description": "Goals including the use of AI for assisting medical diagnosis."
+        },
+        {
+          "name": "Accessibility Assurance",
+          "description": "Goals involved in making interfaces, products, systems, etc., accessible to differently-abled users."
+        },
+        {
+          "name": "Health AI Assistant",
+          "description": "Goals providing personalized health-related services, advice and recommendations."
         }
+
       ]
     }
   ]
