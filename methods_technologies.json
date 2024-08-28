@@ -100,6 +100,10 @@
       "description": "Methods and technologies commonly utilized for text analysis",
       "children": [
         {
+          "name": "Sentiment Analysis",
+          "description": "The approach of extracting emotive labels from texts."
+        },
+        {
           "name": "Document Classification",
           "description": "The general approach of using classification pipelines on representations of text documents."
         },
@@ -244,6 +248,10 @@
       "description": "Popular methods mostly relevant to specific domains.",
       "children": [
         {
+          "name": "Routing",
+          "description": "The process of discovering efficient paths with respect to specified distance metrics."
+        },
+        {
           "name": "Geolocation Data",
           "description": "Estimation and usage of the geographic coordinates for related tasks (e.g. navigation)."
         },
@@ -255,6 +263,7 @@
           "name": "Obstruction Sensing",
           "description": "Methods use to locate and/or detect obstruction"
         }
+
       ]
     }
   ]
