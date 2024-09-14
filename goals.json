@@ -28,7 +28,7 @@
         },
         {
           "name": "Ad Delivery",
-          "description": "The effective selection and delivery of advertisements."
+          "description": "The effective selection and delivery of advertisements, promotional material and personalized marketing media."
         },
         {
           "name": "Market Forecasting",
@@ -91,6 +91,10 @@
         {
           "name": "Predictive Policing",
           "description": "The management and allocation of police resources based on crime-related predictions and forecasing."
+        },
+        {
+          "name": "Substance Abuse Prediction",
+          "description": "Prediction of human behaviour related to consumption of controlled substances."
         }
       ]
     },
@@ -178,6 +182,10 @@
       "name": "Computer Vision Goals",
       "description": "System goals related to analysis and manipulation of visual modalities",
       "children": [
+        {
+          "name": "Image Upscaling",
+          "description": "The task of increasing the resolution of an input image."
+        },
         {
           "name": "Video Tagging",
           "description": "The task of automatically assigning semantic labels to a video."
@@ -335,6 +343,10 @@
         {
           "name": "Accessibility Assurance",
           "description": "Goals involved in making interfaces, products, systems, etc., accessible to differently-abled users."
+        },
+        {
+          "name": "Gender Identification",
+          "description": "Goals providing personalized health-related services, advice and recommendations."
         },
         {
           "name": "Health AI Assistant",

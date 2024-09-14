@@ -138,6 +138,10 @@
       "description": "Methods and technologies utilized in audio analysis systems",
       "children": [
         {
+          "name": "Audio Classification",
+          "description": "Methods assigning semantic tags to audio segments."
+        },
+        {
           "name": "Automatic Speech Recognition",
           "description": "The process of automatically transcribing human speech from audio."
         },
@@ -262,6 +266,10 @@
         {
           "name": "Obstruction Sensing",
           "description": "Methods use to locate and/or detect obstruction"
+        },
+        {
+          "name": "Reinforcement Learning",
+          "description": "Biologically-inspired methods of teaching complex behaviours from reward signals."
         }
 
       ]

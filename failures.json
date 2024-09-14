@@ -254,6 +254,10 @@
           "description": "The AI system fails because highly improbable events / circumstances occur, which the system is not equipped to handle."
         },
         {
+          "name": "Inadequate Provenance",
+          "description": "The system lacks adequate record-keeping, logging and metadata tracking, making processes like correction, verification and diagnosis difficult and failure-prone."
+        },
+        {
           "name": "Security Vulnerability",
           "description": "The system lacks adequate measures to protect the security or integrity of the information and data of its end users."
         },
@@ -261,7 +265,6 @@
           "name": "Lack of Safety Protocols",
           "description": "System deployment, usage or interaction lacks critical checks, measures and barriers that prevent predictable cases of harm."
         },
-
         {
           "name": "Hardcoding",
           "description": "Failure arises significantly due to some hard-coded (as opposed to data-driven) information, which is used in the AI model leading to harmful outputs."
@@ -293,12 +296,14 @@
                 "name": "Malicious Marketing",
                 "description": "The AI system is clearly falsely advertised to operate and/or produce results different than its actual deployment shows."
               },
-	      {
-  	        "name": "Harmful Application",
-  	        "description": "Cases where an AI system is deployed and used as intended, but within a context or use case that results in adverse effects or negative consequences for individuals, communities, or society at large."
-	      }
-
-
+              {
+                  "name": "Harmful Application",
+                  "description": "Cases where an AI system is deployed and used as intended, but within a context or use case that results in adverse effects or negative consequences for individuals, communities, or society at large."
+              },
+              {
+                  "name": "Privacy Concerns",
+                  "description": "Cases where an AI system uses private / personal data legally, yet the method, degree or domain these data are used are perceived as problematic and an intrusion of user privacy."
+              }
           ]
         }
 
