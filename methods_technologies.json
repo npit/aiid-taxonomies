@@ -100,6 +100,10 @@
       "description": "Methods and technologies commonly utilized for text analysis",
       "children": [
         {
+          "name": "POS Tagging",
+          "description": "The identification of parts of speech in text."
+        },
+        {
           "name": "Sentiment Analysis",
           "description": "The approach of extracting emotive labels from texts."
         },

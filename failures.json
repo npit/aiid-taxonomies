@@ -49,7 +49,12 @@
                 {
                     "name": "Problematic Features",
                     "description": "The system uses a feature set that is misleading, uncorrelated to the outputs or otherwise problematic, in order to complete its predictive task(s)."
+                },
+                {
+                    "name": "Limited Receptive Field",
+                    "description": "The size of the input to the model is limited, leading to the model lacking important information and thus generating predictions in a myopic manner."
                 }
+
             ]
         }
       ]
@@ -78,10 +83,10 @@
               "name": "Input Sensitivity",
               "description": "The system is sensitive to small changes in its input, thereby generating large changes in its output."
             },
-	    {
-	      "name": "Domain Adaptation Deficit",
-	      "description": "The model is unable to adapt its general knowledge to a specific domain."
-	    }
+          {
+            "name": "Domain Adaptation Deficit",
+            "description": "The model is unable to adapt its general knowledge to a specific domain."
+          }
 
           ]
         },

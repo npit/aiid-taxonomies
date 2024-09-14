@@ -157,6 +157,10 @@
           "description": "The task of automatically tagging and filtering out spam content."
         },
         {
+          "name": "Writing Assistant",
+          "description": "The goal of providing real-time suggestions for grammar, style, structure, clarity, etc., of written text."
+        },
+        {
           "name": "Fact Checking",
           "description": "The goal of determining the veracity of a statement laid out in text."
         },
@@ -333,13 +337,23 @@
       ]
     },
     {
-      "name": "Miscellaneous Goals",
-      "description": "Goals not included in any category above.",
+      "name": "Decision Support Systems",
+      "description": "Goals assisting humans into making decisions, judgements and reaching informed conclusions.",
       "children": [
+        {
+          "name": "Judicial Decision Support",
+          "description": "Goals including the use of AI for assisting medical diagnosis."
+        },
         {
           "name": "Medical Diagnosis Support",
           "description": "Goals including the use of AI for assisting medical diagnosis."
-        },
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous Goals",
+      "description": "Goals not included in any category above.",
+      "children": [
         {
           "name": "Accessibility Assurance",
           "description": "Goals involved in making interfaces, products, systems, etc., accessible to differently-abled users."
