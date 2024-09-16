@@ -188,6 +188,10 @@
         {
           "name": "Limited User Access",
           "description": "The system restricts user access / tampering excessively and/or in a way that leads to failure."
+        },
+        {
+          "name": "Untested Deployment",
+          "description": "The AI system is deployed in the real world without prior testing to a similar enough setting."
         }
       ]
     },

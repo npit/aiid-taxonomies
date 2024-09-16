@@ -95,7 +95,12 @@
         {
           "name": "Substance Abuse Prediction",
           "description": "Prediction of human behaviour related to consumption of controlled substances."
+        },
+        {
+          "name": "Trustworthiness scoring",
+          "description": "The task of assessing the trustworthiness of individuals, given their online presence."
         }
+
       ]
     },
     {
