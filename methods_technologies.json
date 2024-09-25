@@ -274,8 +274,15 @@
         {
           "name": "Reinforcement Learning",
           "description": "Biologically-inspired methods of teaching complex behaviours from reward signals."
+        },
+        {
+          "name": "Record Linkage",
+          "description": "Methods that match data objects corresponding to the same real-world entity, across different datasets."
+        },
+        {
+          "name": "Web Scraping",
+          "description": "The use of large-scale data collection from live webpages."
         }
-
       ]
     }
   ]
