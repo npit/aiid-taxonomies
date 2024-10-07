@@ -256,6 +256,10 @@
       "description": "Popular methods mostly relevant to specific domains.",
       "children": [
         {
+          "name": "Biometrics",
+          "description": "The usage of biometric data in an application."
+        },
+        {
           "name": "Routing",
           "description": "The process of discovering efficient paths with respect to specified distance metrics."
         },

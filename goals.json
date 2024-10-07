@@ -370,6 +370,18 @@
         {
           "name": "Health AI Assistant",
           "description": "Goals providing personalized health-related services, advice and recommendations."
+        },
+        {
+          "name": "Malware Detection",
+          "description": "Goals involving the detection of malicious software in a computer system."
+        },
+        {
+          "name": "Automatic Fault Handling",
+          "description": "The goal of automatically monitoring for, detecting and resolving faults in a complex environment."
+        },
+        {
+          "name": "Identification",
+          "description": "The goal of determining the identity of an individual."
         }
 
       ]
