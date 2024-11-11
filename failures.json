@@ -311,7 +311,7 @@
               },
               {
                   "name": "Harmful Application",
-                  "description": "Cases where an AI system is deployed and used as intended, but within a context or use case that results in adverse effects or negative consequences for individuals, communities, or society at large."
+                  "description": "Cases where an AI system is deployed and used as intended, but within a context or use case that results in adverse effects, negative or unethical consequences for individuals, communities, or society at large."
               },
               {
                   "name": "Privacy Concerns",

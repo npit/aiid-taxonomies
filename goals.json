@@ -39,6 +39,10 @@
           "description": "The goal of automatically valuing and performing transactions in the stock market."
         },
         {
+          "name": "Personalized Pricing",
+          "description": "The goal of determining product prices for an individual based on their personal data."
+        },
+        {
           "name": "Scheduling",
           "description": "The goal of planning and constructing schedules for optimizing desired quantities (e.g. throughput, revenue, clicks) given existing constaints."
         },
