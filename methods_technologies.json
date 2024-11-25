@@ -78,7 +78,15 @@
         },
         {
           "name": "Visual Object Detection",
-          "description": "Methods applying object detection methods on visual data."
+          "description": "Methods applying object detection methods on visual data.",
+          "children": [
+
+                {
+                  "name": "Person Detection",
+                  "description": "The approach of detecting human figures in visual data."
+                }
+          ]
+
         },
         {
           "name": "Color Histograms",

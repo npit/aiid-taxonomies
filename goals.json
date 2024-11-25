@@ -196,6 +196,10 @@
       "description": "System goals related to analysis and manipulation of visual modalities",
       "children": [
         {
+          "name": "Smart Surveillance",
+          "description": "The task of AI-assisted surveillance."
+        },
+        {
           "name": "Image Upscaling",
           "description": "The task of increasing the resolution of an input image."
         },
@@ -233,7 +237,7 @@
         },
         {
           "name": "Threat Detection",
-          "description": "Goals dealing with visual inspection of the earth via satellite imaging."
+          "description": "Goals centered around identifying threat objects and events."
         }
       ]
     },

@@ -134,6 +134,10 @@
         {
         "name": "Faulty or Indadequate Preprocessing",
         "description": "Cases where failure could be prevented if additional or better data preprocessing was applied to the system's input data."
+        },
+        {
+        "name": "Inadequate Output Filtering",
+        "description": "The model's output lacks adequate filtering, post-processing or cleaning."
         }
       ]
     },
@@ -333,7 +337,12 @@
         {
           "name": "Hardware Failure",
           "description": "Scenarios where the material system component failures contribute to the emergence of the incident."
+        },
+        {
+          "name": "Scaling Limitations",
+          "description": "The system fails by not being unable to handle input load effectively."
         }
+
 
       ]
     }
