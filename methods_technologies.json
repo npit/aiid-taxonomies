@@ -180,6 +180,14 @@
       "description": "Broad methods and techniques used for ML model building",
       "children": [
         {
+          "name": "Autoregressive Methods",
+          "description": "Techniques using a combination of historical data and learned patterns to predict future values in a sequence."
+        },
+        {
+          "name": "Time Series Forecasting",
+          "description": "Methods predicting future data points given a sequence of historical data."
+        },
+        {
           "name": "Vector Search",
           "description": "Methods utilizing vector similarity techniques to perform look-up and comparison operations."
         },

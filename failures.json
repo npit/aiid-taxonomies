@@ -53,6 +53,10 @@
                 {
                     "name": "Limited Receptive Field",
                     "description": "The size of the input to the model is limited, leading to the model lacking important information and thus generating predictions in a myopic manner."
+                },
+                {
+                    "name": "Outdated Input",
+                    "description": "The system makes a prediction on data that are out of date and do not correspond with the current status of the real-world object they are meant to represent."
                 }
 
             ]
