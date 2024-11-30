@@ -235,6 +235,10 @@
           "description": "Failure emerges due to the inability to establish the authenticity of an object related to the AI system."
         },
         {
+          "name": "Inadequate Regularization",
+          "description": "The AI system pursues its main objective without mitigating factors to prevent excessive optimization and over-fitting."
+        },
+        {
           "name": "Latency Issues",
           "description": "Failure arises because the system is to slow to respond or act, rather than the content of the response or action."
         },
