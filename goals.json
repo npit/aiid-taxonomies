@@ -32,11 +32,15 @@
         },
         {
           "name": "Market Forecasting",
-          "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, etc.)."
+          "description": "The class of goals that generate quantitative estimates of market quantities (e.g. traffic, demand, price, etc.)."
         },
         {
           "name": "Automatic Stock Trading",
           "description": "The goal of automatically valuing and performing transactions in the stock market."
+        },
+        {
+          "name": "Value Estimation",
+          "description": "The goal of automatically estimating the monetary value of a good or service."
         },
         {
           "name": "Personalized Pricing",
@@ -73,6 +77,16 @@
         {
           "name": "Marketing Analytics Generation",
           "description": "The goal of generating data-driven insights for marketing purposes."
+        }
+      ]
+    },
+    {
+      "name": "Risk Assessment",
+      "description": "Goals consisting of calculating risk.",
+      "children": [
+        {
+          "name": "Child Welfare Risk Assessment",
+          "description": "The goal of assessing the risk of harm, neglect, or abuse in child welfare cases using predictive or data-driven techniques to inform decisions about intervention."
         }
       ]
     },
