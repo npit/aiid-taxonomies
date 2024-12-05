@@ -298,11 +298,15 @@
     },
     {
       "name": "Human Error",
-      "description": "Cases where failure arises mostly due to mistakes by humans.",
+      "description": "Cases where failure arises mostly due to mistakes or actions done by humans.",
       "children": [
         {
           "name": "Software Bug",
           "description": "Cases where conventional errors in the system's programming (e.g. logic errors, unhandled exceptions, etc.) contribute to the emergence of the incident."
+        },
+        {
+          "name": "System Manipulation",
+          "description": "Cases where deliberate manipulation of elements affecting operation of the AI system lead to the observed harm."
         },
         {
           "name": "Misuse",
