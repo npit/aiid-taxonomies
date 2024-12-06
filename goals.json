@@ -150,6 +150,10 @@
         {
           "name": "License Plate Recognition",
           "description": "The goal of automatically reading car license plates."
+        },
+        {
+          "name": "Speed Estimation",
+          "description": "The goal of estimating an object's speed."
         }
       ]
     },
