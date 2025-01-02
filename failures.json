@@ -122,7 +122,7 @@
           "children": [
             {
             "name": "Overpersonalization",
-            "description": "Cases in recommendation / search systems where results are dominated by the personalizattion component, rather than query contents."
+            "description": "Cases in recommendation / search systems where results are dominated by the personalization component, rather than query contents."
             }
             ]
 

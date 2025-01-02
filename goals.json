@@ -166,6 +166,10 @@
           "description": "Automatic retrieval and serving of content to a user based on their profile, preferences, activity and/or history."
         },
         {
+          "name": "Matchmaking",
+          "description": "Goals of matching and recommendation of personal profiles for online dating."
+        },
+        {
           "name": "Content Search",
           "description": "Automatic retrieval and serving of content to a user based on an explicitly supplied query."
         },
