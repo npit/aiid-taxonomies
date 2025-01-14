@@ -218,6 +218,10 @@
       "description": "System goals related to analysis and manipulation of visual modalities",
       "children": [
         {
+          "name": "Decensoring",
+          "description": "The removal of censhorship effects from visual media."
+        },
+        {
           "name": "Smart Surveillance",
           "description": "The task of AI-assisted surveillance."
         },
